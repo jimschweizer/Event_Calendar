@@ -63,3 +63,39 @@ export function dedupeEvents(events) {
   }
   return Array.from(seen.values());
 }
+
+// Keeps only the first event instance of a specific show at a specific venue per calendar week.
+export function dedupeWeeklyRuns(events) {
+  const seen = new Set();
+  
+  return events.filter((event) => {
+    if (!event.start || !event.venue || !event.title) return true;
+
+    // 1. Normalize title (lowercase, alphanumeric only, slice first 30 chars)
+    const cleanTitle = event.title
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "")
+      .slice(0, 30);
+
+    // 2. Normalize venue
+    const cleanVenue = event.venue.toLowerCase().replace(/[^a-z0-9]/g, "");
+
+    // 3. Find the Sunday of the event's week (to act as the week identifier)
+    const date = new Date(event.start);
+    const day = date.getDay();
+    const sunday = new Date(date);
+    sunday.setDate(date.getDate() - day);
+    const weekKey = sunday.toISOString().slice(0, 10); // YYYY-MM-DD
+
+    // 4. Create a unique composite key for this show run
+    const key = `${cleanTitle}|${cleanVenue}|${weekKey}`;
+
+    if (seen.has(key)) {
+      return false; // Filter out subsequent showtimes in the same week
+    }
+    
+    seen.add(key);
+    return true;
+  });
+}
+
