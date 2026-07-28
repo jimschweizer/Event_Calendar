@@ -221,9 +221,8 @@
     "category": "Live Music",
     "venue": "Two Brothers Roundhouse",
     "address": "205 N Broadway, Aurora, IL",
-    "type": "html",
-    "url": "https://www.twobrothersbrewing.com/events",
-    "selectors": { "item": "article, .event, .card, li" }
+    "type": "jsonld",
+    "url": "https://www.eventbrite.com/d/il--aurora/two-brothers-roundhouse/"
   },
   {
     "id": "phoenix-club",

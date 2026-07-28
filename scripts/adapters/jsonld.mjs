@@ -25,6 +25,14 @@ function extractEventNodes(html) {
       collect(node["@graph"]);
       return;
     }
+    if (node["@type"] === "ItemList" && node.itemListElement) {
+      collect(node.itemListElement);
+      return;
+    }
+    if (node.item) {
+      collect(node.item);
+      return;
+    }
     nodes.push(node);
   };
 
