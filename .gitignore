@@ -1,0 +1,8 @@
+node_modules/
+
+# tesseract.js downloads its OCR language model into the cwd at runtime
+eng.traineddata
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db

@@ -1,0 +1,282 @@
+[
+  {
+    "id": "aurora-downtown",
+    "label": "Aurora Downtown Happenings",
+    "category": "Civic",
+    "venue": "Downtown Aurora",
+    "address": "Downtown Aurora, IL",
+    "type": "ics",
+    "url": "https://auroradowntown.org/events/?ical=1"
+  },
+  {
+    "id": "enjoy-aurora",
+    "label": "Enjoy Aurora (Tourism)",
+    "category": "Civic",
+    "venue": "Aurora Area",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.enjoyaurora.com/events/",
+    "selectors": { "item": "article, .event, .event-item, .card" }
+  },
+  {
+    "id": "aurora-chamber",
+    "label": "Aurora Regional Economic Alliance",
+    "category": "Commerce",
+    "venue": "Aurora Chamber of Commerce",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://business.aurorachamber.com/events/calendar",
+    "selectors": { "item": "article, .event, .mn-event, li" }
+  },
+  {
+    "id": "aurora-city-events",
+    "label": "City of Aurora Events Directory",
+    "category": "Civic",
+    "venue": "City of Aurora",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.aurora.il.us/Events-directory",
+    "selectors": { "item": "article, .event, .item, li" }
+  },
+  {
+    "id": "aurora-city-council",
+    "label": "Aurora City Council & Committee Meetings",
+    "category": "Civic Meetings",
+    "venue": "Aurora City Hall",
+    "address": "44 E Downer Pl, Aurora, IL",
+    "type": "api-legistar",
+    "url": "https://webapi.legistar.com/v1/aurora-il/events"
+  },
+  {
+    "id": "fox-valley-park-district",
+    "label": "Fox Valley Park District",
+    "category": "Parks & Rec",
+    "venue": "Fox Valley Park District",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.foxvalleyparkdistrict.org/",
+    "selectors": { "item": "article, .event, .event-item, li" }
+  },
+  {
+    "id": "aurora-public-library",
+    "label": "Aurora Public Library District",
+    "category": "Education",
+    "venue": "Aurora Public Library",
+    "address": "1 E Benton St, Aurora, IL",
+    "type": "html",
+    "url": "https://www.aurorapubliclibrary.org/events",
+    "selectors": { "item": "article, .event, .lc-event, li" }
+  },
+  {
+    "id": "east-aurora-high",
+    "label": "Aurora East High School (D131)",
+    "category": "Education",
+    "venue": "East Aurora High School",
+    "address": "500 Cedar Ave, Aurora, IL",
+    "type": "ics",
+    "url": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=1"
+  },
+  {
+    "id": "west-aurora-high",
+    "label": "Aurora West High School (D129)",
+    "category": "Education",
+    "venue": "West Aurora High School",
+    "address": "1201 W New York St, Aurora, IL",
+    "type": "ics",
+    "url": "https://westhigh.sd129.org/fs/calendar-manager/events.ics?calendar_ids=350,387"
+  },
+  {
+    "id": "paramount-theatre",
+    "label": "Paramount Theatre",
+    "category": "Entertainment",
+    "venue": "Paramount Theatre",
+    "address": "23 E Galena Blvd, Aurora, IL",
+    "type": "jsonld",
+    "url": "https://paramountaurora.com/",
+    "detailLinkPattern": "paramountaurora\\.com/.+"
+  },
+  {
+    "id": "riveredge-park",
+    "label": "RiverEdge Park",
+    "category": "Entertainment",
+    "venue": "RiverEdge Park",
+    "address": "360 N Broadway, Aurora, IL",
+    "type": "jsonld",
+    "url": "https://paramountaurora.com/riveredge/",
+    "detailLinkPattern": "paramountaurora\\.com/riveredge/.+"
+  },
+  {
+    "id": "hollywood-casino",
+    "label": "Hollywood Casino Aurora",
+    "category": "Entertainment",
+    "venue": "Hollywood Casino Aurora",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.pennentertainment.com/hollywood-aurora/casino/promotions",
+    "selectors": { "item": "article, .promotion, .card, li" }
+  },
+  {
+    "id": "chicago-premium-outlets",
+    "label": "Chicago Premium Outlets",
+    "category": "Retail",
+    "venue": "Chicago Premium Outlets",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.premiumoutlets.com/outlet/chicago",
+    "selectors": { "item": "article, .event, .card, li" }
+  },
+  {
+    "id": "fox-valley-mall",
+    "label": "Fox Valley Mall",
+    "category": "Retail",
+    "venue": "Fox Valley Mall",
+    "address": "195 Fox Valley Center Dr, Aurora, IL",
+    "type": "jsonld",
+    "url": "https://www.shopfoxvalleymall.com/events",
+    "detailLinkPattern": "shopfoxvalleymall\\.com/.+"
+  },
+  {
+    "id": "pacifica-square",
+    "label": "Pacifica Square",
+    "category": "Retail",
+    "venue": "Pacifica Square",
+    "address": "1701 W Renwick Rd, Aurora, IL",
+    "type": "jsonld",
+    "url": "https://pacificasquare.com/events/",
+    "detailLinkPattern": "pacificasquare\\.com/.+"
+  },
+  {
+    "id": "new-england-congregational",
+    "label": "New England Congregational Church",
+    "category": "Faith",
+    "venue": "New England Congregational Church",
+    "address": "406 W Galena Blvd, Aurora, IL",
+    "type": "html",
+    "url": "https://www.newenglandchurch.org/sundays/this-week/",
+    "selectors": { "item": "article, .event, li, p" }
+  },
+  {
+    "id": "calvary-church",
+    "label": "Calvary Church",
+    "category": "Faith",
+    "venue": "Calvary Church",
+    "address": "Naperville / Aurora, IL",
+    "type": "html",
+    "url": "https://calvarynaperville.org/events",
+    "selectors": { "item": "article, .event, .card, li" }
+  },
+  {
+    "id": "our-lady-of-mercy",
+    "label": "Our Lady of Mercy",
+    "category": "Faith",
+    "venue": "Our Lady of Mercy",
+    "address": "701 S Eola Rd, Aurora, IL",
+    "type": "html",
+    "url": "https://olmercy.com/calendar/",
+    "selectors": { "item": "article, .event, .tribe-events-calendar-list__event, li" }
+  },
+  {
+    "id": "st-marks-lutheran",
+    "label": "St. Mark's Lutheran Church",
+    "category": "Faith",
+    "venue": "St. Mark's Lutheran Church",
+    "address": "27 S Edgelawn Dr, Aurora, IL",
+    "type": "html",
+    "url": "https://stmarksaurora.net/newsevents/upcoming-events",
+    "selectors": { "item": "article, .event, li" }
+  },
+  {
+    "id": "st-michael-romanian",
+    "label": "St. Michael Romanian Byzantine Catholic Church",
+    "category": "Faith",
+    "venue": "St. Michael Romanian Catholic Church",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.stmichaelromanianchurch.org/events",
+    "selectors": { "item": "article, .event, li" }
+  },
+  {
+    "id": "cathedral-of-grace",
+    "label": "Cathedral of Grace | St. John",
+    "category": "Faith",
+    "venue": "Cathedral of Grace | St. John",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://www.cogstjohn.org/events-news",
+    "selectors": { "item": "article, .event, li" }
+  },
+  {
+    "id": "the-venue",
+    "label": "The Venue (Fox Valley Music Foundation)",
+    "category": "Live Music",
+    "venue": "The Venue",
+    "address": "21 S Broadway Ave, Aurora, IL",
+    "type": "html",
+    "url": "https://www.themusicvenue.org/calendar",
+    "selectors": { "item": "article, .event, .card, li" }
+  },
+  {
+    "id": "two-brothers-roundhouse",
+    "label": "Two Brothers Roundhouse",
+    "category": "Live Music",
+    "venue": "Two Brothers Roundhouse",
+    "address": "205 N Broadway, Aurora, IL",
+    "type": "html",
+    "url": "https://www.twobrothersbrewing.com/roundhouse-events",
+    "selectors": { "item": "article, .event, .card, li" }
+  },
+  {
+    "id": "phoenix-club",
+    "label": "The Phoenix Club",
+    "category": "Club / Social",
+    "venue": "The Phoenix Club",
+    "address": "515 Phoenix Court, Aurora, IL",
+    "type": "ocr-image",
+    "url": "https://www.auroraphoenixclub.net/calendar",
+    "selectors": { "image": "img" },
+    "maxImages": 5
+  },
+  {
+    "id": "eventbrite-aurora-il",
+    "label": "Eventbrite — Aurora, IL",
+    "category": "Community",
+    "venue": "Various Aurora, IL Venues",
+    "address": "Aurora, IL",
+    "type": "api-eventbrite",
+    "url": "https://www.eventbriteapi.com/v3/events/search/",
+    "apiKeyEnv": "EVENTBRITE_TOKEN",
+    "locationQuery": "Aurora, IL"
+  },
+  {
+    "id": "ticketmaster-aurora-il",
+    "label": "Ticketmaster — Aurora, IL",
+    "category": "Entertainment",
+    "venue": "Various Aurora, IL Venues",
+    "address": "Aurora, IL",
+    "type": "api-ticketmaster",
+    "url": "https://app.ticketmaster.com/discovery/v2/events.json",
+    "apiKeyEnv": "TICKETMASTER_KEY",
+    "city": "Aurora",
+    "stateCode": "IL"
+  },
+  {
+    "id": "patch-aurora",
+    "label": "Patch — Aurora, IL Calendar",
+    "category": "News Mentions",
+    "venue": "Aurora, IL (aggregated)",
+    "address": "Aurora, IL",
+    "type": "html",
+    "url": "https://patch.com/illinois/aurora/calendar",
+    "selectors": { "item": "article, .event, li" }
+  },
+  {
+    "id": "shaw-local",
+    "label": "Shaw Local — Best of the Fox Events",
+    "category": "News Mentions",
+    "venue": "Fox Valley Region (aggregated)",
+    "address": "Fox Valley, IL",
+    "type": "html",
+    "url": "https://www.shawlocal.com/best-of-the-fox/local-events/",
+    "selectors": { "item": "article, .event, li" }
+  }
+]

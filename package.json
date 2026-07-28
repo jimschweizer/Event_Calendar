@@ -1,0 +1,17 @@
+{
+  "name": "aurora-events",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Aurora Events — browser-based, twice-daily local events aggregation via a hybrid ICS/JSON-LD/HTML/API ingestion pipeline",
+  "type": "module",
+  "scripts": {
+    "fetch-events": "node scripts/fetch-events.mjs",
+    "serve": "node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "node-ical": "^0.20.1",
+    "rss-parser": "^3.13.0",
+    "tesseract.js": "^5.1.1"
+  }
+}
