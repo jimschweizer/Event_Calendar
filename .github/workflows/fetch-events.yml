@@ -2,9 +2,9 @@ name: Fetch events twice daily
 
 on:
   schedule:
-    # Runs at 6:00 AM CDT (11:00 UTC) and 5:30 PM CDT (22:30 UTC)
+    # Runs at 6:00 AM CDT (11:00 UTC) and 5:00 PM CDT (22:00 UTC)
     - cron: "0 11 * * *"
-    - cron: "30 22 * * *"
+    - cron: "0 22 * * *"
   workflow_dispatch: {}
 
 permissions:

@@ -1,7 +1,7 @@
 const EVENTS_JSON_URL = "data/events.json";
 const QUEUED_SOURCES_KEY = "auroraevents.queuedSources";
 const THEME_KEY = "auroraevents.theme";
-const DEFAULT_REPO_URL = "https://github.com/jimschweizer/Event_App";
+const DEFAULT_REPO_URL = "https://github.com/jimschweizer/Event_Calendar";
 
 const BUCKET_ORDER = ["Today", "Tomorrow", "This Week", "Later", "Unconfirmed Date"];
 

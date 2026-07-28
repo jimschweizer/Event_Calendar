@@ -62,11 +62,20 @@ async function main() {
     results.push(await fetchAndNormalize(source));
   }
 
-  const allEvents = dedupeEvents(results.flatMap((r) => r.events)).sort((a, b) => {
-    if (!a.start) return 1;
-    if (!b.start) return -1;
-    return a.start.localeCompare(b.start);
-  });
+  const cutoffDate = new Date();
+  cutoffDate.setDate(cutoffDate.getDate() - 7);
+  cutoffDate.setHours(0, 0, 0, 0);
+
+  const allEvents = dedupeEvents(results.flatMap((r) => r.events))
+    .filter((event) => {
+      if (!event.start) return true;
+      return new Date(event.start) >= cutoffDate;
+    })
+    .sort((a, b) => {
+      if (!a.start) return 1;
+      if (!b.start) return -1;
+      return a.start.localeCompare(b.start);
+    });
 
   const sourceStatus = results.map(({ id, ok, count, error }) => ({ id, ok, count, error }));
 
