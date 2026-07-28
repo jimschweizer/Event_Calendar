@@ -99,3 +99,44 @@ export function dedupeWeeklyRuns(events) {
   });
 }
 
+// For multi-show theatrical runs that span multiple weeks/months, limit listings to those starting within the next 30 days.
+export function filterMultiShowRuns(events) {
+  const maxFutureDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000).toISOString();
+  
+  // 1. Group events to count occurrences of cleanTitle + cleanVenue
+  const groups = new Map();
+  for (const event of events) {
+    if (!event.start || !event.venue || !event.title) continue;
+    const cleanTitle = event.title
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "")
+      .slice(0, 30);
+    const cleanVenue = event.venue.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const key = `${cleanTitle}|${cleanVenue}`;
+    
+    if (!groups.has(key)) {
+      groups.set(key, []);
+    }
+    groups.get(key).push(event);
+  }
+
+  // 2. Filter events where group length is > 1 and start date is > 30 days in the future
+  return events.filter((event) => {
+    if (!event.start || !event.venue || !event.title) return true;
+    const cleanTitle = event.title
+      .toLowerCase()
+      .replace(/[^a-z0-9]/g, "")
+      .slice(0, 30);
+    const cleanVenue = event.venue.toLowerCase().replace(/[^a-z0-9]/g, "");
+    const key = `${cleanTitle}|${cleanVenue}`;
+    
+    const group = groups.get(key);
+    if (group && group.length > 1) {
+      return event.start <= maxFutureDate;
+    }
+    
+    return true;
+  });
+}
+
+

@@ -2,7 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
-import { normalizeEvent, dedupeEvents, dedupeWeeklyRuns } from "./lib/normalize.mjs";
+import { normalizeEvent, dedupeEvents, dedupeWeeklyRuns, filterMultiShowRuns } from "./lib/normalize.mjs";
 import { fetchSource as fetchIcs } from "./adapters/ics.mjs";
 import { fetchSource as fetchJsonLd } from "./adapters/jsonld.mjs";
 import { fetchSource as fetchHtml } from "./adapters/html.mjs";
@@ -66,7 +66,9 @@ async function main() {
   cutoffDate.setDate(cutoffDate.getDate() - 7);
   cutoffDate.setHours(0, 0, 0, 0);
 
-  const allEvents = dedupeWeeklyRuns(dedupeEvents(results.flatMap((r) => r.events)))
+  const allEvents = dedupeWeeklyRuns(
+    filterMultiShowRuns(dedupeEvents(results.flatMap((r) => r.events)))
+  )
     .filter((event) => {
       if (!event.start) return true;
       return new Date(event.start) >= cutoffDate;
