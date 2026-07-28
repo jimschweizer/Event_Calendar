@@ -211,9 +211,8 @@
     "category": "Live Music",
     "venue": "The Venue",
     "address": "21 S Broadway Ave, Aurora, IL",
-    "type": "html",
-    "url": "https://www.themusicvenue.org/calendar",
-    "selectors": { "item": "article, .event, .card, li" }
+    "type": "eventbrite-organizer",
+    "url": "https://www.eventbrite.com/o/the-venue-aurora-19126475647"
   },
   {
     "id": "two-brothers-roundhouse",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-28T22:39:36.930Z",
+  "generatedAt": "2026-07-28T23:15:29.197Z",
   "events": [
     {
       "id": "806cb62b46044122",
@@ -104,6 +104,23 @@
       "tags": []
     },
     {
+      "id": "fa5efa5a691d7884",
+      "title": "PETE ELLMAN BIG BAND: AN EVENING WITH THADDEUS TUKES",
+      "description": "",
+      "start": "2026-07-29T01:00:00.000Z",
+      "end": "2026-07-29T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/pete-ellman-big-band-an-evening-with-thaddeus-tukes-tickets-1993011296438",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188078510%2F202636605063%2F1%2Foriginal.20260702-132119?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=05ec9221648c70b0a87b311bdbf5a258",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "5e524dd0b59eadbc",
       "title": "Building, Zoning, and Economic Development Committee Meeting",
       "description": "",
@@ -189,6 +206,40 @@
       "tags": []
     },
     {
+      "id": "fed99aee0117d005",
+      "title": "Young Dubliners",
+      "description": "",
+      "start": "2026-07-31T01:00:00.000Z",
+      "end": "2026-07-31T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/young-dubliners-tickets-1985815471532",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1180559115%2F202636605063%2F1%2Foriginal.20260324-132243?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2e4d0a6132adad484ff8101aeae629e6",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "81750bb0835cdf9d",
+      "title": "Al Spears & The Hurricane Project",
+      "description": "",
+      "start": "2026-08-01T01:00:00.000Z",
+      "end": "2026-08-01T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/al-spears-the-hurricane-project-tickets-1992592637217",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187666097%2F202636605063%2F1%2Foriginal.20260625-195023?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8c03ed8b7ec5b85698781f56491bfc2e",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "2b31df092e91e93e",
       "title": "Comics, Cards & Vinyl Market. Sip. Shop. Collect. Repeat.",
       "description": "",
@@ -206,6 +257,23 @@
       "tags": []
     },
     {
+      "id": "04258f18b7b4fc2b",
+      "title": "ROCKS OFF - Rolling Stones Tribute",
+      "description": "",
+      "start": "2026-08-02T01:00:00.000Z",
+      "end": "2026-08-02T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/rocks-off-rolling-stones-tribute-tickets-1993616011156",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F920190713%2F2513532402881%2F1%2Foriginal.20241219-084612?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.3861003861&fp-y=0.257142857143&s=a357f40bb612090ef84e3418ae777e7f",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "95783f0e6a43449e",
       "title": "The Boy Band Nite: High-Energy Hits from '90s & ‘00s",
       "description": "A tribute to the biggest boy bands of all time.",
@@ -219,6 +287,23 @@
       "sourceLabel": "Two Brothers Roundhouse",
       "link": "https://www.eventbrite.com/e/the-boy-band-nite-high-energy-hits-from-90s-00s-tickets-1982464058365",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176822170%2F2181837182423%2F1%2Foriginal.20260205-212457?crop=focalpoint&fit=crop&w=400&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=dd429d50198c318102952187ce38ba6c",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "e977495c000f3173",
+      "title": "Seth Walker wsg Aaron Kelly",
+      "description": "",
+      "start": "2026-08-07T01:00:00.000Z",
+      "end": "2026-08-07T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/seth-walker-wsg-aaron-kelly-tickets-1990893029645",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185986716%2F202636605063%2F1%2Foriginal.20260602-180459?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=582c743fe2b05c66b1b30eb8feaa95be",
       "confidence": "medium",
       "tags": []
     },
@@ -254,6 +339,23 @@
       "link": "https://auroradowntown.org/event/the-stolp-island-block-party/",
       "imageUrl": null,
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "0a5a91d56a5ad81c",
+      "title": "First Fridays with Flood (FREE OPEN HOUSE)",
+      "description": "",
+      "start": "2026-08-08T00:00:00.000Z",
+      "end": "2026-08-08T00:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/first-fridays-with-flood-free-open-house-registration-1993615421392",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188543419%2F202636605063%2F1%2Foriginal.20260709-151931?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.477&fp-y=0.292&s=a29cd1f3d4dd77a7a301aa7f658b3773",
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -304,6 +406,40 @@
       "sourceLabel": "Patch — Aurora, IL Calendar",
       "link": "https://patch.com/illinois/aurora/calendar/event/20260808/79f81c6b-07a5-446d-ab1b-99328bcb2546/veggie-fest-2026",
       "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9c4f28eeb530da40",
+      "title": "Laurel Canyon Collective presented by Dennis O’Brien",
+      "description": "",
+      "start": "2026-08-09T00:30:00.000Z",
+      "end": "2026-08-09T00:30:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-tickets-1988093643606",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "3bb9cdd48e8fa211",
+      "title": "Laurel Canyon Collective presented by Dennis O’Brien (SUNDAY MATINEE)",
+      "description": "",
+      "start": "2026-08-09T19:00:00.000Z",
+      "end": "2026-08-09T19:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-sunday-matinee-tickets-1992780089893",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
       "confidence": "medium",
       "tags": []
     },
@@ -376,6 +512,40 @@
       "tags": []
     },
     {
+      "id": "cf9b8ea0e79beeb8",
+      "title": "Gerald McClendon",
+      "description": "",
+      "start": "2026-08-15T01:00:00.000Z",
+      "end": "2026-08-15T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/gerald-mcclendon-tickets-1993696132802",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188617427%2F202636605063%2F1%2Foriginal.20260710-154011?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.468&fp-y=0.261&s=f002c0d473a312ed2eae06bae5ac217a",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "fd41006e39067fff",
+      "title": "Mirabelle Skipworth wsg Echo & Ransom",
+      "description": "",
+      "start": "2026-08-16T01:00:00.000Z",
+      "end": "2026-08-16T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/mirabelle-skipworth-wsg-echo-ransom-tickets-1993617446449",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188546641%2F202636605063%2F1%2Foriginal.20260709-155739?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=792d324785f4cec48368386b9705325a",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "a72a163a54249b65",
       "title": "Kids Krew Pawsome Rescue Adventure",
       "description": "Come Along on the New Kids Krew Adventure! \n\nCalling all little adventurers – get ready for an afternoon of fun with The Kids Krew!\nJoin us for a FREE community event at the Regional Fire Museum in Downtown Aurora.\nEnjoy a rescue-themed adventure with exciting activities for the whole family.\nCreate a fun craft, explore the museum, enjoy hands-on activities, and stop by for a special character meet-and-greet.\nRegistration is required – register here>>\nWe can’t wait to see you there for a day of fun, creativity, and adventure!\n\nRegistration is required for the Kids Krew Pawsome Rescue Adventure. While supplies last.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
@@ -390,6 +560,23 @@
       "link": "https://auroradowntown.org/event/kids-krew-pawsome-rescue-adventure/",
       "imageUrl": null,
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "e609bcbbd4ef6923",
+      "title": "Aurora Film Society Presents:  Harlan County USA",
+      "description": "",
+      "start": "2026-08-20T00:00:00.000Z",
+      "end": "2026-08-20T00:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/aurora-film-society-presents-harlan-county-usa-tickets-1979988528990",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -440,6 +627,23 @@
       "sourceLabel": "Two Brothers Roundhouse",
       "link": "https://www.eventbrite.com/e/the-crown-jewels-queen-tribute-tickets-1982521317629",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176883808%2F2181837182423%2F1%2Foriginal.20260206-161410?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=a738081f39b60ee4ae9dbf253db3c661",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "669d131281dbdae6",
+      "title": "Lil’ Ed & The Blues Imperials",
+      "description": "",
+      "start": "2026-08-23T01:00:00.000Z",
+      "end": "2026-08-23T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/lil-ed-the-blues-imperials-tickets-1993616242849",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188544730%2F202636605063%2F1%2Foriginal.20260709-153419?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.362&s=ee51dc98499c740a54b17c9f4bbce63c",
       "confidence": "medium",
       "tags": []
     },
@@ -913,9 +1117,9 @@
     },
     {
       "id": "the-venue",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 12,
+      "error": null
     },
     {
       "id": "two-brothers-roundhouse",
