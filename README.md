@@ -1,7 +1,10 @@
 # Aurora Events — Local Events Calendar, Aurora, IL
 
+**Live Website:** [https://jimschweizer.github.io/Event_Calendar/](https://jimschweizer.github.io/Event_Calendar/)  
+**GitHub Repository:** [https://github.com/jimschweizer/Event_Calendar](https://github.com/jimschweizer/Event_Calendar)
+
 A privacy-first, serverless local events calendar for Aurora, IL. A GitHub Actions workflow runs
-a hybrid ingestion pipeline twice daily (at **6:00 AM CDT** and **5:30 PM CDT**), pulling from
+a hybrid ingestion pipeline twice daily (at **6:00 AM CDT** and **5:00 PM CDT**), pulling from
 ~25 real Aurora-area sources — civic, schools, parks, theaters, retail, churches, and independent
 venues — and commits the merged, structured result as `data/events.json`.
 
@@ -112,7 +115,7 @@ If you are a local Aurora organization (business, school district, library, chur
 1. Fork/push this repository to GitHub.
 2. Go to **Settings → Pages** and choose **Deploy from branch** (`main` / root).
 3. `.github/workflows/fetch-events.yml` runs twice daily at **6:00 AM CDT** (`0 11 * * *`) and
-   **5:30 PM CDT** (`30 22 * * *`) to automatically commit fresh data to GitHub Pages.
+   **5:00 PM CDT** (`0 22 * * *`) to automatically commit fresh data to GitHub Pages.
 
 ## License
 
