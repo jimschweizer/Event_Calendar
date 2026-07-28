@@ -12,6 +12,7 @@ export async function fetchSource(source) {
     stateCode: source.stateCode || "IL",
     countryCode: "US",
     size: "50",
+    sort: "date,asc",
   });
   const url = `${source.url}?${params.toString()}`;
 

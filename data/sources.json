@@ -54,7 +54,7 @@
     "venue": "Fox Valley Park District",
     "address": "Aurora, IL",
     "type": "html",
-    "url": "https://www.foxvalleyparkdistrict.org/",
+    "url": "https://www.foxvalleyparkdistrict.org/events/month/",
     "selectors": { "item": "article, .event, .event-item, li" }
   },
   {
@@ -122,7 +122,7 @@
     "venue": "Chicago Premium Outlets",
     "address": "Aurora, IL",
     "type": "html",
-    "url": "https://www.premiumoutlets.com/outlet/chicago",
+    "url": "https://www.premiumoutlets.com/outlet/chicago/news-and-events",
     "selectors": { "item": "article, .event, .card, li" }
   },
   {
@@ -222,7 +222,7 @@
     "venue": "Two Brothers Roundhouse",
     "address": "205 N Broadway, Aurora, IL",
     "type": "html",
-    "url": "https://www.twobrothersbrewing.com/roundhouse-events",
+    "url": "https://www.twobrothersbrewing.com/events",
     "selectors": { "item": "article, .event, .card, li" }
   },
   {

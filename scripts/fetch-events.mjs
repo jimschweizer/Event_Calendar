@@ -1,6 +1,16 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { existsSync } from "node:fs";
+
+// Load environment variables from .env file if present (Node 20+)
+if (existsSync(".env")) {
+  try {
+    process.loadEnvFile();
+  } catch (err) {
+    // Ignore errors loading .env
+  }
+}
 
 import { normalizeEvent, dedupeEvents, dedupeWeeklyRuns, filterMultiShowRuns } from "./lib/normalize.mjs";
 import { fetchSource as fetchIcs } from "./adapters/ics.mjs";
