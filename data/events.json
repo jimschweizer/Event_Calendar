@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-07-28T23:15:29.197Z",
+  "generatedAt": "2026-07-29T22:27:37.532Z",
   "events": [
-    {
-      "id": "806cb62b46044122",
-      "title": "Wine Canvas At The Farm 19",
-      "description": "",
-      "start": "2026-07-22T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/wine-canvas-at-the-farm-19/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "003e7316bad9f5e7",
       "title": "Live & Uncorked – Bon Journeyed",
@@ -66,57 +49,6 @@
       "sourceLabel": "Fox Valley Park District",
       "link": "https://www.foxvalleyparkdistrict.org/event/demon-hunters-pool-party/",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "7386bb5126c83c41",
-      "title": "Public Health, Safety, and Transportation Committee Meeting",
-      "description": "",
-      "start": "2026-07-28T21:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4853&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "688eed3d09650089",
-      "title": "City Council Meeting",
-      "description": "",
-      "start": "2026-07-28T23:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4785&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "fa5efa5a691d7884",
-      "title": "PETE ELLMAN BIG BAND: AN EVENING WITH THADDEUS TUKES",
-      "description": "",
-      "start": "2026-07-29T01:00:00.000Z",
-      "end": "2026-07-29T01:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/pete-ellman-big-band-an-evening-with-thaddeus-tukes-tickets-1993011296438",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188078510%2F202636605063%2F1%2Foriginal.20260702-132119?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=05ec9221648c70b0a87b311bdbf5a258",
       "confidence": "medium",
       "tags": []
     },
@@ -495,23 +427,6 @@
       "tags": []
     },
     {
-      "id": "7f85422723718a73",
-      "title": "Beach Boys",
-      "description": "",
-      "start": "2026-08-15T00:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "RiverEdge Park",
-      "address": "360 N. Broadway Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfF",
-      "imageUrl": "https://s1.ticketm.net/dam/a/1e6/a7fb22db-7408-44ee-94cc-b6fd363bc1e6_1583871_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "cf9b8ea0e79beeb8",
       "title": "Gerald McClendon",
       "description": "",
@@ -648,6 +563,23 @@
       "tags": []
     },
     {
+      "id": "d604a114aa6956e0",
+      "title": "PETE ELLMAN BIG BAND: AN EVENING WITH LESLIE BEUKELMAN",
+      "description": "",
+      "start": "2026-08-26T01:00:00.000Z",
+      "end": "2026-08-26T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/pete-ellman-big-band-an-evening-with-leslie-beukelman-tickets-1993014783869",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188680117%2F804246097563%2F1%2Foriginal.20260711-221051?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.485&fp-y=0.269&s=ab5ddedf57a52e140435c278a012c065",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "a1867ef997578957",
       "title": "American Red Cross Blood Drive",
       "description": "",
@@ -699,23 +631,6 @@
       "tags": []
     },
     {
-      "id": "bdcab89369d33ad3",
-      "title": "The Marshall Tucker Band",
-      "description": "",
-      "start": "2026-08-29T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Hollywood Casino Aurora",
-      "address": "2500 N Farnsworth Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/the-marshall-tucker-band-aurora-illinois-08-28-2026/event/070064A4C9F95E36",
-      "imageUrl": "https://s1.ticketm.net/dam/a/78a/ddb6d0f7-14ce-48d3-b418-16a46790f78a_1828291_CUSTOM.jpg",
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "6c6e1d331d917f9a",
       "title": "Escape: Journey Tribute",
       "description": "Don’t stop believin’",
@@ -730,23 +645,6 @@
       "link": "https://www.eventbrite.com/e/escape-journey-tribute-tickets-1982531748829",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176894179%2F2181837182423%2F1%2Foriginal.20260206-175842?w=400&auto=format%2Ccompress&q=75&sharp=10&s=c5d8ebf83c4d6fc8a5d4589256144414",
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "7745c588dbb53316",
-      "title": "Ben Bankas",
-      "description": "",
-      "start": "2026-09-07T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Hollywood Casino Aurora",
-      "address": "2500 N Farnsworth Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/ben-bankas-aurora-illinois-09-06-2026/event/070064A4BE945367",
-      "imageUrl": "https://s1.ticketm.net/dam/a/41e/933b6495-4f8a-4cb1-8e98-04374591041e_SOURCE",
-      "confidence": "high",
       "tags": []
     },
     {
@@ -781,23 +679,6 @@
       "link": "https://www.eventbrite.com/e/hersteria-at-two-brothers-roundhouse-tickets-1995203522445",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189612484%2F5603054742%2F1%2Foriginal.20260725-180616?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=371cbb686cfb8781c299f5c12b5e5af0",
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "c6142935ad59ab59",
-      "title": "Cheap Trick",
-      "description": "",
-      "start": "2026-09-11T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "RiverEdge Park",
-      "address": "360 N. Broadway Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pbev",
-      "imageUrl": "https://s1.ticketm.net/dam/a/d20/752b570b-6c6a-4ceb-9c05-306e46a69d20_CUSTOM.jpg",
-      "confidence": "high",
       "tags": []
     },
     {
@@ -920,40 +801,6 @@
       "tags": []
     },
     {
-      "id": "6b3d5859951b4d0b",
-      "title": "Eli Young Band",
-      "description": "",
-      "start": "2026-10-24T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Hollywood Casino Aurora",
-      "address": "2500 N Farnsworth Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/eli-young-band-aurora-illinois-10-23-2026/event/070064B3BB7C4734",
-      "imageUrl": "https://s1.ticketm.net/dam/a/8ab/12d156d6-2f12-49d3-887d-79ba082188ab_RETINA_PORTRAIT_16_9.jpg",
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "f40c3915e49f3578",
-      "title": "Puddle of Mudd",
-      "description": "",
-      "start": "2026-10-25T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Hollywood Casino Aurora",
-      "address": "2500 N Farnsworth Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/puddle-of-mudd-aurora-illinois-10-24-2026/event/070064B4BCAA5531",
-      "imageUrl": "https://s1.ticketm.net/dam/a/34b/dc413d42-3f75-47be-ae57-e12fc32ea34b_1635891_TABLET_LANDSCAPE_LARGE_16_9.jpg",
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "f259d8d3c5e370e7",
       "title": "chicago cubs Phoenix JUNE 2026 Club chicago white sox",
       "description": "chicago cubs Phoenix JUNE 2026 Club chicago white sox\nBG TS 7 TT I TH\nTema | TENS [3 CLOSEDON | Fd 110 | $y tei |. Tah Served | Fah Ses\nan |\" eon | mene Sean MEG CMS\nanon Wining Wednesday | Firsa's & Drinks | Cubs 0320-5010 540\nfn PC EE\nra | So@640 Cubs@ 0s | TecoBufletSTom a Cubs@ 1:20\nEr amorns | oem | SN\npitty I _ewseros | TE stb |\nEh cata | 3 COSEDON | Wot has | Tm ont | 13 Lamhe | T3356\nTUESD",
@@ -1016,7 +863,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -1141,9 +988,9 @@
     },
     {
       "id": "ticketmaster-aurora-il",
-      "ok": true,
-      "count": 50,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "skipped: no API key configured (set TICKETMASTER_KEY)"
     },
     {
       "id": "patch-aurora",
