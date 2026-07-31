@@ -1,6 +1,57 @@
 {
-  "generatedAt": "2026-07-31T13:06:20.944Z",
+  "generatedAt": "2026-07-31T23:28:26.795Z",
   "events": [
+    {
+      "id": "01a8cf49d03c37a9",
+      "title": "Movie Night: Zootopia 2",
+      "description": "",
+      "start": "2026-07-24T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/movie-night-zootopia-2/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "5e623e1cd53a121c",
+      "title": "Demon Hunters Pool Party",
+      "description": "",
+      "start": "2026-07-26T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/demon-hunters-pool-party/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9077e64847afce3c",
+      "title": "Summer Dance Concert Aladdin",
+      "description": "",
+      "start": "2026-07-30T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/series/summer-dance-concert-aladdin/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
     {
       "id": "6dbec75cee0b96cc",
       "title": "Al Spears & The Hurricane Project",
@@ -50,6 +101,40 @@
       "link": "https://www.eventbrite.com/e/rocks-off-rolling-stones-tribute-tickets-1993616011156",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F920190713%2F2513532402881%2F1%2Foriginal.20241219-084612?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.3861003861&fp-y=0.257142857143&s=a357f40bb612090ef84e3418ae777e7f",
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "515300cf483a7c45",
+      "title": "Rules, Administration, and Procedure Meeting",
+      "description": "***RESCHEDULED DUE TO National Night Out***",
+      "start": "2026-08-03T15:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4851&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "afe62af20df9412a",
+      "title": "Committee of the Whole Meeting",
+      "description": "***Time Change Due to National Night Out***",
+      "start": "2026-08-04T14:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4762&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
       "tags": []
     },
     {
@@ -522,15 +607,15 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "no upcoming meetings within the lookahead window"
+      "ok": true,
+      "count": 2,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 18,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -590,7 +675,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
