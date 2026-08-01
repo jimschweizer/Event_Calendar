@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-01T12:13:11.795Z",
+  "generatedAt": "2026-08-01T23:25:03.723Z",
   "events": [
     {
       "id": "5e623e1cd53a121c",
@@ -682,9 +682,9 @@
       "tags": []
     },
     {
-      "id": "f259d8d3c5e370e7",
-      "title": "chicago cubs Phoenix JUNE 2026 Club chicago white sox",
-      "description": "chicago cubs Phoenix JUNE 2026 Club chicago white sox\nBG TS 7 TT I TH\nTema | TENS [3 CLOSEDON | Fd 110 | $y tei |. Tah Served | Fah Ses\nan |\" eon | mene Sean MEG CMS\nanon Wining Wednesday | Firsa's & Drinks | Cubs 0320-5010 540\nfn PC EE\nra | So@640 Cubs@ 0s | TecoBufletSTom a Cubs@ 1:20\nEr amorns | oem | SN\npitty I _ewseros | TE stb |\nEh cata | 3 COSEDON | Wot has | Tm ont | 13 Lamhe | T3356\nTUESD",
+      "id": "5fbc67cdf315efdc",
+      "title": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox",
+      "description": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox\nSun [Mon | Tue | Wed Thu Fri Ta\nBoars Pro | Monday Nght | Hessosdoor | Sosa coo Seman | Timmons |\n\nSeason Games | BINGO Begins | Specht | SMT | [onl sober,\n\nAug vs Comiaod | September 140 | memmances | Frasers. | IsNowAviablofor | Gh bspnieana y\nfreind k, SETI, | Ane Er sean\nAug BToees | OTPM | Tey Sd | Sonim | pemm ay fii\n\n7. [5 © GSDON —[Sm",
       "start": null,
       "end": null,
       "allDay": false,
@@ -694,7 +694,7 @@
       "sourceId": "phoenix-club",
       "sourceLabel": "The Phoenix Club",
       "link": "https://www.auroraphoenixclub.net/calendar",
-      "imageUrl": "https://static.wixstatic.com/media/db9feb_f02b3e9722e648f18c3ec474c7dd7aa0~mv2.jpg/v1/fill/w_600,h_461,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/June%202026.jpg",
+      "imageUrl": "https://static.wixstatic.com/media/db9feb_b423bbdda0dd4393a67b15356fb5acc4~mv2.jpg/v1/fill/w_600,h_454,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/August%202026%20.jpg",
       "confidence": "low",
       "tags": []
     },
@@ -811,7 +811,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
