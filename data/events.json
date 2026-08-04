@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-03T23:33:16.277Z",
+  "generatedAt": "2026-08-04T13:09:18.308Z",
   "events": [
     {
       "id": "9f2890515190e07f",
@@ -67,23 +67,6 @@
       "link": "https://www.foxvalleyparkdistrict.org/series/lazy-river-5k-2/",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "515300cf483a7c45",
-      "title": "Rules, Administration, and Procedure Meeting",
-      "description": "***RESCHEDULED DUE TO National Night Out***",
-      "start": "2026-08-03T15:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4851&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -727,7 +710,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
