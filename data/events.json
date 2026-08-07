@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-06T13:03:49.628Z",
+  "generatedAt": "2026-08-07T01:36:13.376Z",
   "events": [
     {
       "id": "a0f3fc6c4085161b",
@@ -118,6 +118,23 @@
       "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-sunday-matinee-tickets-1992780089893",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "a55e1a0e61fb9513",
+      "title": "Infrastructure and Technology Committee Meeting",
+      "description": "",
+      "start": "2026-08-10T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4969&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
       "tags": []
     },
     {
@@ -539,9 +556,9 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "no upcoming meetings within the lookahead window"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
@@ -607,7 +624,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
