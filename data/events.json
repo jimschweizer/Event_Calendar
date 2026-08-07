@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-07T01:36:13.376Z",
+  "generatedAt": "2026-08-07T11:57:17.477Z",
   "events": [
-    {
-      "id": "a0f3fc6c4085161b",
-      "title": "Seth Walker wsg Aaron Kelly",
-      "description": "",
-      "start": "2026-08-06T20:00:00.000Z",
-      "end": "2026-08-06T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/seth-walker-wsg-aaron-kelly-tickets-1990893029645",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185986716%2F202636605063%2F1%2Foriginal.20260602-180459?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=582c743fe2b05c66b1b30eb8feaa95be",
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "05ffd4c12ff23dc0",
       "title": "August First Fridays",
@@ -118,23 +101,6 @@
       "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-sunday-matinee-tickets-1992780089893",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "a55e1a0e61fb9513",
-      "title": "Infrastructure and Technology Committee Meeting",
-      "description": "",
-      "start": "2026-08-10T16:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4969&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -444,6 +410,23 @@
       "tags": []
     },
     {
+      "id": "19354285da3a32bc",
+      "title": "Aurora Film Society Presents:  Glengarry Glen Ross",
+      "description": "",
+      "start": "2026-09-16T19:00:00.000Z",
+      "end": "2026-09-16T19:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/aurora-film-society-presents-glengarry-glen-ross-tickets-1979989239114",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -556,9 +539,9 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "fox-valley-park-district",
@@ -624,7 +607,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
