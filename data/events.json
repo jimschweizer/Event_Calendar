@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-07T11:57:17.477Z",
+  "generatedAt": "2026-08-07T23:01:31.108Z",
   "events": [
-    {
-      "id": "05ffd4c12ff23dc0",
-      "title": "August First Fridays",
-      "description": "Fridays are for Fun! \n\nIt’s time for August First Fridays!\nWe’ve got all sorts of fun lined up for the entire month.\nFrom museums and restaurant deals, to shopping and kids’ activities, we’ve got something for the whole family to celebrate, all month long!\nDownload the event map and all the details here>>\nPLUS, enter to win!*\nWe’re giving away an exciting prize each month.\nFollow us on Facebook and Instagram to find out what the prize is and where to drop off your entry form!\n\nFirst Fridays events vary. Check the schedule for details.\n*Disclaimer: By entering to win, you give us permission to add your information to our system so we can notify you about upcoming events and other exciting things going on in the Aurora Downtown District. The prize will vary each month and we will announce the\nprizes via our social media accounts. There will be one winner each month. One per family; no multiple submissions. We will contact the winner via email and phone. We will also notify people via social media each month of the new drop-off locations. Entrants must be 18 or older. We will draw the winner mid-month, after the first Friday.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
-      "start": "2026-08-07T17:00:00.000Z",
-      "end": "2026-08-07T21:00:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora",
-      "address": "Downtown Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-downtown",
-      "sourceLabel": "Aurora Downtown Happenings",
-      "link": "https://auroradowntown.org/event/august-first-fridays/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
     {
       "id": "823e5aa1d5599e7b",
       "title": "First Fridays with Flood (FREE OPEN HOUSE)",
@@ -87,6 +70,23 @@
       "tags": []
     },
     {
+      "id": "81fc1104165532bf",
+      "title": "Naperville Plant Club - Summer Blooms",
+      "description": "",
+      "start": "2026-08-09T13:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260809/1d018d33-8adb-4c31-a62f-244bb8a66fff/naperville-plant-club-summer-blooms",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "d9e870040c4800db",
       "title": "Laurel Canyon Collective presented by Dennis O’Brien (SUNDAY MATINEE)",
       "description": "",
@@ -101,6 +101,57 @@
       "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-sunday-matinee-tickets-1992780089893",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "a55e1a0e61fb9513",
+      "title": "Infrastructure and Technology Committee Meeting",
+      "description": "",
+      "start": "2026-08-10T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4969&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "35266870c3b7d686",
+      "title": "Public Health, Safety, and Transportation Committee Meeting",
+      "description": "***THIS MEETING HAS BEEN CANCELLED***",
+      "start": "2026-08-11T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4952&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "b6a3dcc2391b2b4a",
+      "title": "City Council Meeting",
+      "description": "",
+      "start": "2026-08-11T18:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4786&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
       "tags": []
     },
     {
@@ -150,7 +201,7 @@
       "sourceId": "ticketmaster-aurora-il",
       "sourceLabel": "Ticketmaster — Aurora, IL",
       "link": "https://www.ticketmaster.com/event/Z7r9jZ1A7xpfF",
-      "imageUrl": "https://s1.ticketm.net/dam/a/1e6/a7fb22db-7408-44ee-94cc-b6fd363bc1e6_1583871_TABLET_LANDSCAPE_LARGE_16_9.jpg",
+      "imageUrl": "https://s1.ticketm.net/dam/a/1e6/a7fb22db-7408-44ee-94cc-b6fd363bc1e6_1583871_CUSTOM.jpg",
       "confidence": "high",
       "tags": []
     },
@@ -325,6 +376,40 @@
       "tags": []
     },
     {
+      "id": "369a1df120b3d427",
+      "title": "Kiss The Sky Presents: A Good Day In The Park (OUTDOOR SHOW)",
+      "description": "",
+      "start": "2026-08-30T14:00:00.000Z",
+      "end": "2026-08-30T14:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/kiss-the-sky-presents-a-good-day-in-the-park-outdoor-show-tickets-1997144559138",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190537359%2F202636605063%2F1%2Foriginal.20260807-120916?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.636&fp-y=0.487&s=ba1b6594bc4bd6e2b1bbca01adef0793",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "dbadfe1e14299456",
+      "title": "Roots & Thirds with Shawn Maxwell feat. Geneva Jazz Ensemble",
+      "description": "",
+      "start": "2026-09-03T19:00:00.000Z",
+      "end": "2026-09-03T19:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/roots-thirds-with-shawn-maxwell-feat-geneva-jazz-ensemble-tickets-1994992927550",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190542493%2F202636605063%2F1%2Foriginal.20260807-134410?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.092&s=2dc8d3fdc3df7dd33b566ede1f8a35db",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "03f083932faf3dc0",
       "title": "First Fridays",
       "description": "First Fridays is a collective downtown open house with offerings of art, music, and more. Often businesses open with creative cultural, educational, and community offerings. Shops and restaurants frequently welcome visitors with specials and pop-ups. First Fridays is free with NO TICKETS NEEDED! \nThere are dozens of participating locations – check out www.auroradowntown.org/first-fridays for more info! \nLOCATION: Various throughout downtown Aurora! | TIME: 5PM-9PM (times may vary by location, please call location to confirm)",
@@ -390,40 +475,6 @@
       "link": "https://www.ticketmaster.com/event/Z7r9jZ1A7Pbev",
       "imageUrl": "https://s1.ticketm.net/dam/a/d20/752b570b-6c6a-4ceb-9c05-306e46a69d20_CUSTOM.jpg",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "c2d4e29ca081f81e",
-      "title": "Pacific Blue Sound Company Presents Blue Bayou: A Tribute To Linda Ronstadt",
-      "description": "",
-      "start": "2026-09-11T20:00:00.000Z",
-      "end": "2026-09-11T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/pacific-blue-sound-company-presents-blue-bayou-a-tribute-to-linda-ronstadt-tickets-1994686290390",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189309531%2F202636605063%2F1%2Foriginal.20260721-151505?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.46&fp-y=0.455&s=868893d3529f971548982e5ad314490f",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "19354285da3a32bc",
-      "title": "Aurora Film Society Presents:  Glengarry Glen Ross",
-      "description": "",
-      "start": "2026-09-16T19:00:00.000Z",
-      "end": "2026-09-16T19:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/aurora-film-society-presents-glengarry-glen-ross-tickets-1979989239114",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -516,7 +567,7 @@
     {
       "id": "aurora-downtown",
       "ok": true,
-      "count": 18,
+      "count": 17,
       "error": null
     },
     {
@@ -539,9 +590,9 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 3,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
@@ -607,7 +658,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
@@ -672,7 +723,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
