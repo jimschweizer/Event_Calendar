@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T11:42:08.989Z",
+  "generatedAt": "2026-08-08T22:53:26.535Z",
   "events": [
     {
       "id": "108fb22072cd34e6",
@@ -818,7 +818,7 @@
       "id": "st-michael-romanian",
       "ok": false,
       "count": 0,
-      "error": "terminated"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "cathedral-of-grace",
