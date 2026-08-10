@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-09T22:56:17.882Z",
+  "generatedAt": "2026-08-10T11:58:49.884Z",
   "events": [
-    {
-      "id": "fd7e4799fb0b5346",
-      "title": "Lazy River 5k 2",
-      "description": "",
-      "start": "2026-08-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/lazy-river-5k-2/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "4fd43236f6bc18b3",
       "title": "Tea with President Lincoln",
@@ -32,40 +15,6 @@
       "sourceLabel": "Fox Valley Park District",
       "link": "https://www.foxvalleyparkdistrict.org/event/tea-with-president-lincoln-3/",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "81fc1104165532bf",
-      "title": "Naperville Plant Club - Summer Blooms",
-      "description": "",
-      "start": "2026-08-09T13:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260809/1d018d33-8adb-4c31-a62f-244bb8a66fff/naperville-plant-club-summer-blooms",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "d9e870040c4800db",
-      "title": "Laurel Canyon Collective presented by Dennis O’Brien (SUNDAY MATINEE)",
-      "description": "",
-      "start": "2026-08-09T14:00:00.000Z",
-      "end": "2026-08-09T14:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/laurel-canyon-collective-presented-by-dennis-obrien-sunday-matinee-tickets-1992780089893",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182880588%2F202636605063%2F1%2Foriginal.20260423-144630?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=8cce37ac36f43794b3ef664555e36367",
       "confidence": "medium",
       "tags": []
     },
@@ -614,6 +563,23 @@
       "tags": []
     },
     {
+      "id": "709763f20761e34e",
+      "title": "Quinn Sulivan",
+      "description": "",
+      "start": "2026-09-17T20:00:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/quinn-sulivan-tickets-1994683823010",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189305447%2F202636605063%2F1%2Foriginal.20260721-143914?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.206&s=7976f37f8d0b4b56168bd0b5aa02e4b5",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -859,7 +825,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
