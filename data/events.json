@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T11:56:23.653Z",
+  "generatedAt": "2026-08-11T23:09:20.857Z",
   "events": [
     {
       "id": "4fd43236f6bc18b3",
@@ -53,23 +53,6 @@
       "tags": []
     },
     {
-      "id": "867c50585f636a91",
-      "title": "Kids Krew Reptile Adventure",
-      "description": "Come Along on the New Kids Krew Adventure! \n\nCalling all little adventurers – get ready for an afternoon of fun with The Kids Krew!\nJoin us for a FREE community event at Mundy Park, next to The Venue.\nGet ready for an exciting Reptile Show, where you’ll have the chance to learn about and interact with fascinating reptiles up close.\nEnjoy a wild adventure full of fun, discovery, and unforgettable animal encounters!\nRegistration is required – register here>>\nBring the whole family and get ready to make unforgettable memories in Downtown Aurora!\n\nRegistration is required for the Kids Krew Reptile Adventure. While supplies last.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
-      "start": "2026-08-11T20:00:00.000Z",
-      "end": "2026-08-11T22:00:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora",
-      "address": "Downtown Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-downtown",
-      "sourceLabel": "Aurora Downtown Happenings",
-      "link": "https://auroradowntown.org/event/kids-krew-reptile-adventure/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "a3ce6b0023d2e7ed",
       "title": "Building, Zoning, and Economic Development Committee Meeting",
       "description": "",
@@ -82,6 +65,23 @@
       "sourceId": "aurora-city-council",
       "sourceLabel": "Aurora City Council & Committee Meetings",
       "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4930&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "35ad3a9b3b7d1382",
+      "title": "Finance Committee Meeting",
+      "description": "",
+      "start": "2026-08-13T15:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4914&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
       "tags": []
@@ -461,6 +461,23 @@
       "tags": []
     },
     {
+      "id": "04e6ea6f72d0170a",
+      "title": "First Fridays with John Till (FREE OPEN HOUSE)",
+      "description": "",
+      "start": "2026-09-04T19:30:00.000Z",
+      "end": "2026-09-04T19:30:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/first-fridays-with-john-till-free-open-house-registration-1997566379815",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190796982%2F202636605063%2F1%2Foriginal.20260811-134212?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.502&fp-y=0.393&s=1e823995b3291531a2a821feda5bcaea",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "03f083932faf3dc0",
       "title": "First Fridays",
       "description": "First Fridays is a collective downtown open house with offerings of art, music, and more. Often businesses open with creative cultural, educational, and community offerings. Shops and restaurants frequently welcome visitors with specials and pop-ups. First Fridays is free with NO TICKETS NEEDED! \nThere are dozens of participating locations – check out www.auroradowntown.org/first-fridays for more info! \nLOCATION: Various throughout downtown Aurora! | TIME: 5PM-9PM (times may vary by location, please call location to confirm)",
@@ -563,23 +580,6 @@
       "tags": []
     },
     {
-      "id": "709763f20761e34e",
-      "title": "Quinn Sulivan",
-      "description": "",
-      "start": "2026-09-17T20:00:00.000Z",
-      "end": "2026-09-17T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/quinn-sulivan-tickets-1994683823010",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189305447%2F202636605063%2F1%2Foriginal.20260721-143914?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.206&s=7976f37f8d0b4b56168bd0b5aa02e4b5",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -594,6 +594,23 @@
       "link": "https://www.cogstjohn.org/events-news/bubbling-brown-sugar-tea",
       "imageUrl": null,
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "08cb6da09eec45bf",
+      "title": "Dogstar: ALL IN NOW TOUR",
+      "description": "",
+      "start": "2026-10-18T01:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Hollywood Casino Aurora",
+      "address": "2500 N Farnsworth Avenue, Aurora, IL",
+      "category": "Entertainment",
+      "sourceId": "ticketmaster-aurora-il",
+      "sourceLabel": "Ticketmaster — Aurora, IL",
+      "link": "https://www.ticketmaster.com/dogstar-all-in-now-tour-aurora-illinois-10-17-2026/event/070065077ECB2C87",
+      "imageUrl": "https://s1.ticketm.net/dam/a/b05/86458cb4-3b36-4038-a164-665231047b05_SOURCE",
+      "confidence": "high",
       "tags": []
     },
     {
@@ -669,7 +686,7 @@
     {
       "id": "aurora-downtown",
       "ok": true,
-      "count": 16,
+      "count": 15,
       "error": null
     },
     {
@@ -693,7 +710,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
@@ -760,7 +777,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
