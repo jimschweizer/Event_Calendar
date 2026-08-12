@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T23:09:20.857Z",
+  "generatedAt": "2026-08-12T11:58:05.064Z",
   "events": [
     {
       "id": "4fd43236f6bc18b3",
@@ -16,40 +16,6 @@
       "link": "https://www.foxvalleyparkdistrict.org/event/tea-with-president-lincoln-3/",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "35266870c3b7d686",
-      "title": "Public Health, Safety, and Transportation Committee Meeting",
-      "description": "***THIS MEETING HAS BEEN CANCELLED***",
-      "start": "2026-08-11T16:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4952&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "b6a3dcc2391b2b4a",
-      "title": "City Council Meeting",
-      "description": "",
-      "start": "2026-08-11T18:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4786&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -405,7 +371,24 @@
       "sourceId": "the-venue",
       "sourceLabel": "The Venue (Fox Valley Music Foundation)",
       "link": "https://www.eventbrite.com/e/kiss-the-sky-presents-a-good-day-in-the-park-outdoor-show-tickets-1997144559138",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190537359%2F202636605063%2F1%2Foriginal.20260807-120916?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.636&fp-y=0.487&s=ba1b6594bc4bd6e2b1bbca01adef0793",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190847910%2F804246097563%2F1%2Foriginal.20260811-231247?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.536&s=55fd5e1e045e8fc050658a9e23131444",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "d3bc3ede1113dfce",
+      "title": "Hoptoberfest at Hopvine Brewing",
+      "description": "",
+      "start": "2026-08-30T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
+      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -710,7 +693,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 4,
+      "count": 2,
       "error": null
     },
     {
@@ -842,7 +825,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
