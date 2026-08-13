@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T11:59:15.828Z",
+  "generatedAt": "2026-08-13T23:09:07.219Z",
   "events": [
     {
       "id": "35ad3a9b3b7d1382",
@@ -624,7 +624,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
