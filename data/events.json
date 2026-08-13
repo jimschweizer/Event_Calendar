@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-12T23:07:42.290Z",
+  "generatedAt": "2026-08-13T11:59:15.828Z",
   "events": [
-    {
-      "id": "a3ce6b0023d2e7ed",
-      "title": "Building, Zoning, and Economic Development Committee Meeting",
-      "description": "",
-      "start": "2026-08-12T16:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4930&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
     {
       "id": "35ad3a9b3b7d1382",
       "title": "Finance Committee Meeting",
@@ -574,7 +557,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
