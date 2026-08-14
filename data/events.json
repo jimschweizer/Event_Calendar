@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-08-14T11:56:35.078Z",
+  "generatedAt": "2026-08-14T22:45:46.269Z",
   "events": [
-    {
-      "id": "4fd43236f6bc18b3",
-      "title": "Tea with President Lincoln",
-      "description": "",
-      "start": "2026-08-08T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/tea-with-president-lincoln-3/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "dfe136310f5fbd9b",
-      "title": "Kids Night Out",
-      "description": "",
-      "start": "2026-08-14T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/kids-night-out/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "be19ebccf02cfd2c",
       "title": "Gerald McClendon",
@@ -49,23 +15,6 @@
       "sourceLabel": "The Venue (Fox Valley Music Foundation)",
       "link": "https://www.eventbrite.com/e/gerald-mcclendon-tickets-1993696132802",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188617427%2F202636605063%2F1%2Foriginal.20260710-154011?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.468&fp-y=0.261&s=f002c0d473a312ed2eae06bae5ac217a",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "558fe82a1cda746f",
-      "title": "Fox Valley Amazing Race",
-      "description": "",
-      "start": "2026-08-15T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-amazing-race-8/",
-      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -138,20 +87,37 @@
       "tags": []
     },
     {
-      "id": "48ed1ba6fc3adf71",
-      "title": "Wine Canvas At The Farm 19",
+      "id": "57920fe020ddbbf6",
+      "title": "Rules, Administration, and Procedure Meeting",
       "description": "",
-      "start": "2026-08-19T00:00:00.000Z",
+      "start": "2026-08-18T15:00:00.000Z",
       "end": null,
       "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/wine-canvas-at-the-farm-19/",
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4920&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
-      "confidence": "medium",
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "5f5e3e50bd2554de",
+      "title": "Committee of the Whole Meeting",
+      "description": "",
+      "start": "2026-08-18T17:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4763&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
       "tags": []
     },
     {
@@ -337,40 +303,6 @@
       "sourceId": "patch-aurora",
       "sourceLabel": "Patch — Aurora, IL Calendar",
       "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9d9e5e598eba6455",
-      "title": "Wiffleball & Kickball Night",
-      "description": "",
-      "start": "2026-09-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9344b0c6496f3917",
-      "title": "Touch A Truck – FREE",
-      "description": "",
-      "start": "2026-09-03T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -641,15 +573,15 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "no upcoming meetings within the lookahead window"
+      "ok": true,
+      "count": 2,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
-      "ok": true,
-      "count": 11,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "aurora-public-library",
@@ -709,7 +641,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
