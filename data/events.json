@@ -1,23 +1,6 @@
 {
-  "generatedAt": "2026-08-15T22:44:02.597Z",
+  "generatedAt": "2026-08-16T11:33:34.587Z",
   "events": [
-    {
-      "id": "4fd43236f6bc18b3",
-      "title": "Tea with President Lincoln",
-      "description": "",
-      "start": "2026-08-08T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/tea-with-president-lincoln-3/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "dfe136310f5fbd9b",
       "title": "Kids Night Out",
@@ -66,40 +49,6 @@
       "sourceLabel": "Cathedral of Grace | St. John",
       "link": "https://www.cogstjohn.org/events-news/bowling-outing",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "ec93059cb260e27d",
-      "title": "The VIKINGS are COMING!",
-      "description": "",
-      "start": "2026-08-15T14:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260815/b2da0ba9-6c44-4633-80d4-fcce7692efa3/the-vikings-are-coming",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "79ee154575492aed",
-      "title": "Mirabelle Skipworth wsg Echo & Ransom",
-      "description": "",
-      "start": "2026-08-15T20:00:00.000Z",
-      "end": "2026-08-15T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/mirabelle-skipworth-wsg-echo-ransom-tickets-1993617446449",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188546641%2F202636605063%2F1%2Foriginal.20260709-155739?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=792d324785f4cec48368386b9705325a",
       "confidence": "medium",
       "tags": []
     },
@@ -563,6 +512,23 @@
       "tags": []
     },
     {
+      "id": "709763f20761e34e",
+      "title": "Quinn Sulivan",
+      "description": "",
+      "start": "2026-09-17T20:00:00.000Z",
+      "end": "2026-09-17T20:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/quinn-sulivan-tickets-1994683823010",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189305447%2F202636605063%2F1%2Foriginal.20260721-143914?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.206&s=7976f37f8d0b4b56168bd0b5aa02e4b5",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -777,7 +743,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
@@ -806,7 +772,7 @@
     {
       "id": "cathedral-of-grace",
       "ok": true,
-      "count": 25,
+      "count": 24,
       "error": null
     },
     {
@@ -842,7 +808,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
