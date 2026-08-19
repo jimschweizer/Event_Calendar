@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-08-19T11:39:13.462Z",
+  "generatedAt": "2026-08-19T22:47:28.462Z",
   "events": [
-    {
-      "id": "dfe136310f5fbd9b",
-      "title": "Kids Night Out",
-      "description": "",
-      "start": "2026-08-14T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/kids-night-out/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "558fe82a1cda746f",
-      "title": "Fox Valley Amazing Race",
-      "description": "",
-      "start": "2026-08-15T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-amazing-race-8/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "ba622cbba0113172",
       "title": "Bowling Outing",
@@ -48,23 +14,6 @@
       "sourceId": "cathedral-of-grace",
       "sourceLabel": "Cathedral of Grace | St. John",
       "link": "https://www.cogstjohn.org/events-news/bowling-outing",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "48ed1ba6fc3adf71",
-      "title": "Wine Canvas At The Farm 19",
-      "description": "",
-      "start": "2026-08-19T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/wine-canvas-at-the-farm-19/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -84,23 +33,6 @@
       "link": "https://www.eventbrite.com/e/aurora-film-society-presents-harlan-county-usa-tickets-1979988528990",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "a72a163a54249b65",
-      "title": "Kids Krew Pawsome Rescue Adventure",
-      "description": "Come Along on the New Kids Krew Adventure! \n\nCalling all little adventurers – get ready for an afternoon of fun with The Kids Krew!\nJoin us for a FREE community event at the Regional Fire Museum in Downtown Aurora.\nEnjoy a rescue-themed adventure with exciting activities for the whole family.\nCreate a fun craft, explore the museum, enjoy hands-on activities, and stop by for a special character meet-and-greet.\nRegistration is required – register here>>\nWe can’t wait to see you there for a day of fun, creativity, and adventure!\n\nRegistration is required for the Kids Krew Pawsome Rescue Adventure. While supplies last.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
-      "start": "2026-08-19T20:00:00.000Z",
-      "end": "2026-08-19T22:00:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora",
-      "address": "Downtown Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-downtown",
-      "sourceLabel": "Aurora Downtown Happenings",
-      "link": "https://auroradowntown.org/event/kids-krew-pawsome-rescue-adventure/",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -269,74 +201,6 @@
       "sourceId": "patch-aurora",
       "sourceLabel": "Patch — Aurora, IL Calendar",
       "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "22f872509b7d8867",
-      "title": "Fall Kid Stage: Oliver Junior",
-      "description": "",
-      "start": "2026-09-01T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fall-kid-stage-oliver-junior-auditions/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9d9e5e598eba6455",
-      "title": "Wiffleball & Kickball Night",
-      "description": "",
-      "start": "2026-09-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "4ccdee76f7ee6867",
-      "title": "Fall Adult Dinner Theatre: Sleepy Hollow Auditions",
-      "description": "",
-      "start": "2026-09-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fall-adult-dinner-theatre-sleepy-hollow-auditions/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9344b0c6496f3917",
-      "title": "Touch A Truck – FREE",
-      "description": "",
-      "start": "2026-09-03T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -635,7 +499,7 @@
     {
       "id": "aurora-downtown",
       "ok": true,
-      "count": 16,
+      "count": 15,
       "error": null
     },
     {
@@ -664,15 +528,15 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": true,
-      "count": 13,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "aurora-public-library",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "HTTP 502"
     },
     {
       "id": "east-aurora-high",
