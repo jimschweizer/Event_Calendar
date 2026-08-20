@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T22:47:28.462Z",
+  "generatedAt": "2026-08-20T11:41:59.309Z",
   "events": [
     {
       "id": "ba622cbba0113172",
@@ -19,23 +19,6 @@
       "tags": []
     },
     {
-      "id": "2fa614b932d797cc",
-      "title": "Aurora Film Society Presents:  Harlan County USA",
-      "description": "",
-      "start": "2026-08-19T19:00:00.000Z",
-      "end": "2026-08-19T19:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/aurora-film-society-presents-harlan-county-usa-tickets-1979988528990",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "71c2217b38a0affc",
       "title": "Civilian Review Board Meeting",
       "description": "This meeting has been cancelled.",
@@ -50,6 +33,23 @@
       "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4822&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "59ed442b6952e582",
+      "title": "The famous Pequod's, caramelized crust pizza is heading your way. Order by noon.",
+      "description": "",
+      "start": "2026-08-21T21:30:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260821/37a1f3b8-e72e-4104-985c-9c54e98d7556/the-famous-pequods-caramelized-crust-pizza-is-heading-your-way-order-by-noon",
+      "imageUrl": null,
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -376,6 +376,23 @@
       "tags": []
     },
     {
+      "id": "13f700931bf614d6",
+      "title": "Great Moments in Vinyl: The Doobie Brothers",
+      "description": "",
+      "start": "2026-09-20T19:00:00.000Z",
+      "end": "2026-09-20T19:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/great-moments-in-vinyl-the-doobie-brothers-tickets-1988558054672",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183429565%2F202636605063%2F1%2Foriginal.20260430-134335?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=66a4fd642df2b65598fdda0c0d43eeed",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -536,7 +553,7 @@
       "id": "aurora-public-library",
       "ok": false,
       "count": 0,
-      "error": "HTTP 502"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "east-aurora-high",
@@ -655,7 +672,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
