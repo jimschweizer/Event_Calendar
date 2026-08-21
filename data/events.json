@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T11:41:17.594Z",
+  "generatedAt": "2026-08-21T22:47:11.699Z",
   "events": [
     {
       "id": "ba622cbba0113172",
@@ -48,6 +48,40 @@
       "sourceId": "aurora-city-council",
       "sourceLabel": "Aurora City Council & Committee Meetings",
       "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4970&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "7fb7d3a5b61745a8",
+      "title": "Public Health, Safety, and Transportation Committee Meeting",
+      "description": "",
+      "start": "2026-08-25T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4950&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "a136c194ba252c53",
+      "title": "City Council Meeting",
+      "description": "",
+      "start": "2026-08-25T18:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4787&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
       "tags": []
@@ -512,7 +546,7 @@
       "id": "aurora-chamber",
       "ok": false,
       "count": 0,
-      "error": "HTTP 503"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "aurora-city-events",
@@ -523,7 +557,7 @@
     {
       "id": "aurora-city-council",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null
     },
     {
@@ -590,7 +624,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
