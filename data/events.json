@@ -1,6 +1,23 @@
 {
-  "generatedAt": "2026-08-22T11:34:34.431Z",
+  "generatedAt": "2026-08-22T22:44:15.935Z",
   "events": [
+    {
+      "id": "558fe82a1cda746f",
+      "title": "Fox Valley Amazing Race",
+      "description": "",
+      "start": "2026-08-15T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-amazing-race-8/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
     {
       "id": "ba622cbba0113172",
       "title": "Bowling Outing",
@@ -19,6 +36,23 @@
       "tags": []
     },
     {
+      "id": "48ed1ba6fc3adf71",
+      "title": "Wine Canvas At The Farm 19",
+      "description": "",
+      "start": "2026-08-19T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/series/wine-canvas-at-the-farm-19/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "34c375a654a6d7bd",
       "title": "Lil’ Ed & The Blues Imperials",
       "description": "",
@@ -32,6 +66,23 @@
       "sourceLabel": "The Venue (Fox Valley Music Foundation)",
       "link": "https://www.eventbrite.com/e/lil-ed-the-blues-imperials-tickets-1993616242849",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188544730%2F202636605063%2F1%2Foriginal.20260709-153419?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.475&fp-y=0.362&s=ee51dc98499c740a54b17c9f4bbce63c",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "af0df9173df41f2c",
+      "title": "Fall Herb Kits and Fall Blooming Annuals Ready to order!",
+      "description": "",
+      "start": "2026-08-23T13:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260823/cdbe6497-3bd5-4477-947e-fd62237f39a4/fall-herb-kits-and-fall-blooming-annuals-ready-to-order",
+      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -218,6 +269,74 @@
       "sourceId": "patch-aurora",
       "sourceLabel": "Patch — Aurora, IL Calendar",
       "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "90cf03cd90d74bbe",
+      "title": "Fall Kid Stage: Oliver Junior Auditions",
+      "description": "",
+      "start": "2026-09-01T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-kid-stage-oliver-junior-auditions/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9d9e5e598eba6455",
+      "title": "Wiffleball & Kickball Night",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "4ccdee76f7ee6867",
+      "title": "Fall Adult Dinner Theatre: Sleepy Hollow Auditions",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-adult-dinner-theatre-sleepy-hollow-auditions/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9344b0c6496f3917",
+      "title": "Touch A Truck – FREE",
+      "description": "",
+      "start": "2026-09-03T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -562,9 +681,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 13,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -689,7 +808,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
