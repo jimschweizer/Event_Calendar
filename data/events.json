@@ -1,40 +1,6 @@
 {
-  "generatedAt": "2026-08-22T22:44:15.935Z",
+  "generatedAt": "2026-08-23T11:34:12.453Z",
   "events": [
-    {
-      "id": "558fe82a1cda746f",
-      "title": "Fox Valley Amazing Race",
-      "description": "",
-      "start": "2026-08-15T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-amazing-race-8/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "ba622cbba0113172",
-      "title": "Bowling Outing",
-      "description": "",
-      "start": "2026-08-15T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Cathedral of Grace | St. John",
-      "address": "Aurora, IL",
-      "category": "Faith",
-      "sourceId": "cathedral-of-grace",
-      "sourceLabel": "Cathedral of Grace | St. John",
-      "link": "https://www.cogstjohn.org/events-news/bowling-outing",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "48ed1ba6fc3adf71",
       "title": "Wine Canvas At The Farm 19",
