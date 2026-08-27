@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T03:24:17.846Z",
+  "generatedAt": "2026-08-27T21:01:56.544Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -206,6 +206,23 @@
       "tags": []
     },
     {
+      "id": "a6bee3bbe02de1d7",
+      "title": "The famous Pequod's, caramelized crust pizza is heading your way. Order by noon.",
+      "description": "",
+      "start": "2026-09-03T21:30:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260903/a18ca8cc-6d27-40d4-bd6c-4e446fcf23da/the-famous-pequods-caramelized-crust-pizza-is-heading-your-way-order-by-noon",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "04e6ea6f72d0170a",
       "title": "First Fridays with John Till (FREE OPEN HOUSE)",
       "description": "",
@@ -253,6 +270,23 @@
       "sourceLabel": "Ticketmaster — Aurora, IL",
       "link": "https://www.ticketmaster.com/ben-bankas-aurora-illinois-09-06-2026/event/070064A4BE945367",
       "imageUrl": "https://s1.ticketm.net/dam/a/41e/933b6495-4f8a-4cb1-8e98-04374591041e_CUSTOM.jpg",
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "b5e514efc56b1969",
+      "title": "Celebrate International Dot Day with September Kids Krew!",
+      "description": "Spend the Day Making Art at Yellow Bird Books! \n\nCome create, connect, and celebrate International Dot Day with us!\nJoin us at Yellow Bird Books for September Kids Krew from 4pm–6pm!\nImagine the power of millions of people around the world connecting, collaborating, creating, and celebrating all that creativity inspires!\nTogether, our talents, gifts, and energy can help move the world to a better place.\nRegister for this event here>>\n\nOur International Dot Day event is for one day only, Wednesday, September 9, 2026. While supplies last. Visit us for more details.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
+      "start": "2026-09-09T21:00:00.000Z",
+      "end": "2026-09-09T23:00:00.000Z",
+      "allDay": false,
+      "venue": "Downtown Aurora",
+      "address": "Downtown Aurora, IL",
+      "category": "Civic",
+      "sourceId": "aurora-downtown",
+      "sourceLabel": "Aurora Downtown Happenings",
+      "link": "https://auroradowntown.org/event/celebrate-international-dot-day-with-september-kids-krew/",
+      "imageUrl": null,
       "confidence": "high",
       "tags": []
     },
@@ -533,7 +567,7 @@
     {
       "id": "aurora-downtown",
       "ok": true,
-      "count": 16,
+      "count": 17,
       "error": null
     },
     {
@@ -624,7 +658,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
@@ -689,7 +723,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
