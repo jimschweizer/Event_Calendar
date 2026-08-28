@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-27T21:01:56.544Z",
+  "generatedAt": "2026-08-28T06:11:54.103Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -14,23 +14,6 @@
       "sourceId": "aurora-downtown",
       "sourceLabel": "Aurora Downtown Happenings",
       "link": "https://auroradowntown.org/event/celebrate-mean-girls-mania/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "bd6ac20fcbf3f280",
-      "title": "Finance Committee Meeting",
-      "description": "",
-      "start": "2026-08-27T15:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
-      "address": "44 E Downer Pl, Aurora, IL",
-      "category": "Civic Meetings",
-      "sourceId": "aurora-city-council",
-      "sourceLabel": "Aurora City Council & Committee Meetings",
-      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4915&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
       "tags": []
@@ -254,6 +237,23 @@
       "link": "https://auroradowntown.org/event/first-fridays/2026-09-04/",
       "imageUrl": null,
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "9679a67c3b002052",
+      "title": "Sew Grateful Ministry",
+      "description": "",
+      "start": "2026-09-05T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Cathedral of Grace | St. John",
+      "address": "Aurora, IL",
+      "category": "Faith",
+      "sourceId": "cathedral-of-grace",
+      "sourceLabel": "Cathedral of Grace | St. John",
+      "link": "https://www.cogstjohn.org/events-news/sew-grateful-ministry",
+      "imageUrl": null,
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -590,9 +590,9 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "no upcoming meetings within the lookahead window"
     },
     {
       "id": "fox-valley-park-district",
@@ -687,7 +687,7 @@
     {
       "id": "cathedral-of-grace",
       "ok": true,
-      "count": 24,
+      "count": 25,
       "error": null
     },
     {
