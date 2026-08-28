@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-28T06:11:54.103Z",
+  "generatedAt": "2026-08-28T21:22:01.267Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -172,6 +172,108 @@
       "tags": []
     },
     {
+      "id": "90cf03cd90d74bbe",
+      "title": "Fall Kid Stage: Oliver Junior Auditions",
+      "description": "",
+      "start": "2026-09-01T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-kid-stage-oliver-junior-auditions/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "3f17498c06a2d81c",
+      "title": "Rules, Administration, and Procedure Meeting",
+      "description": "",
+      "start": "2026-09-01T15:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4921&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "42e723c1159258b1",
+      "title": "Committee of the Whole Meeting",
+      "description": "",
+      "start": "2026-09-01T17:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4764&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "9d9e5e598eba6455",
+      "title": "Wiffleball & Kickball Night",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "4ccdee76f7ee6867",
+      "title": "Fall Adult Dinner Theatre: Sleepy Hollow Auditions",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-adult-dinner-theatre-sleepy-hollow-auditions/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9344b0c6496f3917",
+      "title": "Touch A Truck – FREE",
+      "description": "",
+      "start": "2026-09-03T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "dbadfe1e14299456",
       "title": "Roots & Thirds with Shawn Maxwell feat. Geneva Jazz Ensemble",
       "description": "",
@@ -185,23 +287,6 @@
       "sourceLabel": "The Venue (Fox Valley Music Foundation)",
       "link": "https://www.eventbrite.com/e/roots-thirds-with-shawn-maxwell-feat-geneva-jazz-ensemble-tickets-1994992927550",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190542493%2F202636605063%2F1%2Foriginal.20260807-134410?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.092&s=2dc8d3fdc3df7dd33b566ede1f8a35db",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "a6bee3bbe02de1d7",
-      "title": "The famous Pequod's, caramelized crust pizza is heading your way. Order by noon.",
-      "description": "",
-      "start": "2026-09-03T21:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260903/a18ca8cc-6d27-40d4-bd6c-4e446fcf23da/the-famous-pequods-caramelized-crust-pizza-is-heading-your-way-order-by-noon",
-      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -590,15 +675,15 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "no upcoming meetings within the lookahead window"
+      "ok": true,
+      "count": 2,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 12,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -723,7 +808,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
