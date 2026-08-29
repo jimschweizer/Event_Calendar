@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-29T03:46:00.606Z",
+  "generatedAt": "2026-08-29T15:38:16.192Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -36,23 +36,6 @@
       "tags": []
     },
     {
-      "id": "c568afc5d78037f3",
-      "title": "Smoking Popes wsg Spitalfield (OUTDOOR SHOW)",
-      "description": "",
-      "start": "2026-08-28T20:00:00.000Z",
-      "end": "2026-08-28T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/smoking-popes-wsg-spitalfield-outdoor-show-tickets-1992574899162",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1187645480%2F202636605063%2F1%2Foriginal.20260625-151752?h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&s=62afdd11362dab2a6ecaf21747064632",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "ae76a36639308cc9",
       "title": "Childrens Ministry Volunteers Meeting",
       "description": "",
@@ -67,23 +50,6 @@
       "link": "https://www.cogstjohn.org/events-news/childrens-ministry-volunteers-meeting",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "bdcab89369d33ad3",
-      "title": "The Marshall Tucker Band",
-      "description": "",
-      "start": "2026-08-29T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Hollywood Casino Aurora",
-      "address": "2500 N Farnsworth Avenue, Aurora, IL",
-      "category": "Entertainment",
-      "sourceId": "ticketmaster-aurora-il",
-      "sourceLabel": "Ticketmaster — Aurora, IL",
-      "link": "https://www.ticketmaster.com/the-marshall-tucker-band-aurora-illinois-08-28-2026/event/070064A4C9F95E36",
-      "imageUrl": "https://s1.ticketm.net/dam/a/78a/ddb6d0f7-14ce-48d3-b418-16a46790f78a_1828291_CUSTOM.jpg",
-      "confidence": "high",
       "tags": []
     },
     {
@@ -525,6 +491,23 @@
       "sourceLabel": "The Venue (Fox Valley Music Foundation)",
       "link": "https://www.eventbrite.com/e/roots-thirds-with-shawn-maxwell-feat-arlington-jazz-exchange-tickets-1994993123135",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190542846%2F202636605063%2F1%2Foriginal.20260807-134934?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.46&fp-y=0.189&s=99d41d954b5e8242ab8e67411c63910d",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "56ccb650c62977ae",
+      "title": "Stefan Hillesheim",
+      "description": "",
+      "start": "2026-09-25T20:00:00.000Z",
+      "end": "2026-09-25T20:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/stefan-hillesheim-tickets-1994685422795",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189307887%2F202636605063%2F1%2Foriginal.20260721-150000?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.547&fp-y=0.293&s=2616aa112dd3a4b57d018c0eba80ea94",
       "confidence": "medium",
       "tags": []
     },
