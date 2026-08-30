@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-30T00:28:18.283Z",
+  "generatedAt": "2026-08-30T15:20:40.886Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -53,57 +53,6 @@
       "tags": []
     },
     {
-      "id": "a8e4473edcee2732",
-      "title": "Yard Sale",
-      "description": "",
-      "start": "2026-08-29T12:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260829/d921c11c-f61f-400f-a210-215421206a3e/yard-sale",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9a3e421b507a9e8e",
-      "title": "Montessori School Open House!",
-      "description": "",
-      "start": "2026-08-29T13:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260829/847a9551-837d-4d98-a5e2-3e7f86e6ee75/montessori-school-open-house",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "6b2752bcd20962b6",
-      "title": "Terrapin Flyer (LIVE AND OUTSIDE)",
-      "description": "",
-      "start": "2026-08-29T20:00:00.000Z",
-      "end": "2026-08-29T20:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/terrapin-flyer-live-and-outside-tickets-1987131758582",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1181868247%2F202636605063%2F1%2Foriginal.20260410-134428?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.517&fp-y=0.394&s=3000940fde5e10aa833dfe34c1ac4bd7",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "369a1df120b3d427",
       "title": "Kiss The Sky Presents: A Good Day In The Park (OUTDOOR SHOW)",
       "description": "",
@@ -133,23 +82,6 @@
       "sourceId": "patch-aurora",
       "sourceLabel": "Patch — Aurora, IL Calendar",
       "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "90cf03cd90d74bbe",
-      "title": "Fall Kid Stage: Oliver Junior Auditions",
-      "description": "",
-      "start": "2026-09-01T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fall-kid-stage-oliver-junior-auditions/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -186,57 +118,6 @@
       "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4764&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "9d9e5e598eba6455",
-      "title": "Wiffleball & Kickball Night",
-      "description": "",
-      "start": "2026-09-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "4ccdee76f7ee6867",
-      "title": "Fall Adult Dinner Theatre: Sleepy Hollow Auditions",
-      "description": "",
-      "start": "2026-09-02T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fall-adult-dinner-theatre-sleepy-hollow-auditions/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9344b0c6496f3917",
-      "title": "Touch A Truck – FREE",
-      "description": "",
-      "start": "2026-09-03T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
-      "imageUrl": null,
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -512,6 +393,23 @@
       "tags": []
     },
     {
+      "id": "46a9aed16b078a34",
+      "title": "Will Hoge wsg Jon Tyler Wiley",
+      "description": "",
+      "start": "2026-09-26T20:00:00.000Z",
+      "end": "2026-09-26T20:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/will-hoge-wsg-jon-tyler-wiley-tickets-1988766238355",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183711053%2F202636605063%2F1%2Foriginal.20260504-150933?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.489&fp-y=0.438&s=206bd803f7d031d5e241136c040884df",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0485edaec87f3a40",
       "title": "Bubbling Brown Sugar Tea",
       "description": "",
@@ -664,9 +562,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": true,
-      "count": 12,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "aurora-public-library",
@@ -726,7 +624,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
@@ -791,7 +689,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 3,
+      "count": 1,
       "error": null
     },
     {
