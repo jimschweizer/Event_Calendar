@@ -74,16 +74,7 @@
     "venue": "East Aurora High School",
     "address": "500 Cedar Ave, Aurora, IL",
     "type": "ics",
-    "url": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=1"
-  },
-  {
-    "id": "west-aurora-high",
-    "label": "Aurora West High School (D129)",
-    "category": "Education",
-    "venue": "West Aurora High School",
-    "address": "1201 W New York St, Aurora, IL",
-    "type": "ics",
-    "url": "https://westhigh.sd129.org/fs/calendar-manager/events.ics?calendar_ids=350,387"
+    "url": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12"
   },
   {
     "id": "paramount-theatre",
