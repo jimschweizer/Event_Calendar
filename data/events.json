@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-31T00:41:00.429Z",
+  "generatedAt": "2026-08-31T18:00:40.536Z",
   "events": [
     {
       "id": "e462e0fbe5ce0e59",
@@ -53,35 +53,18 @@
       "tags": []
     },
     {
-      "id": "369a1df120b3d427",
-      "title": "Kiss The Sky Presents: A Good Day In The Park (OUTDOOR SHOW)",
+      "id": "90cf03cd90d74bbe",
+      "title": "Fall Kid Stage: Oliver Junior Auditions",
       "description": "",
-      "start": "2026-08-30T14:00:00.000Z",
-      "end": "2026-08-30T14:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/kiss-the-sky-presents-a-good-day-in-the-park-outdoor-show-tickets-1997144559138",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1190847910%2F804246097563%2F1%2Foriginal.20260811-231247?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.536&s=55fd5e1e045e8fc050658a9e23131444",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "d3bc3ede1113dfce",
-      "title": "Hoptoberfest at Hopvine Brewing",
-      "description": "",
-      "start": "2026-08-30T16:00:00.000Z",
+      "start": "2026-09-01T00:00:00.000Z",
       "end": null,
       "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
+      "venue": "Fox Valley Park District",
       "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260830/c7c71559-5ccf-4861-a18e-6d46cc07d805/hoptoberfest-at-hopvine-brewing",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-kid-stage-oliver-junior-auditions/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -118,6 +101,57 @@
       "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4764&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
       "imageUrl": null,
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "9d9e5e598eba6455",
+      "title": "Wiffleball & Kickball Night",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/wiffleball-kickball-night-4/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "4ccdee76f7ee6867",
+      "title": "Fall Adult Dinner Theatre: Sleepy Hollow Auditions",
+      "description": "",
+      "start": "2026-09-02T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-adult-dinner-theatre-sleepy-hollow-auditions/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9344b0c6496f3917",
+      "title": "Touch A Truck – FREE",
+      "description": "",
+      "start": "2026-09-03T00:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/touch-a-truck-free-4/",
+      "imageUrl": null,
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -562,9 +596,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 12,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -624,7 +658,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
@@ -688,9 +722,9 @@
     },
     {
       "id": "patch-aurora",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "shaw-local",
