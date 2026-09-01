@@ -83,8 +83,8 @@
     "venue": "Paramount Theatre",
     "address": "23 E Galena Blvd, Aurora, IL",
     "type": "jsonld",
-    "url": "https://paramountaurora.com/",
-    "detailLinkPattern": "paramountaurora\\.com/.+"
+    "url": "https://paramountaurora.com/events/?xd_posttype=event",
+    "detailLinkPattern": "paramountaurora\\.com/events/.+"
   },
   {
     "id": "riveredge-park",
@@ -93,8 +93,9 @@
     "venue": "RiverEdge Park",
     "address": "360 N Broadway, Aurora, IL",
     "type": "jsonld",
-    "url": "https://paramountaurora.com/riveredge/",
-    "detailLinkPattern": "paramountaurora\\.com/riveredge/.+"
+    "url": "https://paramountaurora.com/events/?xd_posttype=event",
+    "detailLinkPattern": "paramountaurora\\.com/events/.+",
+    "venueFilter": "RiverEdge"
   },
   {
     "id": "hollywood-casino",
@@ -124,7 +125,7 @@
     "address": "195 Fox Valley Center Dr, Aurora, IL",
     "type": "jsonld",
     "url": "https://www.shopfoxvalleymall.com/events",
-    "detailLinkPattern": "shopfoxvalleymall\\.com/.+"
+    "detailLinkPattern": "shopfoxvalleymall\\.com/event/"
   },
   {
     "id": "pacifica-square",

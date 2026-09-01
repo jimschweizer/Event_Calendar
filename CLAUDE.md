@@ -34,7 +34,10 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   `scripts/lib/normalize.mjs`, sorts everything by start date, and writes `data/events.json` with
   a `sourceStatus` array (per-source ok/count/error — never silently hidden).
 - Adapters live in `scripts/adapters/`, one per source `type`: `ics` (node-ical), `jsonld`
-  (Schema.org/Event via cheerio, listing page + linked detail pages), `html` (generic cheerio
+  (Schema.org/Event via cheerio; falls back to Next.js `__NEXT_DATA__` payloads, then WordPress
+  "Ajax Load More" `post__in` ids fetched via `?p={id}`, then generic listing-page detail links;
+  optional per-source `venueFilter` keeps only events whose venue name matches; sends browser-like
+  headers because e.g. paramountaurora.com's WAF 403s bare requests), `html` (generic cheerio
   scraper driven by per-source `selectors`), `rss` (rss-parser), `api-legistar` (Aurora city
   council, public API, no key), `api-eventbrite`/`api-ticketmaster` (key-gated — skip gracefully,
   not a failure, if `EVENTBRITE_TOKEN`/`TICKETMASTER_KEY` env vars are unset), and `ocr-image`
