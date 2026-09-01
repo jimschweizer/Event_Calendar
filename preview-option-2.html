@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Preview 2/3 — River Current · Aurora Events</title>
+  <meta name="description" content="Look &amp; feel preview Option 2 of 3 (River Current / modern riverfront editorial) for the Aurora Events calendar." />
+  <!-- Google Fonts: Fraunces (editorial serif) + Public Sans (body) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700;1,9..144,400..700&family=Public+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --font-display: 'Fraunces', Georgia, serif;
+      --font-body: 'Public Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+      /* Deep river at dusk */
+      --bg-main: #0A1D24;
+      --bg-surface: #0F2831;
+      --bg-surface-elevated: #163842;
+      --bg-glass: rgba(15, 40, 49, 0.88);
+      --text-main: #EAF4F1;
+      --text-muted: #9DB8B2;
+      --text-subtle: #6F8D87;
+      --border-subtle: rgba(234, 244, 241, 0.10);
+      --border-strong: rgba(234, 244, 241, 0.20);
+      --accent-primary: #43B3C9;
+      --accent-hover: #2E9DB5;
+      --accent-light: rgba(67, 179, 201, 0.13);
+      --accent-green: #6FA25F;
+      --accent-amber: #E9A13B;
+      --focus-ring: 0 0 0 3px rgba(67, 179, 201, 0.30);
+      --card-shadow: 0 12px 30px -12px rgba(0, 0, 0, 0.5);
+    }
+
+    html[data-theme="light"] {
+      /* River morning */
+      --bg-main: #F7F5EE;
+      --bg-surface: #FFFFFF;
+      --bg-surface-elevated: #EFEDE2;
+      --bg-glass: rgba(255, 255, 255, 0.9);
+      --text-main: #122B33;
+      --text-muted: #45626A;
+      --text-subtle: #7B949B;
+      --border-subtle: rgba(18, 43, 51, 0.10);
+      --border-strong: rgba(18, 43, 51, 0.18);
+      --accent-primary: #1F7E96;
+      --accent-hover: #17697D;
+      --accent-light: rgba(31, 126, 150, 0.10);
+      --accent-green: #4A6B45;
+      --accent-amber: #C77B22;
+      --focus-ring: 0 0 0 3px rgba(31, 126, 150, 0.25);
+      --card-shadow: 0 10px 24px -14px rgba(18, 43, 51, 0.22);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-body);
+      background-color: var(--bg-main);
+      color: var(--text-main);
+      line-height: 1.5;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      transition: background-color 0.25s ease, color 0.25s ease;
+    }
+
+    .hidden { display: none !important; }
+
+    /* ---- Preview banner ---- */
+    .preview-banner {
+      background: var(--bg-surface-elevated);
+      border-bottom: 1px solid var(--border-subtle);
+      color: var(--accent-primary);
+      font-family: var(--font-body);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      text-align: center;
+      padding: 0.45rem 1rem;
+    }
+
+    /* ---- Header & river band ---- */
+    .app-header {
+      position: relative;
+      background: var(--bg-surface);
+      border-bottom: 1px solid var(--border-subtle);
+      padding: 1.25rem 1.5rem 1.9rem;
+      overflow: hidden;
+    }
+
+    .app-header::after {
+      content: "";
+      position: absolute;
+      left: 0; right: 0; bottom: 0;
+      height: 24px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 44' preserveAspectRatio='none'%3E%3Cpath fill='%2343B3C9' fill-opacity='0.16' d='M0 30 C 240 4, 480 52, 720 28 S 1200 8, 1440 26 L 1440 44 L 0 44 Z'/%3E%3Cpath fill='none' stroke='%2343B3C9' stroke-opacity='0.55' stroke-width='2' d='M0 34 C 240 8, 480 56, 720 32 S 1200 12, 1440 30'/%3E%3C/svg%3E");
+      background-size: 1440px 24px;
+      background-repeat: repeat-x;
+    }
+
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .brand-block { display: flex; align-items: center; gap: 0.9rem; }
+
+    /* Sunrise arch: dawn amber over river teal */
+    .logo-badge {
+      font-family: var(--font-display);
+      font-weight: 700;
+      font-size: 1.1rem;
+      color: var(--bg-main);
+      width: 2.7rem; height: 2.7rem;
+      display: flex; align-items: center; justify-content: center;
+      border-radius: 50% 50% 12px 12px;
+      background: linear-gradient(180deg, #F7D38A 0%, #E9A13B 52%, #43B3C9 53%, #2E9DB5 100%);
+      box-shadow: 0 4px 16px rgba(67, 179, 201, 0.35);
+    }
+
+    .brand-text h1 {
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      letter-spacing: -0.015em;
+      line-height: 1.15;
+    }
+
+    .brand-text .subtitle {
+      font-size: 0.78rem;
+      font-weight: 500;
+      color: var(--text-muted);
+      margin-top: 0.15rem;
+    }
+
+    .header-actions { display: flex; align-items: center; gap: 0.65rem; }
+
+    /* ---- Buttons ---- */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.45rem;
+      font-family: var(--font-body);
+      font-size: 0.85rem;
+      font-weight: 600;
+      padding: 0.55rem 1rem;
+      border-radius: 10px;
+      border: 1px solid transparent;
+      cursor: pointer;
+      transition: all 0.2s ease;
+      white-space: nowrap;
+    }
+    .btn--primary { background: var(--accent-primary); color: #FFFFFF; }
+    .btn--primary:hover { background: var(--accent-hover); box-shadow: 0 6px 18px rgba(67, 179, 201, 0.35); }
+    .btn--secondary { background: var(--accent-light); color: var(--accent-primary); border-color: rgba(67, 179, 201, 0.3); }
+    .btn--secondary:hover { background: rgba(67, 179, 201, 0.22); }
+    .btn--outline { background: transparent; color: var(--text-main); border-color: var(--border-strong); }
+    .btn--outline:hover { background: var(--bg-surface-elevated); }
+    .btn--ghost { background: transparent; color: var(--text-muted); }
+    .btn--ghost:hover { color: var(--text-main); background: var(--bg-surface-elevated); }
+
+    .btn-icon {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      padding: 0.4rem;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+    .btn-icon:hover { color: var(--text-main); background: var(--bg-surface-elevated); }
+
+    .theme-toggle-btn {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-subtle);
+      color: var(--text-main);
+      padding: 0.55rem;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      transition: all 0.2s ease;
+    }
+    .theme-toggle-btn:hover { border-color: var(--accent-primary); color: var(--accent-primary); }
+
+    html[data-theme="dark"] .icon-sun { display: block; }
+    html[data-theme="dark"] .icon-moon { display: none; }
+    html[data-theme="light"] .icon-sun { display: none; }
+    html[data-theme="light"] .icon-moon { display: block; }
+
+    /* ---- Propose-a-source panel ---- */
+    .topic-submit-panel { max-width: 1400px; margin: 1rem auto 0; transition: all 0.3s ease; }
+    .panel-card {
+      background: var(--bg-surface-elevated);
+      border: 1px solid var(--border-strong);
+      border-radius: 12px;
+      padding: 1.25rem;
+      box-shadow: var(--card-shadow);
+    }
+    .panel-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 1rem; }
+    .panel-header h2 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; font-style: italic; }
+
+    .topic-form .form-row { display: flex; gap: 1rem; margin-bottom: 1rem; }
+    .flex-1 { flex: 1; }
+    .flex-2 { flex: 2; }
+    .form-group { display: flex; flex-direction: column; gap: 0.4rem; }
+    .form-group label { font-size: 0.74rem; font-weight: 600; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.08em; }
+    .form-group input, .form-group select {
+      padding: 0.6rem 0.85rem;
+      border-radius: 8px;
+      border: 1px solid var(--border-strong);
+      background: var(--bg-main);
+      color: var(--text-main);
+      font-size: 0.92rem;
+      font-family: var(--font-body);
+      outline: none;
+    }
+    .form-group input:focus, .form-group select:focus { border-color: var(--accent-primary); box-shadow: var(--focus-ring); }
+    .action-bar { display: flex; flex-wrap: wrap; gap: 0.6rem; }
+    .preview-note { margin-top: 0.9rem; font-size: 0.72rem; color: var(--text-subtle); font-style: italic; }
+
+    /* ---- Sticky controls ---- */
+    .sticky-controls-bar {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--bg-glass);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border-subtle);
+    }
+    .controls-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 0.75rem 1.5rem;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+    .category-tabs { display: flex; align-items: center; gap: 0.5rem; overflow-x: auto; padding-bottom: 0.1rem; }
+
+    /* Editorial underline tabs */
+    .tab-btn {
+      background: transparent;
+      border: none;
+      border-bottom: 2px solid transparent;
+      color: var(--text-muted);
+      font-family: var(--font-body);
+      font-size: 0.86rem;
+      font-weight: 500;
+      padding: 0.45rem 0.55rem;
+      cursor: pointer;
+      transition: color 0.15s ease, border-color 0.15s ease;
+      white-space: nowrap;
+    }
+    .tab-btn:hover { color: var(--text-main); border-bottom-color: var(--border-strong); }
+    .tab-btn.active { color: var(--text-main); border-bottom-color: var(--accent-amber); font-weight: 600; }
+
+    .filter-controls { display: flex; align-items: center; gap: 1rem; }
+    .search-input-wrapper { position: relative; display: flex; align-items: center; }
+    .search-icon { position: absolute; left: 0.75rem; color: var(--text-subtle); pointer-events: none; }
+    .search-input-wrapper input {
+      padding: 0.45rem 2rem 0.45rem 2.2rem;
+      border-radius: 10px;
+      border: 1px solid var(--border-subtle);
+      background: var(--bg-surface);
+      color: var(--text-main);
+      font-size: 0.85rem;
+      font-family: var(--font-body);
+      width: 240px;
+      transition: all 0.2s ease;
+    }
+    .search-input-wrapper input:focus {
+      outline: none;
+      width: 300px;
+      border-color: var(--accent-primary);
+      box-shadow: var(--focus-ring);
+    }
+    .clear-search-btn {
+      position: absolute;
+      right: 0.6rem;
+      background: transparent;
+      border: none;
+      color: var(--text-subtle);
+      cursor: pointer;
+      font-size: 0.8rem;
+      padding: 0.2rem;
+    }
+
+    /* ---- Dashboard ---- */
+    .dashboard {
+      flex: 1;
+      max-width: 1400px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 1.5rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+      gap: 1.25rem;
+      align-items: start;
+    }
+
+    .status-card {
+      grid-column: 1 / -1;
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-radius: 12px;
+      padding: 3rem 1.5rem;
+      text-align: center;
+      color: var(--text-muted);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1rem;
+    }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 3px solid var(--border-subtle);
+      border-top-color: var(--accent-primary);
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    /* ---- Date group headings ---- */
+    .date-group-heading {
+      grid-column: 1 / -1;
+      font-family: var(--font-display);
+      font-size: 1.5rem;
+      font-weight: 600;
+      font-style: italic;
+      letter-spacing: -0.01em;
+      display: flex;
+      align-items: center;
+      gap: 0.7rem;
+      padding: 0.9rem 0 0.5rem;
+      margin-top: 0.75rem;
+    }
+    .date-group-heading::before { content: ""; width: 9px; height: 9px; background: var(--accent-amber); border-radius: 50%; }
+    .date-group-heading::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, var(--border-strong), transparent); }
+    .date-group-heading:first-child { margin-top: 0; }
+
+    /* ---- Event cards (river-edge gradient) ---- */
+    .event-card {
+      background: var(--bg-surface);
+      border: 1px solid var(--border-subtle);
+      border-top: 3px solid transparent;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: var(--card-shadow);
+      display: flex;
+      flex-direction: column;
+      transition: transform 0.18s ease, box-shadow 0.18s ease;
+      background-image: linear-gradient(var(--bg-surface), var(--bg-surface)),
+                        linear-gradient(90deg, var(--accent-primary), var(--accent-green), var(--accent-amber));
+      background-origin: border-box;
+      background-clip: padding-box, border-box;
+    }
+    .event-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 18px 36px -14px rgba(0, 0, 0, 0.45);
+    }
+    .event-card__image {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+      display: block;
+      background: var(--bg-surface-elevated);
+    }
+    .event-card__body { padding: 1.1rem 1.25rem; display: flex; flex-direction: column; gap: 0.4rem; }
+    .event-card__badges { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 0.15rem; }
+
+    .category-badge {
+      font-size: 0.66rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--accent-primary);
+      background: var(--accent-light);
+      padding: 0.18rem 0.55rem;
+      border-radius: 4px;
+    }
+    .confidence-badge {
+      font-size: 0.68rem;
+      font-weight: 500;
+      letter-spacing: 0.02em;
+      padding: 0.18rem 0.55rem;
+      border-radius: 4px;
+      border: 1px dashed transparent;
+    }
+    .confidence-badge.confidence-low { color: var(--accent-amber); border-color: rgba(233, 161, 59, 0.5); background: rgba(233, 161, 59, 0.1); }
+    .confidence-badge.confidence-medium { color: var(--accent-green); border-color: rgba(111, 162, 95, 0.45); background: rgba(111, 162, 95, 0.1); }
+
+    .event-title {
+      color: var(--text-main);
+      text-decoration: none;
+      font-family: var(--font-display);
+      font-size: 1.02rem;
+      font-weight: 600;
+      line-height: 1.35;
+      transition: color 0.15s ease;
+    }
+    .event-title:hover { color: var(--accent-primary); }
+    .event-meta { font-size: 0.82rem; color: var(--text-muted); }
+    .event-address { font-size: 0.78rem; color: var(--text-subtle); }
+    .event-source { font-size: 0.72rem; color: var(--text-subtle); margin-top: 0.3rem; }
+
+    /* ---- Footer ---- */
+    .app-footer {
+      position: relative;
+      background: var(--bg-surface);
+      border-top: 1px solid var(--border-subtle);
+      padding: 2.4rem 1.5rem 2rem;
+      margin-top: auto;
+      overflow: hidden;
+    }
+    .app-footer::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 16px;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 30' preserveAspectRatio='none'%3E%3Cpath fill='%2343B3C9' fill-opacity='0.14' d='M0 10 C 240 26, 480 2, 720 12 S 1200 24, 1440 8 L 1440 30 L 0 30 Z'/%3E%3C/svg%3E");
+      background-size: 1440px 16px;
+      background-repeat: repeat-x;
+    }
+    .footer-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .footer-info h3 { font-family: var(--font-display); font-size: 1.2rem; font-weight: 600; margin-bottom: 0.3rem; }
+    .footer-info p { font-size: 0.82rem; color: var(--text-muted); max-width: 520px; }
+    .footer-meta { text-align: right; font-size: 0.8rem; color: var(--text-subtle); }
+    .footer-links a { color: var(--text-muted); text-decoration: none; }
+    .footer-links a:hover { color: var(--accent-primary); }
+
+    /* ---- Responsive ---- */
+    @media (max-width: 768px) {
+      .header-container { flex-direction: column; align-items: flex-start; }
+      .topic-form .form-row { flex-direction: column; }
+      .controls-container { flex-direction: column; align-items: stretch; }
+      .filter-controls { flex-direction: column; align-items: stretch; }
+      .search-input-wrapper input, .search-input-wrapper input:focus { width: 100%; }
+      .footer-container { flex-direction: column; align-items: flex-start; }
+      .footer-meta { text-align: left; }
+    }
+  </style>
+</head>
+<body>
+  <div class="preview-banner">Look &amp; Feel Preview — Option 2 of 3 · “River Current” · Not the live site · Real event data</div>
+
+  <header class="app-header">
+    <div class="header-container">
+      <div class="brand-block">
+        <div class="logo-badge">A</div>
+        <div class="brand-text">
+          <h1>Aurora Events</h1>
+          <p class="subtitle">The Fox River Valley’s Calendar — Refreshed 6:00 AM &amp; 5:30 PM CDT</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <button id="toggle-submit-panel" class="btn btn--secondary" type="button" aria-expanded="false">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+          Propose a Source
+        </button>
+        <button id="theme-toggle" class="theme-toggle-btn" type="button" aria-label="Toggle dark/light theme" title="Toggle Theme">
+          <svg class="icon icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></svg>
+          <svg class="icon icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <section id="topic-submit-panel" class="topic-submit-panel hidden">
+      <div class="panel-card">
+        <div class="panel-header">
+          <h2>Propose an Event Source</h2>
+          <button id="close-submit-panel" class="btn-icon" type="button" aria-label="Close panel">✕</button>
+        </div>
+        <form id="propose-topic-form" class="topic-form">
+          <div class="form-row">
+            <div class="form-group flex-2">
+              <label for="topic-input">Source URL (calendar page, ICS feed, or RSS/Atom feed)</label>
+              <input id="topic-input" type="text" placeholder="e.g. https://example.org/events/" />
+            </div>
+            <div class="form-group flex-1">
+              <label for="topic-venue">Venue / Organization Name</label>
+              <input id="topic-venue" type="text" placeholder="e.g. The Venue" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group flex-1">
+              <label for="topic-type">Source Type</label>
+              <select id="topic-type">
+                <option value="html">HTML Calendar Page</option>
+                <option value="jsonld">JSON-LD Event Page</option>
+                <option value="ics">ICS / iCal Feed</option>
+                <option value="rss">RSS / Atom Feed</option>
+              </select>
+            </div>
+            <div class="form-group flex-1">
+              <label for="topic-category">Category</label>
+              <select id="topic-category">
+                <option value="Civic">Civic</option>
+                <option value="Entertainment">Entertainment</option>
+                <option value="Live Music">Live Music</option>
+                <option value="Faith">Faith</option>
+                <option value="Retail">Retail</option>
+                <option value="Parks &amp; Rec">Parks &amp; Rec</option>
+                <option value="Education">Education</option>
+                <option value="Community">Community</option>
+                <option value="General">General</option>
+              </select>
+            </div>
+          </div>
+          <div class="action-bar">
+            <button type="button" class="btn btn--primary">Submit Issue on GitHub</button>
+            <button type="button" class="btn btn--secondary">1-Click PR (Edit sources.json)</button>
+            <button type="submit" class="btn btn--outline">Save in Browser Only</button>
+            <button type="button" class="btn btn--ghost">Copy JSON Snippet</button>
+          </div>
+          <p class="preview-note">Preview build: these buttons don’t submit anything.</p>
+        </form>
+      </div>
+    </section>
+  </header>
+
+  <div class="sticky-controls-bar">
+    <div class="controls-container">
+      <nav id="category-tabs" class="category-tabs" aria-label="Event Categories"></nav>
+      <div class="filter-controls">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg>
+          <input id="search-filter" type="search" placeholder="Filter by keyword, venue, source..." aria-label="Filter events" />
+          <button id="clear-search" class="clear-search-btn hidden" type="button" aria-label="Clear filter">✕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main id="dashboard" class="dashboard">
+    <div id="status-message" class="status-card">
+      <div class="spinner"></div>
+      <p>Fetching latest events snapshot…</p>
+    </div>
+  </main>
+
+  <footer class="app-footer">
+    <div class="footer-container">
+      <div class="footer-info">
+        <h3>Aurora Events</h3>
+        <p>
+          Open source, zero-tracking local events calendar for Aurora and the Fox River Valley. A hybrid
+          ICS/JSON-LD/HTML/API pipeline runs twice daily via GitHub Actions and commits results to static JSON.
+        </p>
+      </div>
+      <div class="footer-meta">
+        <p id="last-updated" class="last-updated"></p>
+        <div class="footer-links">
+          <a href="#" rel="noopener noreferrer">GitHub Repository</a>
+          <span>·</span>
+          <a href="#" rel="noopener noreferrer">View Data Sources</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="preview-common.js"></script>
+</body>
+</html>

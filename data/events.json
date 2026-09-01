@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-01T22:49:52.005Z",
+  "generatedAt": "2026-09-01T22:54:46.272Z",
   "events": [
     {
       "id": "4380280d90e9772d",
@@ -3649,8 +3649,8 @@
       "venue": "RiverEdge Park",
       "address": "360 N. Broadway\r\nAurora, IL 60505",
       "category": "Entertainment",
-      "sourceId": "riveredge-park",
-      "sourceLabel": "RiverEdge Park",
+      "sourceId": "paramount-theatre",
+      "sourceLabel": "Paramount Theatre",
       "link": "https://paramountaurora.com/events/fiestas-patrias-2026/",
       "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/08/FiestasPatrias_2026_800x445-scaled.jpg",
       "confidence": "medium",
@@ -9114,23 +9114,6 @@
       "tags": []
     },
     {
-      "id": "045960dd9db5d9d7",
-      "title": "Citizen Kane",
-      "description": "A reporter investigates the mysterious last word of a powerful newspaper tycoon.",
-      "start": "2026-11-24T01:00:00.000Z",
-      "end": "2026-11-24T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/citizen-kane/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-CITIZEN-KANE-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "801cd0d81f372e30",
       "title": "Jardín de lectura-Chamanes eléctricos en la fiesta del sol",
       "description": "Somos un club de lectura bilingüe enfocado en autores latinos/hispanos que se reúne en persona para conversar. \n We are a bilingual book club focused on Latino/Hispanic authors that meets in person.",
@@ -9182,23 +9165,6 @@
       "tags": []
     },
     {
-      "id": "521a43c2099ae6ad",
-      "title": "National Lampoon&#8217;s Christmas Vacation",
-      "description": "Clark Griswold tries to create the perfect Christmas for his family, but everything that can go wrong does.",
-      "start": "2026-12-01T01:00:00.000Z",
-      "end": "2026-12-01T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/national-lampoons-christmas-vacation-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-CHRISTMAS-VACATION-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "91940cb7a61e8b92",
       "title": "It&#8217;s A Wonderful Life",
       "description": "An angel shows a struggling man what life would have been like if he had never been born.",
@@ -9212,23 +9178,6 @@
       "sourceLabel": "Paramount Theatre",
       "link": "https://paramountaurora.com/events/its-a-wonderful-life-3/",
       "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-IAWL-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "672aa946f7bc2115",
-      "title": "The Santa Clause",
-      "description": "A man accidentally becomes Santa Claus and must take over the role before next Christmas.",
-      "start": "2026-12-15T01:00:00.000Z",
-      "end": "2026-12-15T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/the-santa-clause-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-THE-SANTA-CLAUSE-CI-800x445-1.png",
       "confidence": "medium",
       "tags": []
     },
@@ -9297,23 +9246,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17275249",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "3c9f42c7fd01e9d4",
-      "title": "Home Alone",
-      "description": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
-      "start": "2026-12-22T01:00:00.000Z",
-      "end": "2026-12-22T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/home-alone-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2024/04/24PCMMV2-HOME-ALONE-CI-800x445-1.jpg",
       "confidence": "medium",
       "tags": []
     },
@@ -9599,11 +9531,45 @@
       "venue": "RiverEdge Park",
       "address": "360 N. Broadway\r\nAurora, IL 60505",
       "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
+      "sourceId": "riveredge-park",
+      "sourceLabel": "RiverEdge Park",
       "link": "https://paramountaurora.com/events/the-beach-boys/",
       "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/03/TBB_800x445.jpg",
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "5fbc67cdf315efdc",
+      "title": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox",
+      "description": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox\nSun [Mon | Tue | Wed Thu Fri Ta\nBoars Pro | Monday Nght | Hessosdoor | Sosa coo Seman | Timmons |\n\nSeason Games | BINGO Begins | Specht | SMT | [onl sober,\n\nAug vs Comiaod | September 140 | memmances | Frasers. | IsNowAviablofor | Gh bspnieana y\nfreind k, SETI, | Ane Er sean\nAug BToees | OTPM | Tey Sd | Sonim | pemm ay fii\n\n7. [5 © GSDON —[Sm",
+      "start": null,
+      "end": null,
+      "allDay": false,
+      "venue": "The Phoenix Club",
+      "address": "515 Phoenix Court, Aurora, IL",
+      "category": "Club / Social",
+      "sourceId": "phoenix-club",
+      "sourceLabel": "The Phoenix Club",
+      "link": "https://www.auroraphoenixclub.net/calendar",
+      "imageUrl": "https://static.wixstatic.com/media/db9feb_b423bbdda0dd4393a67b15356fb5acc4~mv2.jpg/v1/fill/w_600,h_454,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/August%202026%20.jpg",
+      "confidence": "low",
+      "tags": []
+    },
+    {
+      "id": "0e1598dbc9b21cad",
+      "title": "=",
+      "description": "=",
+      "start": null,
+      "end": null,
+      "allDay": false,
+      "venue": "The Phoenix Club",
+      "address": "515 Phoenix Court, Aurora, IL",
+      "category": "Club / Social",
+      "sourceId": "phoenix-club",
+      "sourceLabel": "The Phoenix Club",
+      "link": "https://www.auroraphoenixclub.net/calendar",
+      "imageUrl": "https://static.wixstatic.com/media/db9feb_5febec48a17945b7b11d210d8dd15516~mv2.png/v1/fill/w_245,h_326,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/db9feb_5febec48a17945b7b11d210d8dd15516~mv2.png",
+      "confidence": "low",
       "tags": []
     }
   ],
@@ -9659,13 +9625,13 @@
     {
       "id": "paramount-theatre",
       "ok": true,
-      "count": 27,
+      "count": 23,
       "error": null
     },
     {
       "id": "riveredge-park",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
@@ -9742,9 +9708,9 @@
     },
     {
       "id": "phoenix-club",
-      "ok": false,
-      "count": 0,
-      "error": "spawn EPERM"
+      "ok": true,
+      "count": 2,
+      "error": null
     },
     {
       "id": "eventbrite-aurora-il",
