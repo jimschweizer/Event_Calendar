@@ -14,9 +14,8 @@
     "category": "Civic",
     "venue": "Aurora Area",
     "address": "Aurora, IL",
-    "type": "html",
-    "url": "https://www.enjoyaurora.com/events/",
-    "selectors": { "item": "article, .event, .event-item, .card" }
+    "type": "rss",
+    "url": "https://www.enjoyaurora.com/event/rss/"
   },
   {
     "id": "aurora-chamber",
@@ -24,19 +23,26 @@
     "category": "Commerce",
     "venue": "Aurora Chamber of Commerce",
     "address": "Aurora, IL",
-    "type": "html",
-    "url": "https://business.aurorachamber.com/events/calendar",
-    "selectors": { "item": "article, .event, .mn-event, li" }
+    "type": "api-json",
+    "url": "https://business.auroraalliance.org/api/widget/events_upcoming",
+    "apiJson": {
+      "title": "Name",
+      "start": "StartDate",
+      "end": "EndDate",
+      "allDay": "IsAllDay",
+      "link": "URL",
+      "venue": "Location",
+      "description": "Description"
+    }
   },
   {
     "id": "aurora-city-events",
-    "label": "City of Aurora Events Directory",
+    "label": "City of Aurora Events",
     "category": "Civic",
     "venue": "City of Aurora",
     "address": "Aurora, IL",
-    "type": "html",
-    "url": "https://www.aurora.il.us/Events-directory",
-    "selectors": { "item": "article, .event, .item, li" }
+    "type": "ics",
+    "url": "https://aurorailevents.com/events/?ical=1"
   },
   {
     "id": "aurora-city-council",
@@ -63,9 +69,18 @@
     "category": "Education",
     "venue": "Aurora Public Library",
     "address": "1 E Benton St, Aurora, IL",
-    "type": "html",
-    "url": "https://www.aurorapubliclibrary.org/events",
-    "selectors": { "item": "article, .event, .lc-event, li" }
+    "type": "api-json",
+    "url": "https://aurora.libnet.info/eeventcaldata",
+    "apiJson": {
+      "query": { "event_type": "0", "req": "{\"private\":false,\"date\":\"{{today}}\",\"days\":120}" },
+      "title": "title",
+      "start": "event_start",
+      "end": "event_end",
+      "link": "url",
+      "venue": "location",
+      "address": "library",
+      "description": "description"
+    }
   },
   {
     "id": "east-aurora-high",
@@ -145,7 +160,7 @@
     "address": "406 W Galena Blvd, Aurora, IL",
     "type": "html",
     "url": "https://www.newenglandchurch.org/sundays/this-week/",
-    "selectors": { "item": "article, .event, li, p" }
+    "selectors": { "item": ".user-content", "title": "h3", "date": "h2", "link": "a" }
   },
   {
     "id": "calvary-church",
@@ -154,8 +169,8 @@
     "venue": "Calvary Church",
     "address": "Naperville / Aurora, IL",
     "type": "html",
-    "url": "https://calvarynaperville.org/events",
-    "selectors": { "item": "article, .event, .card, li" }
+    "url": "https://subsplash.com/+nn2j/lb/ca/+krb5x9f?embed&branding",
+    "selectors": { "item": "a[href*='/lb/ev/']", "title": "h2", "date": "h3" }
   },
   {
     "id": "our-lady-of-mercy",
@@ -165,7 +180,7 @@
     "address": "701 S Eola Rd, Aurora, IL",
     "type": "html",
     "url": "https://olmercy.com/calendar/",
-    "selectors": { "item": "article, .event, .tribe-events-calendar-list__event, li" }
+    "selectors": { "item": ".simcal-event", "title": ".simcal-event-title", "date": ".simcal-event-start-date" }
   },
   {
     "id": "st-marks-lutheran",
@@ -185,7 +200,11 @@
     "address": "Aurora, IL",
     "type": "html",
     "url": "https://www.stmichaelromanianchurch.org/events",
-    "selectors": { "item": "article, .event, li" }
+    "selectors": {
+      "item": "#comp-mnq60nu1 li, #comp-mfi9umdf li, #comp-ls2p8uv9 li",
+      "title": "a",
+      "date": "p"
+    }
   },
   {
     "id": "cathedral-of-grace",
@@ -265,8 +284,20 @@
     "category": "News Mentions",
     "venue": "Fox Valley Region (aggregated)",
     "address": "Fox Valley, IL",
-    "type": "html",
-    "url": "https://www.shawlocal.com/best-of-the-fox/local-events/",
-    "selectors": { "item": "article, .event, li" }
+    "type": "api-json",
+    "url": "https://portal.cityspark.com/api/events/GetEvents/BestoftheFox",
+    "apiJson": {
+      "method": "POST",
+      "body": { "start": "{{today}}", "end": "{{today+120}}" },
+      "itemsPath": "Value",
+      "title": "Name",
+      "start": "DateStart",
+      "end": "DateEnd",
+      "allDay": "AllDay",
+      "link": "Links[0].url",
+      "venue": "Venue",
+      "address": "CityState",
+      "description": "Short"
+    }
   }
 ]

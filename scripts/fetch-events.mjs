@@ -16,6 +16,7 @@ import { normalizeEvent, dedupeEvents, dedupeWeeklyRuns, filterMultiShowRuns } f
 import { fetchSource as fetchIcs } from "./adapters/ics.mjs";
 import { fetchSource as fetchJsonLd } from "./adapters/jsonld.mjs";
 import { fetchSource as fetchHtml } from "./adapters/html.mjs";
+import { fetchSource as fetchApiJson } from "./adapters/api-json.mjs";
 import { fetchSource as fetchRss } from "./adapters/rss.mjs";
 import { fetchSource as fetchLegistar } from "./adapters/legistar.mjs";
 import { fetchSource as fetchEventbrite } from "./adapters/eventbrite.mjs";
@@ -31,6 +32,7 @@ const ADAPTERS = {
   ics: fetchIcs,
   jsonld: fetchJsonLd,
   html: fetchHtml,
+  "api-json": fetchApiJson,
   rss: fetchRss,
   "api-legistar": fetchLegistar,
   "api-eventbrite": fetchEventbrite,

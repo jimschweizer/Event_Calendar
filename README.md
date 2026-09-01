@@ -88,6 +88,20 @@ report 0 events until tuned. To fix one:
    `datetime` attribute or parseable date text).
 3. Re-run and confirm real events appear with sane titles/dates.
 
+Notes from the tuning pass:
+
+- Where a source's own widget is backed by a public JSON API (ChamberMaster/GrowthZone chamber
+  calendars, Communico library calendars, CitySpark community-event portals), prefer the
+  `api-json` adapter over scraping the JS-rendered page — see the `apiJson` configs in
+  `data/sources.json`.
+- A few sources remain at 0 by design and show it honestly in `sourceStatus`:
+  - `hollywood-casino` — pennentertainment.com sits behind a Cloudflare JS challenge (HTTP 403).
+  - `chicago-premium-outlets` — Simon's content API returns no current events for the mall.
+  - `st-marks-lutheran` — the CloverSites calendar app renders client-side and its API requires
+    authorization.
+  - `phoenix-club` — Wix image flyers OCR'd locally (`spawn EPERM` appears only in sandboxed
+    runs; it works in GitHub Actions).
+
 ## Optional API Keys
 
 Two sources are key-gated and skip gracefully (not a failure) if unset:
