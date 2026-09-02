@@ -43,12 +43,34 @@ jobs:
           EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
           TICKETMASTER_KEY: ${{ secrets.TICKETMASTER_KEY }}
 
-      - name: Commit updated events.json
+      # Commit the regenerated data and push. A concurrent push (human commit,
+      # another run) between our checkout and this push makes git reject the
+      # push as non-fast-forward — in that case resync to the fresh tip and
+      # regenerate ONCE from whatever code now lives on main, so the bot's data
+      # is never generated from stale code, then push again. (Bash with -e: the
+      # `if` guards the first failure so the else-branch can run.)
+      - name: Commit and push updated events.json
         run: |
           git config user.name "aurora-events-bot"
           git config user.email "aurora-events-bot@users.noreply.github.com"
-          git add data/events.json
-          git diff --cached --quiet || (git commit -m "chore: refresh events data" && git push)
+          commit_and_push() {
+            git add data/events.json
+            git diff --cached --quiet && { echo "No data changes to commit"; exit 0; }
+            git commit -m "chore: refresh events data"
+            git push
+          }
+          if commit_and_push; then
+            echo "Push succeeded"
+          else
+            echo "Push rejected (main advanced mid-run) - resyncing and regenerating once"
+            git fetch origin
+            git reset --hard origin/main
+            npm run fetch-events
+            git add data/events.json
+            git diff --cached --quiet && { echo "No data changes after resync"; exit 0; }
+            git commit -m "chore: refresh events data"
+            git push
+          fi
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
