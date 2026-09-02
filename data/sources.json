@@ -290,6 +290,7 @@
       "method": "POST",
       "body": { "start": "{{today}}", "end": "{{today+120}}" },
       "itemsPath": "Value",
+      "chicagoWallTimes": true,
       "title": "Name",
       "start": "DateStart",
       "end": "DateEnd",

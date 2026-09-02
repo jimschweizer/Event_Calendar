@@ -1,19 +1,21 @@
-import { FETCH_TIMEOUT_MS } from "../lib/normalize.mjs";
+import { FETCH_TIMEOUT_MS, parseLooseDate } from "../lib/normalize.mjs";
 
 const LOOKAHEAD_DAYS = 60;
 const MAX_EVENTS = 25;
 
 // Legistar's EventDate has no time component; EventTime is a separate "h:mm AM/PM" string.
+// The combined value carries no zone → parseLooseDate interprets it as
+// America/Chicago wall time (deterministic on the UTC cron runner).
 function combineDateTime(eventDate, eventTime) {
   if (!eventDate) return null;
   const datePart = eventDate.slice(0, 10);
-  if (!eventTime) return new Date(`${datePart}T00:00:00`).toISOString();
+  if (!eventTime) return parseLooseDate(`${datePart}T00:00:00`);
   const match = eventTime.match(/(\d{1,2}):(\d{2})\s*(AM|PM)/i);
-  if (!match) return new Date(`${datePart}T00:00:00`).toISOString();
+  if (!match) return parseLooseDate(`${datePart}T00:00:00`);
   let [, hh, mm, ap] = match;
   let hour = Number(hh) % 12;
   if (ap.toUpperCase() === "PM") hour += 12;
-  return new Date(`${datePart}T${String(hour).padStart(2, "0")}:${mm}:00`).toISOString();
+  return parseLooseDate(`${datePart}T${String(hour).padStart(2, "0")}:${mm}:00`);
 }
 
 export async function fetchSource(source) {

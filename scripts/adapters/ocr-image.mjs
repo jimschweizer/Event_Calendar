@@ -11,6 +11,12 @@ const WORKER_TIMEOUT_MS = 90000;
 // Running it as a child process means that crash only kills the worker;
 // this adapter just sees a failed subprocess and reports it as this
 // source's error, same as any other fetch failure.
+//
+// NOTE: OCR here is CPU-only (tesseract.js) and stays low-confidence by
+// design. If flyer parsing ever needs upgrading, the dev machine has an
+// NVIDIA RTX 3060 Ti (8 GB, CUDA 13.1) available for GPU OCR or a small
+// vision model — see "Local Development Machine" in CLAUDE.md. The GitHub
+// Actions cron has no GPU, so any GPU path must be dev-machine-only.
 export async function fetchSource(source) {
   return new Promise((resolve) => {
     const child = spawn(process.execPath, [WORKER_PATH, JSON.stringify(source)], {

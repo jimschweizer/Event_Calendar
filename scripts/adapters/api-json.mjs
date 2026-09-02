@@ -10,6 +10,9 @@
 //     "query": { ... }                    query params (values may contain {{today}} / {{today+N}})
 //     "body": { ... }                     POST body (same token support)
 //     "itemsPath": "Value"                dot path to the event array (default: response root)
+//     "chicagoWallTimes": true            treat returned datetimes as America/Chicago wall
+//                                         clock even when they carry a UTC "Z" suffix (some
+//                                         portals, e.g. CitySpark, stamp local times as UTC)
 //     "title": "Name",                    dot path, e.g. "Links[0].url"
 //     "start": "StartDate",
 //     "end": "EndDate",
@@ -24,7 +27,7 @@
 // e.g. CitySpark's "0001-01-01" placeholders) are dropped, mirroring the html
 // adapter's "must have a real date" rule.
 
-import { USER_AGENT, FETCH_TIMEOUT_MS, parseLooseDate } from "../lib/normalize.mjs";
+import { USER_AGENT, FETCH_TIMEOUT_MS, parseLooseDate, chicagoWallToISOString } from "../lib/normalize.mjs";
 
 function pad(n) {
   return String(n).padStart(2, "0");
@@ -70,8 +73,19 @@ function getPath(obj, path) {
   return cur;
 }
 
+// For APIs whose "Z" timestamps are really America/Chicago wall times
+// (CitySpark stamps local times as UTC): drop the zone suffix, then parse the
+// remaining wall clock in Chicago — otherwise every event renders ~5h early.
+function parseApiDate(value, chicagoWallTimes) {
+  if (value == null || value === "") return null;
+  if (!chicagoWallTimes) return parseLooseDate(value);
+  const stripped = String(value).trim().replace(/(?:Z|[+-]\d{2}:?\d{2})\s*$/i, "");
+  return chicagoWallToISOString(stripped) || parseLooseDate(stripped);
+}
+
 export async function fetchSource(source) {
   const cfg = source.apiJson || {};
+  const chicagoWallTimes = !!cfg.chicagoWallTimes;
   const method = (cfg.method || "GET").toUpperCase();
   const baseUrl = source.url;
 
@@ -108,7 +122,7 @@ export async function fetchSource(source) {
       if (!title) continue;
 
       const rawStart = getPath(item, cfg.start);
-      const start = parseLooseDate(rawStart);
+      const start = parseApiDate(rawStart, chicagoWallTimes);
       // Reject placeholder dates (e.g. "0001-01-01") and anything unparseable.
       if (!start || start < "2000-01-01T00:00:00.000Z") continue;
 
@@ -130,7 +144,7 @@ export async function fetchSource(source) {
         title,
         description: String(getPath(item, cfg.description) ?? "").trim(),
         start,
-        end: parseLooseDate(getPath(item, cfg.end)) || undefined,
+        end: parseApiDate(getPath(item, cfg.end), chicagoWallTimes) || undefined,
         allDay: !!getPath(item, cfg.allDay),
         venue: String(getPath(item, cfg.venue) ?? "").trim(),
         address: String(getPath(item, cfg.address) ?? "").trim(),

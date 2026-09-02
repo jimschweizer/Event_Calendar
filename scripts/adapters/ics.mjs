@@ -1,5 +1,27 @@
 import ical from "node-ical";
-import { USER_AGENT, FETCH_TIMEOUT_MS } from "../lib/normalize.mjs";
+import { USER_AGENT, FETCH_TIMEOUT_MS, parseLooseDate } from "../lib/normalize.mjs";
+
+function pad2(n) {
+  return String(n).padStart(2, "0");
+}
+
+// node-ical parses VALUE=DATE entries as *midnight in the runner's local
+// timezone* — on the UTC cron that lands one calendar day early for Chicago
+// viewers. Re-anchor date-only entries to America/Chicago midnight instead.
+// (Extracting the calendar date from node-ical's local-midnight Date is safe
+// in any runner timezone.)
+function dateOnlyToIso(dateLike) {
+  if (!dateLike) return null;
+  const d = new Date(dateLike);
+  if (Number.isNaN(d.getTime())) return null;
+  const wall = `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}T00:00:00`;
+  return parseLooseDate(wall);
+}
+
+function startToIso(item) {
+  if (item.datetype === "date") return dateOnlyToIso(item.start);
+  return item.start ? new Date(item.start).toISOString() : null;
+}
 
 export async function fetchSource(source) {
   try {
@@ -21,8 +43,8 @@ export async function fetchSource(source) {
       events.push({
         title: item.summary || "",
         description: item.description || "",
-        start: item.start ? new Date(item.start).toISOString() : null,
-        end: item.end ? new Date(item.end).toISOString() : null,
+        start: startToIso(item),
+        end: item.datetype === "date" ? dateOnlyToIso(item.end) : item.end ? new Date(item.end).toISOString() : null,
         allDay: item.datetype === "date",
         venue: item.location || "",
         link: item.url || source.url,

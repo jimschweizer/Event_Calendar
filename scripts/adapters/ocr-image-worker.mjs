@@ -4,7 +4,7 @@
 // that crash only takes down this worker, not the whole fetch-events run.
 import * as cheerio from "cheerio";
 import { createWorker } from "tesseract.js";
-import { USER_AGENT, FETCH_TIMEOUT_MS } from "../lib/normalize.mjs";
+import { USER_AGENT, FETCH_TIMEOUT_MS, parseLooseDate } from "../lib/normalize.mjs";
 
 const DEFAULT_MAX_IMAGES = 5;
 const SKIP_IMAGE_PATTERN = /logo|icon|avatar|favicon|sprite|\.svg(\?|$)/i;
@@ -48,14 +48,17 @@ function guessDateTime(text) {
   const match = text.match(DATE_PATTERN);
   if (!match) return null;
   const cleaned = match[0].replace(/(st|nd|rd|th)/i, "");
-  const d = new Date(cleaned);
-  if (Number.isNaN(d.getTime())) return null;
+  // Date-only flyer text → America/Chicago midnight via parseLooseDate
+  // (deterministic regardless of the machine running the worker).
+  const iso = parseLooseDate(cleaned);
+  if (!iso) return null;
+  const d = new Date(iso);
   // OCR misreads (e.g. a garbled year) can produce a technically-valid but
   // nonsensical date; bound to a plausible window rather than show garbage.
   const year = d.getFullYear();
   const nowYear = new Date().getFullYear();
   if (year < nowYear - 1 || year > nowYear + 2) return null;
-  return d.toISOString();
+  return iso;
 }
 
 async function fetchImageBuffer(url) {

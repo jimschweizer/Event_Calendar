@@ -3,6 +3,138 @@ import crypto from "node:crypto";
 export const USER_AGENT = "Mozilla/5.0 (compatible; AuroraEventsBot/0.1; +https://github.com/)";
 export const FETCH_TIMEOUT_MS = 15000;
 
+// Every source on this calendar is an Aurora / Fox Valley (IL) venue, so a
+// date-time that carries no explicit UTC offset is a wall-clock time in
+// America/Chicago — NOT the timezone of whatever machine happens to run the
+// fetch. Parsing naive strings with the process-local zone made the output
+// depend on the runner: the GitHub Actions cron (UTC) produced every naive
+// time ~5h early for Chicago viewers, while a dev run in Chicago happened to
+// look right. All naive/zone-less parsing below is anchored to Chicago.
+const EVENT_TIME_ZONE = "America/Chicago";
+
+// Chicago's UTC offset (minutes west, e.g. -300 in CDT / -360 in CST) at a
+// given UTC instant. Requires full-icu Intl (Node 16+, all modern browsers).
+function chicagoOffsetMinutes(utcMs) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: EVENT_TIME_ZONE,
+    timeZoneName: "longOffset",
+  }).formatToParts(new Date(utcMs));
+  const tzPart = parts.find((p) => p.type === "timeZoneName")?.value || "";
+  const m = /GMT([+-])(\d{2}):(\d{2})/.exec(tzPart);
+  if (!m) return 0;
+  const sign = m[1] === "-" ? -1 : 1;
+  return sign * (Number(m[2]) * 60 + Number(m[3]));
+}
+
+function pad2(n) {
+  return String(n).padStart(2, "0");
+}
+
+// The wall-clock components (local time in America/Chicago) of a UTC instant.
+function chicagoWallParts(utcMs) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: EVENT_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hourCycle: "h23",
+  }).formatToParts(new Date(utcMs));
+  const get = (t) => (parts.find((p) => p.type === t) || {}).value;
+  return {
+    year: Number(get("year")),
+    month: Number(get("month")),
+    day: Number(get("day")),
+    hour: Number(get("hour")),
+    minute: Number(get("minute")),
+    second: Number(get("second")),
+  };
+}
+
+// Interprets an ISO-style wall-clock value ("2026-09-01 11:00:00",
+// "2026-09-01T11:00:00", or a date-only "2026-09-01") as America/Chicago time
+// and returns the equivalent UTC ISO instant (or null if unparseable).
+export function chicagoWallToISOString(value) {
+  if (value == null) return null;
+  const s = String(value).trim();
+  let m = /^(\d{4})-(\d{1,2})-(\d{1,2})[T ](\d{1,2}):(\d{2})(?::(\d{2}))?$/.exec(s);
+  if (!m) m = /^(\d{4})-(\d{1,2})-(\d{1,2})$/.exec(s);
+  if (!m) return null;
+  const wall = {
+    year: Number(m[1]),
+    month: Number(m[2]),
+    day: Number(m[3]),
+    hour: m[4] === undefined ? 0 : Number(m[4]),
+    minute: m[4] === undefined ? 0 : Number(m[5]),
+    second: m[4] === undefined ? 0 : Number(m[6] || 0),
+  };
+  // Guess the instant by reading the wall clock as UTC, then correct once for
+  // DST edges: wall time = UTC + offset, so instant = wall − offset.
+  const guess = Date.UTC(wall.year, wall.month - 1, wall.day, wall.hour, wall.minute, wall.second);
+  if (Number.isNaN(guess)) return null;
+  let instant = guess - chicagoOffsetMinutes(guess) * 60000;
+  for (let i = 0; i < 2; i++) {
+    const got = chicagoWallParts(instant);
+    if (
+      got.year === wall.year &&
+      got.month === wall.month &&
+      got.day === wall.day &&
+      got.hour === wall.hour &&
+      got.minute === wall.minute &&
+      got.second === wall.second
+    ) {
+      break;
+    }
+    instant = guess - chicagoOffsetMinutes(instant) * 60000;
+  }
+  return new Date(instant).toISOString();
+}
+
+// True when the string itself declares a zone (trailing Z or ±hh:mm offset).
+const DECLARES_ZONE = /(?:Z|[+-]\d{2}:?\d{2})\s*$/i;
+// RFC-822 style zone abbreviations V8 understands (GMT/UTC/US zones). These
+// carry real zone semantics, so they must parse as instants, not wall time.
+const ZONE_ABBR = /\b(?:GMT|UTC|[ECMP][SD]T|EST|CST|MST|PST|AKST|AKDT|HST|HAST|HADT)\b\s*$/i;
+// Purely numeric values are epoch millis — always instants, never wall time.
+const NUMERIC_ONLY = /^\d+$/;
+
+export function parseLooseDate(value) {
+  if (value == null || value === "") return null;
+  if (value instanceof Date) {
+    return Number.isNaN(value.getTime()) ? null : value.toISOString();
+  }
+  const s = String(value).trim();
+  if (!s) return null;
+  if (NUMERIC_ONLY.test(s)) {
+    const d = new Date(Number(s));
+    return Number.isNaN(d.getTime()) ? null : d.toISOString();
+  }
+  // Explicit numeric zone (e.g. "…T19:30:00-05:00", "…T19:30:00Z",
+  // RFC-822 "…-0500") or a zone abbreviation: a true instant.
+  if (DECLARES_ZONE.test(s) || ZONE_ABBR.test(s)) {
+    const d = new Date(value);
+    return Number.isNaN(d.getTime()) ? null : d.toISOString();
+  }
+  // No zone at all → a wall clock in Aurora, IL (America/Chicago).
+  const wall = chicagoWallToISOString(s);
+  if (wall) return wall;
+  // Lenient wall forms ("September 12, 2026 7:30 PM", "9/12/2026 19:30").
+  // V8 parses these as runner-local time, but reading back the *local*
+  // components yields exactly the wall clock that was written, in any runner
+  // timezone — so rebuild those components as Chicago wall time.
+  const d = new Date(value);
+  if (!Number.isNaN(d.getTime())) {
+    const rebuilt = chicagoWallToISOString(
+      `${d.getFullYear()}-${pad2(d.getMonth() + 1)}-${pad2(d.getDate())}` +
+        `T${pad2(d.getHours())}:${pad2(d.getMinutes())}:${pad2(d.getSeconds())}`
+    );
+    if (rebuilt) return rebuilt;
+  }
+  return null;
+}
+
 const CONFIDENCE_BY_TYPE = {
   ics: "high",
   "api-legistar": "high",
@@ -22,12 +154,6 @@ export function stableId(parts) {
   return crypto.createHash("sha1").update(key).digest("hex").slice(0, 16);
 }
 
-export function parseLooseDate(value) {
-  if (!value) return null;
-  const d = new Date(value);
-  return Number.isNaN(d.getTime()) ? null : d.toISOString();
-}
-
 // Normalizes one adapter-shaped raw event into the final event.json shape.
 export function normalizeEvent(raw, source) {
   const title = (raw.title || "").trim() || "(untitled event)";
@@ -36,13 +162,22 @@ export function normalizeEvent(raw, source) {
   const venue = raw.venue || source.venue || "";
   const id = stableId([title, venue, start || raw.start || ""]);
 
+  // Date-only listings (start exactly on America/Chicago midnight and no
+  // meaningful end) carry no real time-of-day — show them as all-day rather
+  // than a fabricated "12:00 AM". Real timed events start at other hours or
+  // carry an end time.
+  let allDay = !!raw.allDay;
+  if (!allDay && start && (!end || end === start) && isChicagoMidnight(start)) {
+    allDay = true;
+  }
+
   return {
     id,
     title,
     description: (raw.description || "").trim(),
     start,
     end,
-    allDay: !!raw.allDay,
+    allDay,
     venue,
     address: raw.address || source.address || "",
     category: source.category || "General",
@@ -53,6 +188,14 @@ export function normalizeEvent(raw, source) {
     confidence: raw.confidence || CONFIDENCE_BY_TYPE[source.type] || "medium",
     tags: raw.tags || [],
   };
+}
+
+// True when the instant lands exactly on midnight in America/Chicago.
+function isChicagoMidnight(iso) {
+  const ms = new Date(iso).getTime();
+  if (Number.isNaN(ms)) return false;
+  const p = chicagoWallParts(ms);
+  return p.hour === 0 && p.minute === 0 && p.second === 0;
 }
 
 // De-dupes by stable id, keeping the first occurrence.

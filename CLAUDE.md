@@ -71,6 +71,16 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   loose class selectors like `[class*='event']` commonly match several nested wrapper/badge/title
   elements around one real event. If you're tuning selectors for a new source and getting zero or
   garbage results, check both of these behaviors before assuming the selector itself is wrong.
+- **All times are America/Chicago wall clock, everywhere.** Every source is an Aurora/Fox Valley
+  venue, so any date-time string that does not carry a real zone (naive "2026-09-01 11:00:00",
+  date-only "2026-09-01", month-name text) is interpreted as Chicago time by `parseLooseDate` in
+  `normalize.mjs` — never the runner's local zone. That matters because the GitHub cron runs in
+  UTC while dev machines run in Chicago; the old process-local parsing produced correct data on
+  dev boxes and 5-hour-shifted data from the cron. Zone-less "midnight" starts with no real end
+  are normalized to all-day (date-only listing) events. CitySpark (shaw-local) is worse: it
+  stamps Chicago wall times with a UTC `Z`, so its source config sets `apiJson.chicagoWallTimes`
+  and the adapter strips the zone before parsing. The frontend renders and day-buckets everything
+  in America/Chicago too (`EVENT_TIME_ZONE` in `app.js`), never the viewer's local zone.
 - `fetch-events.mjs` fetches sources sequentially — same reasoning as the old news fetcher (gentle
   on small/nonprofit sites, readable CI logs), now more important with ~25 distinct external
   domains involved.
@@ -80,3 +90,20 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   around with a headless browser unless you deliberately decide to take on that dependency.
 - The 1-click source submission uses GitHub web URLs (`/issues/new` and `/edit/main/data/sources.json`),
   avoiding client-side GitHub token requirements — same pattern as the original topic-submission flow.
+
+## Local Development Machine (GPU availability)
+
+The repo's dev PC (where this work and the DeepSeek Harness run) has an NVIDIA GPU available for
+local workloads — recorded here so future sessions know to use it when a task needs compute:
+
+- **GPU:** NVIDIA GeForce RTX 3060 Ti — 8 GB VRAM (8192 MiB), compute capability 8.6 (Ampere).
+  Driver 591.86, supports CUDA 13.1. Verify anytime with `nvidia-smi --query-gpu=name,memory.total,driver_version --format=csv`.
+- **What it fits:** local LLM inference (Ollama/llama.cpp — 7–8B quantized models fit comfortably in
+  8 GB; ~14B only with aggressive quantization), GPU-accelerated OCR or a small vision model for
+  parsing image-only flyers (the candidate upgrade path for the low-confidence `ocr-image`
+  Phoenix Club source, which currently runs CPU tesseract.js), or heavier local batch processing
+  of `data/events.json`.
+- **Not yet installed:** no Ollama and no Python torch (Python 3.14.2 exists). Installing one of
+  those is the prerequisite for any GPU LLM/ML work.
+- **Not available in CI:** GitHub Actions runners have no GPU, and the twice-daily fetch cron
+  (`fetch-events.yml`) must stay fully CPU/cloud-portable — GPU is a local-dev-machine option only.

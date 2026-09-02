@@ -3,6 +3,11 @@ const QUEUED_SOURCES_KEY = "auroraevents.queuedSources";
 const THEME_KEY = "auroraevents.theme";
 const DEFAULT_REPO_URL = "https://github.com/jimschweizer/Event_Calendar";
 
+// Every listed event happens in the Aurora / Fox Valley area, so dates and
+// times are always shown as America/Chicago (venue-local) wall clock — never
+// the viewer's own timezone — and day bucketing uses Chicago calendar days.
+const EVENT_TIME_ZONE = "America/Chicago";
+
 const BUCKET_ORDER = ["Today", "Tomorrow", "This Week", "Later", "Unconfirmed Date"];
 
 // DOM Elements
@@ -189,7 +194,49 @@ function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "";
-  return d.toLocaleString(undefined, { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" });
+  return d.toLocaleString(undefined, {
+    month: "short",
+    day: "numeric",
+    hour: "numeric",
+    minute: "2-digit",
+    timeZone: EVENT_TIME_ZONE,
+  });
+}
+
+// Calendar-day helpers anchored to America/Chicago (venue-local).
+function chicagoParts(date) {
+  const parts = new Intl.DateTimeFormat("en-US", {
+    timeZone: EVENT_TIME_ZONE,
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).formatToParts(date);
+  const get = (t) => (parts.find((p) => p.type === t) || {}).value;
+  return { year: get("year"), month: get("month"), day: get("day") };
+}
+
+function dayKeyFromParts(parts) {
+  return `${parts.year}-${parts.month}-${parts.day}`;
+}
+
+// "YYYY-MM-DD" calendar date of an instant in America/Chicago (null if invalid).
+function chicagoDayKey(iso) {
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return dayKeyFromParts(chicagoParts(d));
+}
+
+function chicagoTodayKey() {
+  return dayKeyFromParts(chicagoParts(new Date()));
+}
+
+// Adds n calendar days to a "YYYY-MM-DD" Chicago day key. The anchor sits at
+// 12:00 UTC, which is always mid-day in Chicago, so DST 23/25-hour days can't
+// skip or duplicate a calendar date.
+function shiftChicagoDay(key, n) {
+  const [y, m, d] = key.split("-").map(Number);
+  const anchor = new Date(Date.UTC(y, m - 1, d + n, 12));
+  return chicagoDayKey(anchor.toISOString());
 }
 
 function formatEventDate(event) {
@@ -197,8 +244,8 @@ function formatEventDate(event) {
   const start = new Date(event.start);
   if (Number.isNaN(start.getTime())) return "Date unknown";
 
-  const dateOpts = { weekday: "short", month: "short", day: "numeric" };
-  const timeOpts = { hour: "numeric", minute: "2-digit" };
+  const dateOpts = { weekday: "short", month: "short", day: "numeric", timeZone: EVENT_TIME_ZONE };
+  const timeOpts = { hour: "numeric", minute: "2-digit", timeZone: EVENT_TIME_ZONE };
   const datePart = start.toLocaleDateString(undefined, dateOpts);
 
   if (event.allDay) return datePart;
@@ -207,7 +254,7 @@ function formatEventDate(event) {
   if (event.end) {
     const end = new Date(event.end);
     if (!Number.isNaN(end.getTime()) && end.getTime() !== start.getTime()) {
-      const sameDay = start.toDateString() === end.toDateString();
+      const sameDay = chicagoDayKey(event.start) === chicagoDayKey(event.end);
       const endPart = sameDay ? end.toLocaleTimeString(undefined, timeOpts) : end.toLocaleDateString(undefined, dateOpts);
       return `${datePart}, ${timePart} – ${endPart}`;
     }
@@ -216,33 +263,25 @@ function formatEventDate(event) {
 }
 
 // 5. Date Bucketing
-function startOfDay(date) {
-  const d = new Date(date);
-  d.setHours(0, 0, 0, 0);
-  return d;
-}
-
-function bucketFor(startIso, today, tomorrow, weekEnd) {
+function bucketFor(startIso, todayKey, tomorrowKey, weekEndKey) {
   if (!startIso) return "Unconfirmed Date";
-  const d = startOfDay(new Date(startIso));
-  if (Number.isNaN(d.getTime())) return "Unconfirmed Date";
-  if (d.getTime() === today.getTime()) return "Today";
-  if (d.getTime() === tomorrow.getTime()) return "Tomorrow";
-  if (d.getTime() > tomorrow.getTime() && d.getTime() <= weekEnd.getTime()) return "This Week";
-  if (d.getTime() < today.getTime()) return null; // already past — drop from view
+  const key = chicagoDayKey(startIso);
+  if (!key) return "Unconfirmed Date";
+  if (key === todayKey) return "Today";
+  if (key === tomorrowKey) return "Tomorrow";
+  if (key > tomorrowKey && key <= weekEndKey) return "This Week";
+  if (key < todayKey) return null; // already past — drop from view
   return "Later";
 }
 
 function groupEventsByDate(events) {
-  const today = startOfDay(new Date());
-  const tomorrow = new Date(today);
-  tomorrow.setDate(today.getDate() + 1);
-  const weekEnd = new Date(today);
-  weekEnd.setDate(today.getDate() + 7);
+  const todayKey = chicagoTodayKey();
+  const tomorrowKey = shiftChicagoDay(todayKey, 1);
+  const weekEndKey = shiftChicagoDay(todayKey, 7);
 
   const groups = new Map(BUCKET_ORDER.map((label) => [label, []]));
   for (const event of events) {
-    const label = bucketFor(event.start, today, tomorrow, weekEnd);
+    const label = bucketFor(event.start, todayKey, tomorrowKey, weekEndKey);
     if (!label) continue;
     groups.get(label).push(event);
   }
