@@ -207,9 +207,24 @@ function dedupeEvents(events) {
   });
 }
 
+// Same-run cache for a listing page's fetch, keyed by URL. Some sources
+// deliberately point at the identical listing URL and split it via
+// venueFilter (e.g. paramount-theatre / riveredge-park both read
+// paramountaurora.com/events/) — caching the page fetch means that counts as
+// one request, not two, against a domain that already needs WAF-friendly
+// headers and is rate-limited (see BROWSER_HEADERS / ALM_FETCH_DELAY_MS above).
+const pageCache = new Map();
+
+function fetchPageCached(url) {
+  if (!pageCache.has(url)) {
+    pageCache.set(url, fetchPage(url));
+  }
+  return pageCache.get(url);
+}
+
 export async function fetchSource(source) {
   try {
-    const { html, finalUrl: listingUrl } = await fetchPage(source.url);
+    const { html, finalUrl: listingUrl } = await fetchPageCached(source.url);
     let events = extractEventNodes(html).map((node) => schemaEventToRaw(node, source.url));
 
     // Fallback 1: events embedded in a Next.js __NEXT_DATA__ payload.

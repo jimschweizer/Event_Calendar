@@ -18,9 +18,29 @@ function dateOnlyToIso(dateLike) {
   return parseLooseDate(wall);
 }
 
+// node-ical only sets a `.tz` property on the parsed Date when the VEVENT's
+// date-time carried a real zone (trailing "Z", or a TZID it could resolve).
+// A floating date-time (no zone at all) falls back to its own local-component
+// constructor (`new Date(y, m, d, h, mi, s)`), which — like the VALUE=DATE
+// case above — reads as UTC on the runner instead of as Chicago wall time.
+function isFloatingDateTime(dt) {
+  return dt instanceof Date && !dt.tz && !dt.dateOnly;
+}
+
+function timedToIso(dt) {
+  if (!dt) return null;
+  if (isFloatingDateTime(dt)) {
+    const wall =
+      `${dt.getFullYear()}-${pad2(dt.getMonth() + 1)}-${pad2(dt.getDate())}` +
+      `T${pad2(dt.getHours())}:${pad2(dt.getMinutes())}:${pad2(dt.getSeconds())}`;
+    return parseLooseDate(wall);
+  }
+  return new Date(dt).toISOString();
+}
+
 function startToIso(item) {
   if (item.datetype === "date") return dateOnlyToIso(item.start);
-  return item.start ? new Date(item.start).toISOString() : null;
+  return timedToIso(item.start);
 }
 
 export async function fetchSource(source) {
@@ -44,7 +64,7 @@ export async function fetchSource(source) {
         title: item.summary || "",
         description: item.description || "",
         start: startToIso(item),
-        end: item.datetype === "date" ? dateOnlyToIso(item.end) : item.end ? new Date(item.end).toISOString() : null,
+        end: item.datetype === "date" ? dateOnlyToIso(item.end) : timedToIso(item.end),
         allDay: item.datetype === "date",
         venue: item.location || "",
         link: item.url || source.url,

@@ -92,6 +92,15 @@ export function chicagoWallToISOString(value) {
   return new Date(instant).toISOString();
 }
 
+// UTC instant of today's midnight in America/Chicago — the same "before
+// today" boundary app.js's bucketFor() uses to drop past events from view.
+// fetch-events.mjs uses this as its cutoff so events.json doesn't ship
+// already-expired events the frontend immediately discards.
+export function chicagoTodayStartISOString() {
+  const { year, month, day } = chicagoWallParts(Date.now());
+  return chicagoWallToISOString(`${year}-${pad2(month)}-${pad2(day)}T00:00:00`);
+}
+
 // True when the string itself declares a zone (trailing Z or ±hh:mm offset).
 const DECLARES_ZONE = /(?:Z|[+-]\d{2}:?\d{2})\s*$/i;
 // RFC-822 style zone abbreviations V8 understands (GMT/UTC/US zones). These

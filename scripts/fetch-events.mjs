@@ -12,7 +12,13 @@ if (existsSync(".env")) {
   }
 }
 
-import { normalizeEvent, dedupeEvents, dedupeWeeklyRuns, filterMultiShowRuns } from "./lib/normalize.mjs";
+import {
+  normalizeEvent,
+  dedupeEvents,
+  dedupeWeeklyRuns,
+  filterMultiShowRuns,
+  chicagoTodayStartISOString,
+} from "./lib/normalize.mjs";
 import { fetchSource as fetchIcs } from "./adapters/ics.mjs";
 import { fetchSource as fetchJsonLd } from "./adapters/jsonld.mjs";
 import { fetchSource as fetchHtml } from "./adapters/html.mjs";
@@ -76,16 +82,18 @@ async function main() {
     results.push(await fetchAndNormalize(source));
   }
 
-  const cutoffDate = new Date();
-  cutoffDate.setDate(cutoffDate.getDate() - 7);
-  cutoffDate.setHours(0, 0, 0, 0);
+  // Same "before today" boundary the frontend uses (bucketFor in app.js drops
+  // any event whose calendar day in America/Chicago is before today) — kept
+  // in sync so events.json never ships already-expired events the UI just
+  // throws away on load.
+  const cutoffIso = chicagoTodayStartISOString();
 
   const allEvents = dedupeWeeklyRuns(
     filterMultiShowRuns(dedupeEvents(results.flatMap((r) => r.events)))
   )
     .filter((event) => {
       if (!event.start) return true;
-      return new Date(event.start) >= cutoffDate;
+      return event.start >= cutoffIso;
     })
     .sort((a, b) => {
       if (!a.start) return 1;
