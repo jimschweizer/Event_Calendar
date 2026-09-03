@@ -226,6 +226,30 @@ html[data-theme="light"] .beta-badge {
   color: var(--accent-primary);
 }
 
+/* Language Toggle (ES/EN) */
+.lang-toggle-btn {
+  background: var(--bg-surface-elevated);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-main);
+  min-width: 2.6rem;
+  padding: 0.55rem 0.65rem;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--font-body);
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  transition: all 0.2s ease;
+}
+
+.lang-toggle-btn:hover {
+  border-color: var(--border-strong);
+  color: var(--accent-primary);
+}
+
 html[data-theme="dark"] .icon-sun { display: block; }
 html[data-theme="dark"] .icon-moon { display: none; }
 html[data-theme="light"] .icon-sun { display: none; }
