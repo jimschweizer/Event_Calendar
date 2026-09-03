@@ -129,10 +129,38 @@
     </div>
   </div>
 
-  <main id="dashboard" class="dashboard">
+  <main>
     <div id="status-message" class="status-card">
       <div class="spinner"></div>
       <p>Fetching latest events snapshot…</p>
+    </div>
+
+    <!-- Static FEATURED event — pinned above every dashboard view -->
+    <section id="featured-section" class="featured-section" aria-label="Featured event">
+      <div class="featured-card">
+        <div class="featured-card__tag-row">
+          <span class="featured-badge">FEATURED</span>
+          <span class="category-badge">Entertainment</span>
+        </div>
+        <h2 class="featured-card__title">Quantum Prairie After Dark</h2>
+        <p class="featured-card__desc">
+          After-dark nightlife at Quantum Prairie — the craft-cocktail lounge inside
+          Two Brothers Roundhouse in downtown Aurora.
+        </p>
+        <p class="featured-card__meta">Two Brothers Roundhouse · 205 N. Broadway, Aurora, IL</p>
+        <a
+          class="btn btn--primary featured-card__cta"
+          href="https://www.eventbrite.com/e/quantum-prairie-after-dark-tickets-1998799157085?aff=oddtdtcreator"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View listing on Eventbrite&nbsp;↗
+        </a>
+      </div>
+    </section>
+
+    <div id="dashboard" class="dashboard">
+      <!-- Date-bucket sections rendered by app.js -->
     </div>
   </main>
 
