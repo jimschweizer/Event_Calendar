@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-03T15:03:00.400Z",
+  "generatedAt": "2026-09-03T20:55:15.991Z",
   "events": [
     {
       "id": "27144840fde3f1a0",
@@ -1413,6 +1413,23 @@
       "tags": []
     },
     {
+      "id": "b7190d47c3e3aa6f",
+      "title": "Ambassador Meeting",
+      "description": "The event is held on September 04, 2026 at McHenry Area Chamber of Commerce in McHenry, IL.",
+      "start": "2026-09-04T15:30:00.000Z",
+      "end": "2026-09-04T16:30:00.000Z",
+      "allDay": false,
+      "venue": "McHenry Area Chamber of Commerce",
+      "address": "McHenry, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://business.mchenrychamber.com/events/details/ambassador-meeting-37390",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "c305869a0501e95a",
       "title": "Illinois, Meet the Heat: Angry Chickz Makes Its Midwest Debut in Aurora",
       "description": "The event is held on September 04, 2026 at Angry Chickz in Aurora, IL.The event is free.The cost is 0.00",
@@ -1714,6 +1731,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.comedyvaultbatavia.com/events/133779",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "1bf3164e97f72ace",
+      "title": "V Football @HOME vs Plano",
+      "description": "The event is held on September 04, 2026 at Lynn G Haskin Elementary School in Sandwich, IL.",
+      "start": "2026-09-05T00:00:00.000Z",
+      "end": "2026-09-05T06:30:00.000Z",
+      "allDay": false,
+      "venue": "Lynn G Haskin Elementary School",
+      "address": "Sandwich, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.sandwich430.org/calendar",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -2144,23 +2178,6 @@
       "tags": []
     },
     {
-      "id": "56a513b535ff6d57",
-      "title": "NICK BELL BAND live @ BROKEN OAR | LABOR DAY WEEKEND MUSIC FEST | BANDS IN THE BARN!",
-      "description": "The event is held on September 05, 2026 at Broken Oar in Port Barrington, IL.",
-      "start": "2026-09-05T19:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Broken Oar",
-      "address": "Port Barrington, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.facebook.com/events/1630360428017793/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "a74c0e43afd1e19a",
       "title": "Bookmobile Community Stop-Savannah Subdivision",
       "description": "Visit today for board games, movies, Launchpads, Switch games, magazines and books for all ages in English and Spanish. Pick up holds or return borrowed materials from any APLD branch.",
@@ -2207,23 +2224,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.etix.com/ticket/p/55616178/square-notes-woodstock-woodstock-opera-house",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "aadc8568ed829280",
-      "title": "RUMOR HAZIT live @ BROKEN OAR | LABOR DAY WEEKEND MUSIC FEST | BANDS IN THE BARN!",
-      "description": "The event is held on September 05, 2026 at Broken Oar in Port Barrington, IL.",
-      "start": "2026-09-06T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Broken Oar",
-      "address": "Port Barrington, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.facebook.com/events/1695483488254281/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -2498,6 +2498,23 @@
       "link": "https://www.google.com/calendar/event?eid=ZGRib21rYWI0b2hlOW9oNjduN2pva2dhcWsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
       "imageUrl": null,
       "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "5d98b78f311b0a80",
+      "title": "Infrastructure and Technology Committee Meeting",
+      "description": "****RESCHEDULED DUE TO LABOR DAY*****",
+      "start": "2026-09-08T20:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "City Hall - Second Floor\r\nCouncil Chambers",
+      "address": "44 E Downer Pl, Aurora, IL",
+      "category": "Civic Meetings",
+      "sourceId": "aurora-city-council",
+      "sourceLabel": "Aurora City Council & Committee Meetings",
+      "link": "https://aurora-il.legistar.com/MeetingDetail.aspx?LEGID=4971&GID=308&G=DC7A6B50-7190-431C-A25A-5C223FFADE72",
+      "imageUrl": null,
+      "confidence": "high",
       "tags": []
     },
     {
@@ -6785,6 +6802,74 @@
       "tags": []
     },
     {
+      "id": "daf53a46a885ed11",
+      "title": "English Conversation Group",
+      "description": "¡Únase a estudiantes de inglés de nivel intermedio en una conversación en persona o en Zoom!\n--\nJoin English learners at the intermediate level in conversation in person or on Zoom!",
+      "start": "2026-10-03T15:30:00.000Z",
+      "end": "2026-10-03T17:00:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/16716137",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "89093d76209e3401",
+      "title": "All About Science",
+      "description": "Science experts Diana and Pat will lead us in fun, hands-on science activities centered around the theme \"Time to Build!\" Ages 6-11 with a caregiver.",
+      "start": "2026-10-03T15:30:00.000Z",
+      "end": "2026-10-03T16:30:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/16921299",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "9b0d6e190e71b8b7",
+      "title": "Bookmobile Community Stop-Butterfield Park",
+      "description": "Enjoy the convenience of our mobile library to pick up holds, return borrowed materials, or browse a wide selection of movies, magazines, games and books in English and Spanish for all ages.",
+      "start": "2026-10-03T18:00:00.000Z",
+      "end": "2026-10-03T19:00:00.000Z",
+      "allDay": false,
+      "venue": "DuPage Parkway & White Barn Rd.",
+      "address": "DuPage Parkway & White Barn Rd.",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/16572437",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "f113a25163757c32",
+      "title": "Bookmobile Community Stop-Savannah Subdivision",
+      "description": "Visit today for board games, movies, Launchpads, Switch games, magazines and books for all ages in English and Spanish. Pick up holds or return borrowed materials from any APLD branch.",
+      "start": "2026-10-03T19:30:00.000Z",
+      "end": "2026-10-03T20:30:00.000Z",
+      "allDay": false,
+      "venue": "Savannah Dr. & Flagstone Ln.",
+      "address": "Savannah Dr. & Flagstone Ln.",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/16572481",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "cb608b7399c51910",
       "title": "ACC 2026 Oktoberfest",
       "description": "",
@@ -7019,6 +7104,23 @@
       "sourceLabel": "Paramount Theatre",
       "link": "https://paramountaurora.com/events/scooby-doo/",
       "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-SCOOBY-DOO-CI-800x445-1.png",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "ed2a2edd5b56f6a0",
+      "title": "Social Movements: Power to Change or Mere Symbolism?",
+      "description": "The United States has a rich history of social movements- what can we learn from studying them? Explore themes including anger, solidarity, nonviolence, & more with College of DuPage faculty members.",
+      "start": "2026-10-14T00:00:00.000Z",
+      "end": "2026-10-14T01:00:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17191585",
+      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -8485,6 +8587,23 @@
       "tags": []
     },
     {
+      "id": "045960dd9db5d9d7",
+      "title": "Citizen Kane",
+      "description": "A reporter investigates the mysterious last word of a powerful newspaper tycoon.",
+      "start": "2026-11-24T01:00:00.000Z",
+      "end": "2026-11-24T03:00:00.000Z",
+      "allDay": false,
+      "venue": "Paramount Theatre",
+      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
+      "category": "Entertainment",
+      "sourceId": "paramount-theatre",
+      "sourceLabel": "Paramount Theatre",
+      "link": "https://paramountaurora.com/events/citizen-kane/",
+      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-CITIZEN-KANE-CI-800x445-1.png",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "801cd0d81f372e30",
       "title": "Jardín de lectura-Chamanes eléctricos en la fiesta del sol",
       "description": "Somos un club de lectura bilingüe enfocado en autores latinos/hispanos que se reúne en persona para conversar. \n We are a bilingual book club focused on Latino/Hispanic authors that meets in person.",
@@ -8536,23 +8655,6 @@
       "tags": []
     },
     {
-      "id": "672aa946f7bc2115",
-      "title": "The Santa Clause",
-      "description": "A man accidentally becomes Santa Claus and must take over the role before next Christmas.",
-      "start": "2026-12-15T01:00:00.000Z",
-      "end": "2026-12-15T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/the-santa-clause-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-THE-SANTA-CLAUSE-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "7e9e63b139270a99",
       "title": "Library Board of Trustees Regular Board Meeting",
       "description": "Aurora Public Library District Board of Trustees Monthly Meeting.",
@@ -8584,23 +8686,6 @@
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "7e048f702df41cc2",
-      "title": "The Polar Express",
-      "description": "On Christmas Eve, a young boy embarks on a magical adventure to the North Pole on the Polar Express, while learning about friendship, bravery, and the spirit of Christmas.",
-      "start": "2026-12-21T16:00:00.000Z",
-      "end": "2026-12-21T18:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/the-polar-express-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2025/04/The-Polar-Express-800x445_.png",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -8638,40 +8723,6 @@
       "tags": []
     },
     {
-      "id": "3c9f42c7fd01e9d4",
-      "title": "Home Alone",
-      "description": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
-      "start": "2026-12-22T01:00:00.000Z",
-      "end": "2026-12-22T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/home-alone-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2024/04/24PCMMV2-HOME-ALONE-CI-800x445-1.jpg",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "b98615c827a5abde",
-      "title": "Hercules",
-      "description": "The son of Zeus must prove himself a true hero in order to return to Mount Olympus.",
-      "start": "2026-12-29T01:00:00.000Z",
-      "end": "2026-12-29T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/hercules/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-HERCULES-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "0e52d561208a1b0d",
       "title": "BINGLOW!",
       "description": "Start your New Year's Eve with family friendly fun--glow-in-the-dark BINGO! For children of all ages and their caregivers.",
@@ -8685,23 +8736,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17275250",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "5eca511839fb265f",
-      "title": "Elvis Tribute Artist Spectacular",
-      "description": "An era-by-era tribute celebrating the music and magic of Elvis Presley.",
-      "start": "2027-01-10T02:00:00.000Z",
-      "end": "2027-01-10T04:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/elvis-tribute-artist-spectacular-2027/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/08/800-x-445.jpg",
       "confidence": "medium",
       "tags": []
     },
@@ -8737,23 +8771,6 @@
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "826bb02f5979b064",
-      "title": "Sunday in the Park with George",
-      "description": "“Art isn't easy, any way you look at it.\"",
-      "start": "2027-02-11T01:00:00.000Z",
-      "end": "2027-03-28T17:30:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/sunday-in-the-park-with-george/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/01/BWAY-800x445_Sunday.jpg",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -8859,23 +8876,6 @@
       "tags": []
     },
     {
-      "id": "70b4361ff66c9285",
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "description": "“Any dream will do.\"",
-      "start": "2027-04-29T00:00:00.000Z",
-      "end": "2027-06-13T17:30:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/joseph-and-the-amazing-technicolor-dreamcoat/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/01/BWAY-800x445_Joseph.jpg",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "7fd9466179ed9b50",
       "title": "Last Day of School",
       "description": "",
@@ -8970,17 +8970,17 @@
       "venue": "RiverEdge Park",
       "address": "360 N. Broadway\r\nAurora, IL 60505",
       "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
+      "sourceId": "riveredge-park",
+      "sourceLabel": "RiverEdge Park",
       "link": "https://paramountaurora.com/events/the-beach-boys/",
       "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/03/TBB_800x445.jpg",
       "confidence": "medium",
       "tags": []
     },
     {
-      "id": "5fbc67cdf315efdc",
-      "title": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox",
-      "description": "chicago cubs Phoenix AUGUSt 2026 Club chicago white Sox\nSun [Mon | Tue | Wed Thu Fri Ta\nBoars Pro | Monday Nght | Hessosdoor | Sosa coo Seman | Timmons |\n\nSeason Games | BINGO Begins | Specht | SMT | [onl sober,\n\nAug vs Comiaod | September 140 | memmances | Frasers. | IsNowAviablofor | Gh bspnieana y\nfreind k, SETI, | Ane Er sean\nAug BToees | OTPM | Tey Sd | Sonim | pemm ay fii\n\n7. [5 © GSDON —[Sm",
+      "id": "b55f5fd28c8477d6",
+      "title": "chicago Bears Phoenix September 2026 Club tust write Sax",
+      "description": "chicago Bears Phoenix September 2026 Club tust write Sax\nSun Mon Tue | Wed [ Thu | Fri | Sat |\nCticagoBears | MONDAY NIGHT | I. 2 tunebite 130 | 3 Thingy Thursday | 4 Lunch Served | S.bunch 11:9 3pm\nSmmingses | giugg | ocubiscied | Tecoma |Lackitoncich | ic\n52d aH TH :\nimmer woisorron | ove | Bie | Rebus] rst | omens\ninCuntia@Noon | SEPTEMBER 14 | Cubs@6:d0 wa” | Sx@110 | queen of tears\nShea] Seem",
       "start": null,
       "end": null,
       "allDay": false,
@@ -8990,7 +8990,7 @@
       "sourceId": "phoenix-club",
       "sourceLabel": "The Phoenix Club",
       "link": "https://www.auroraphoenixclub.net/calendar",
-      "imageUrl": "https://static.wixstatic.com/media/db9feb_b423bbdda0dd4393a67b15356fb5acc4~mv2.jpg/v1/fill/w_600,h_454,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/August%202026%20.jpg",
+      "imageUrl": "https://static.wixstatic.com/media/db9feb_12ff9ef631124129908d8aca42d79f8a~mv2.jpg/v1/fill/w_600,h_457,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/db9feb_12ff9ef631124129908d8aca42d79f8a~mv2.jpg",
       "confidence": "low",
       "tags": []
     },
@@ -9039,9 +9039,9 @@
     },
     {
       "id": "aurora-city-council",
-      "ok": false,
-      "count": 0,
-      "error": "no upcoming meetings within the lookahead window"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "id": "fox-valley-park-district",
@@ -9052,7 +9052,7 @@
     {
       "id": "aurora-public-library",
       "ok": true,
-      "count": 376,
+      "count": 377,
       "error": null
     },
     {
@@ -9064,7 +9064,7 @@
     {
       "id": "paramount-theatre",
       "ok": true,
-      "count": 27,
+      "count": 20,
       "error": null
     },
     {
