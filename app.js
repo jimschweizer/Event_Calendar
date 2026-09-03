@@ -10,6 +10,15 @@ const EVENT_TIME_ZONE = "America/Chicago";
 
 const BUCKET_ORDER = ["Today", "Tomorrow", "This Week", "Later", "Unconfirmed Date"];
 
+// Dashboard constraints & per-section category priority. "This Week" draws
+// live-event listings (Live Music) and Entertainment forward; "Today" draws
+// Civic and Entertainment forward. Sections not listed sort by start time.
+const MAX_EVENTS_PER_SECTION = 10;
+const SECTION_PRIORITY = {
+  Today: ["Civic", "Entertainment"],
+  "This Week": ["Live Music", "Entertainment"],
+};
+
 // DOM Elements
 const dashboard = document.getElementById("dashboard");
 const lastUpdated = document.getElementById("last-updated");
@@ -288,6 +297,145 @@ function groupEventsByDate(events) {
   return groups;
 }
 
+// Rank of an event's category inside a section (listed categories 0..n-1 in
+// order, everything else rank n), so priority sections sort category-first.
+function sectionPriorityRank(category, sectionLabel) {
+  const order = SECTION_PRIORITY[sectionLabel] || [];
+  const idx = order.indexOf(category);
+  return idx === -1 ? order.length : idx;
+}
+
+function sortSectionEvents(events, sectionLabel) {
+  return events.slice().sort((a, b) => {
+    const ra = sectionPriorityRank(a.category, sectionLabel);
+    const rb = sectionPriorityRank(b.category, sectionLabel);
+    if (ra !== rb) return ra - rb;
+    return new Date(a.start || 0) - new Date(b.start || 0);
+  });
+}
+
+// Section heading with a live count chip, e.g. "Today · 54 events".
+function renderSectionHeading(label, total) {
+  const heading = document.createElement("h2");
+  heading.className = "date-group-heading";
+
+  const name = document.createElement("span");
+  name.className = "date-group-heading__name";
+  name.textContent = label;
+
+  const chip = document.createElement("span");
+  chip.className = "group-count";
+  chip.textContent = `${total} ${total === 1 ? "event" : "events"}`;
+
+  heading.append(name, chip);
+  return heading;
+}
+
+let overflowMenuCounter = 0;
+
+// Drop-down menu holding every event beyond the first 10 of a section. Rows
+// are links that open the event in a new tab; the trigger toggles the menu.
+function renderOverflowMenu(sectionLabel, overflowEvents) {
+  const block = document.createElement("div");
+  block.className = "overflow-block";
+
+  const menuId = `overflow-menu-${++overflowMenuCounter}`;
+
+  const trigger = document.createElement("button");
+  trigger.type = "button";
+  trigger.className = "overflow-trigger";
+  trigger.setAttribute("aria-expanded", "false");
+  trigger.setAttribute("aria-controls", menuId);
+
+  const triggerLabel = document.createElement("span");
+  triggerLabel.className = "overflow-trigger__label";
+  triggerLabel.textContent = `${overflowEvents.length} more ${sectionLabel.toLowerCase()} events`;
+
+  const chevron = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+  chevron.setAttribute("viewBox", "0 0 24 24");
+  chevron.setAttribute("width", "16");
+  chevron.setAttribute("height", "16");
+  chevron.setAttribute("fill", "none");
+  chevron.setAttribute("stroke", "currentColor");
+  chevron.setAttribute("stroke-width", "2");
+  chevron.setAttribute("aria-hidden", "true");
+  chevron.classList.add("overflow-trigger__chevron");
+  const chevronPath = document.createElementNS("http://www.w3.org/2000/svg", "path");
+  chevronPath.setAttribute("d", "M6 9l6 6 6-6");
+  chevron.appendChild(chevronPath);
+
+  trigger.append(triggerLabel, chevron);
+  block.appendChild(trigger);
+
+  const menu = document.createElement("div");
+  menu.className = "overflow-menu";
+  menu.id = menuId;
+  menu.hidden = true;
+
+  const list = document.createElement("ol");
+  list.className = "overflow-list";
+  for (const event of overflowEvents) {
+    const li = document.createElement("li");
+    const row = document.createElement("a");
+    row.className = "overflow-row";
+    row.href = event.link || "#";
+    row.target = "_blank";
+    row.rel = "noopener noreferrer";
+
+    const title = document.createElement("span");
+    title.className = "overflow-row__title";
+    title.textContent = event.title;
+
+    const meta = document.createElement("span");
+    meta.className = "overflow-row__meta";
+    meta.textContent = [formatEventDate(event), event.venue].filter(Boolean).join(" · ");
+
+    row.append(title, meta);
+    li.appendChild(row);
+    list.appendChild(li);
+  }
+  menu.appendChild(list);
+  block.appendChild(menu);
+
+  return block;
+}
+
+function closeOverflowMenu(menu) {
+  menu.hidden = true;
+  const block = menu.closest(".overflow-block");
+  const trigger = block && block.querySelector(".overflow-trigger");
+  if (trigger) trigger.setAttribute("aria-expanded", "false");
+}
+
+// One-shot delegated listeners (registered in init) so re-renders never
+// accumulate handlers. Only one overflow menu is open at a time; clicking
+// anywhere else or pressing Escape closes any open menu.
+function initOverflowInteractions() {
+  document.addEventListener("click", (e) => {
+    const trigger = e.target.closest(".overflow-trigger");
+    if (trigger) {
+      const menu = document.getElementById(trigger.getAttribute("aria-controls"));
+      if (!menu) return;
+      const willOpen = menu.hidden;
+      dashboard.querySelectorAll(".overflow-menu:not([hidden])").forEach(closeOverflowMenu);
+      if (willOpen) {
+        menu.hidden = false;
+        trigger.setAttribute("aria-expanded", "true");
+      }
+      return;
+    }
+    if (!e.target.closest(".overflow-block")) {
+      dashboard.querySelectorAll(".overflow-menu:not([hidden])").forEach(closeOverflowMenu);
+    }
+  });
+
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") {
+      dashboard.querySelectorAll(".overflow-menu:not([hidden])").forEach(closeOverflowMenu);
+    }
+  });
+}
+
 // 6. Category Tabs Renderer
 function renderCategoryTabs() {
   const categoriesSet = new Set();
@@ -456,13 +604,16 @@ function renderDashboard() {
     if (!items || items.length === 0) continue;
     rendered += items.length;
 
-    const heading = document.createElement("h2");
-    heading.className = "date-group-heading";
-    heading.textContent = label;
-    dashboard.appendChild(heading);
+    const sorted = sortSectionEvents(items, label);
+    const visible = sorted.slice(0, MAX_EVENTS_PER_SECTION);
+    const overflow = sorted.slice(MAX_EVENTS_PER_SECTION);
 
-    for (const event of items) {
+    dashboard.appendChild(renderSectionHeading(label, items.length));
+    for (const event of visible) {
       dashboard.appendChild(renderEventCard(event));
+    }
+    if (overflow.length > 0) {
+      dashboard.appendChild(renderOverflowMenu(label, overflow));
     }
   }
 
@@ -493,6 +644,7 @@ async function init() {
   initTheme();
   initRepoLinks();
   initSubmitPanel();
+  initOverflowInteractions();
 
   // Search Filter Handler
   searchFilter.addEventListener("input", (e) => {
@@ -532,6 +684,11 @@ async function init() {
 
   renderCategoryTabs();
   renderDashboard();
+
+  // The loading card sits outside #dashboard now; remove it once the first
+  // render is complete (success or failure — the empty state speaks for itself).
+  const statusMessage = document.getElementById("status-message");
+  if (statusMessage) statusMessage.remove();
 }
 
 init();
