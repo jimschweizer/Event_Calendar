@@ -140,6 +140,7 @@ const CONFIDENCE_BY_TYPE = {
   "api-legistar": "high",
   "api-eventbrite": "high",
   "api-ticketmaster": "high",
+  "eventbrite-organizer": "high",
   rss: "medium",
   jsonld: "medium",
   html: "medium",

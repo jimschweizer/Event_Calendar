@@ -13,7 +13,7 @@ window.I18N = {
     "meta.description":
       "A privacy-first, serverless local events calendar for Aurora, IL, refreshed twice daily via GitHub Actions from a hybrid ICS/JSON-LD/HTML/API ingestion pipeline.",
 
-    "brand.subtitle": "Local Events Calendar — Refreshed 6:00 AM & 5:30 PM CDT",
+    "brand.subtitle": "Local Events Calendar — Refreshed 6:17 AM & 5:23 PM CDT",
     "brand.beta": "(BETA - Under Construction)",
     "nav.propose": "Propose a Source",
 
@@ -93,7 +93,7 @@ window.I18N = {
     "meta.description":
       "Un calendario local de eventos de código abierto y sin rastreo para Aurora, IL, actualizado dos veces al día mediante GitHub Actions desde un proceso híbrido de ingesta ICS/JSON-LD/HTML/API.",
 
-    "brand.subtitle": "Calendario de eventos locales — Actualizado 6:00 a. m. y 5:30 p. m. CDT",
+    "brand.subtitle": "Calendario de eventos locales — Actualizado 6:17 a. m. y 5:23 p. m. CDT",
     "brand.beta": "(BETA — En construcción)",
     "nav.propose": "Proponer una fuente",
 

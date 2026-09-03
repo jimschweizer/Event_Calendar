@@ -595,7 +595,7 @@ function renderEventCard(event) {
   if (event.category) {
     const catTag = document.createElement("span");
     catTag.className = "category-badge";
-    catTag.textContent = event.category;
+    catTag.textContent = catLabel(event.category);
     badgeRow.appendChild(catTag);
   }
   if (event.confidence && event.confidence !== "high") {
@@ -654,7 +654,7 @@ function renderQueuedSourceCard(source) {
 
   const meta = document.createElement("div");
   meta.className = "event-meta";
-  meta.textContent = `${source.type} · ${source.category}`;
+  meta.textContent = `${source.type} · ${catLabel(source.category)}`;
   card.appendChild(meta);
 
   const p = document.createElement("p");

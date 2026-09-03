@@ -5,7 +5,7 @@ This file provides guidance for AI coding assistants working in this repository.
 ## What this is
 
 A browser-based, open-source local events calendar for Aurora, IL, with no backend server. A
-GitHub Actions cron job runs a hybrid ingestion pipeline twice daily (at 6:00 AM CDT and 5:30 PM
+GitHub Actions cron job runs a hybrid ingestion pipeline twice daily (at 6:17 AM CDT and 5:23 PM
 CDT), fetches events from ~25 real Aurora-area sources, and commits the merged result as static
 JSON (`data/events.json`); the frontend (`index.html`, `style.css`, `app.js`) reads that JSON.
 
@@ -50,7 +50,8 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   asynchronously past any try/catch and kills the Node process outright. Isolating it means that
   crash only takes down the worker, not the twice-daily cron run. Don't collapse this back into a
   direct import without re-solving that problem.
-- `.github/workflows/fetch-events.yml` runs on cron (`0 11 * * *` and `30 22 * * *`) and commits
+- `.github/workflows/fetch-events.yml` runs on cron (`17 11 * * *` and `23 22 * * *` — off-peak
+  minute offsets to bypass congested GitHub Actions cron queues) and commits
   `data/events.json` directly to `main`. (A previous version of this workflow lived at
   `github/workflows/` — missing the leading dot — and was silently never picked up by GitHub
   Actions. If you ever see a non-dot `github/` directory reappear, that's the same bug.)
