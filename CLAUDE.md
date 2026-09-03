@@ -57,7 +57,11 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
 - `app.js` handles client-side rendering: date-bucketed sections (Today/Tomorrow/This
   Week/Later/Unconfirmed Date), category tabs, live search, confidence badges (`low`/`medium`
   events are visibly marked "verify at source"), and the "Propose a Source" GitHub Issue/PR flow
-  targeting `data/sources.json`.
+  targeting `data/sources.json`. The dashboard pins a static FEATURED hero (Quantum Prairie
+  After Dark, an Eventbrite listing — hardcoded in `index.html`, not part of `events.json`)
+  above the sections, caps every date section at 10 cards with the remainder behind a
+  per-section overflow drop-down (`renderOverflowMenu`), and sorts Today Civic→Entertainment
+  and This Week Live Music→Entertainment first (`SECTION_PRIORITY` in `app.js`).
 
 ## Key Constraints & Gotchas
 
