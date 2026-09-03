@@ -458,7 +458,7 @@ $html = Get-Content index.html -Raw
 "i18n.js before app.js: " + ($html.IndexOf('src="i18n.js"') -lt $html.IndexOf('src="app.js"'))
 ```
 
-Expected: data-i18n ≥ 30, data-i18n-cat ≥ 10 (9 options + featured badge), lang-toggle True, script order True.
+Expected: data-i18n = 25 (exactly the elements tagged in Step 2 — proper-noun elements are intentionally untagged), data-i18n-cat = 10 (9 options + featured badge), lang-toggle True, script order True.
 
 **Step 4: Commit**
 
