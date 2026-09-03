@@ -210,7 +210,7 @@ function initSubmitPanel() {
   btnGhIssue.addEventListener("click", () => {
     const sourceObj = buildSourceObject();
     if (!sourceObj) {
-      alert("Please enter a valid http(s) URL.");
+      alert(t("alert.url"));
       return;
     }
     const repo = getRepoUrl();
@@ -226,13 +226,13 @@ function initSubmitPanel() {
   btnGhPr.addEventListener("click", () => {
     const sourceObj = buildSourceObject();
     if (!sourceObj) {
-      alert("Please enter a valid http(s) URL.");
+      alert(t("alert.url"));
       return;
     }
     const repo = getRepoUrl();
     const snippet = JSON.stringify(sourceObj, null, 2);
     navigator.clipboard.writeText(snippet).then(() => {
-      alert(`Copied JSON snippet for "${sourceObj.label}" to clipboard!\nOpening GitHub file editor...`);
+      alert(t("alert.copied", { label: sourceObj.label }));
       window.open(`${repo}/edit/main/data/sources.json`, "_blank");
     }).catch(() => {
       window.open(`${repo}/edit/main/data/sources.json`, "_blank");
@@ -246,8 +246,8 @@ function initSubmitPanel() {
     const snippet = JSON.stringify(sourceObj, null, 2);
     try {
       await navigator.clipboard.writeText(snippet);
-      btnCopyJson.textContent = "Copied!";
-      setTimeout(() => (btnCopyJson.textContent = "Copy JSON Snippet"), 1800);
+      btnCopyJson.textContent = t("btn.copied");
+      setTimeout(() => (btnCopyJson.textContent = t("btn.copyJson")), 1800);
     } catch {
       alert(snippet);
     }
@@ -345,9 +345,9 @@ function shiftChicagoDay(key, n) {
 }
 
 function formatEventDate(event) {
-  if (!event.start) return "Date unknown";
+  if (!event.start) return t("event.dateUnknown");
   const start = new Date(event.start);
-  if (Number.isNaN(start.getTime())) return "Date unknown";
+  if (Number.isNaN(start.getTime())) return t("event.dateUnknown");
 
   const dateOpts = { weekday: "short", month: "short", day: "numeric", timeZone: EVENT_TIME_ZONE };
   const timeOpts = { hour: "numeric", minute: "2-digit", timeZone: EVENT_TIME_ZONE };
@@ -417,11 +417,11 @@ function renderSectionHeading(label, total) {
 
   const name = document.createElement("span");
   name.className = "date-group-heading__name";
-  name.textContent = label;
+  name.textContent = t("bucket." + label);
 
   const chip = document.createElement("span");
   chip.className = "group-count";
-  chip.textContent = `${total} ${total === 1 ? "event" : "events"}`;
+  chip.textContent = t("section.count", { count: total });
 
   heading.append(name, chip);
   return heading;
@@ -445,7 +445,10 @@ function renderOverflowMenu(sectionLabel, overflowEvents) {
 
   const triggerLabel = document.createElement("span");
   triggerLabel.className = "overflow-trigger__label";
-  triggerLabel.textContent = `${overflowEvents.length} more ${sectionLabel.toLowerCase()} events`;
+  triggerLabel.textContent = t("overflow.more", {
+    count: overflowEvents.length,
+    bucket: t("bucket." + sectionLabel),
+  });
 
   const chevron = document.createElementNS("http://www.w3.org/2000/svg", "svg");
   chevron.setAttribute("viewBox", "0 0 24 24");
@@ -550,7 +553,7 @@ function renderCategoryTabs() {
   const allBtn = document.createElement("button");
   allBtn.className = `tab-btn ${activeCategory === "all" ? "active" : ""}`;
   allBtn.dataset.category = "all";
-  allBtn.textContent = "All Events";
+  allBtn.textContent = t("tabs.all");
   allBtn.addEventListener("click", () => setCategory("all"));
   categoryTabsContainer.appendChild(allBtn);
 
@@ -558,7 +561,7 @@ function renderCategoryTabs() {
     const btn = document.createElement("button");
     btn.className = `tab-btn ${activeCategory === cat ? "active" : ""}`;
     btn.dataset.category = cat;
-    btn.textContent = cat;
+    btn.textContent = catLabel(cat);
     btn.addEventListener("click", () => setCategory(cat));
     categoryTabsContainer.appendChild(btn);
   }
@@ -598,7 +601,7 @@ function renderEventCard(event) {
   if (event.confidence && event.confidence !== "high") {
     const confTag = document.createElement("span");
     confTag.className = `confidence-badge confidence-${event.confidence}`;
-    confTag.textContent = event.confidence === "low" ? "Unconfirmed — verify at source" : "Community-sourced";
+    confTag.textContent = t(event.confidence === "low" ? "confidence.low" : "confidence.medium");
     badgeRow.appendChild(confTag);
   }
   if (badgeRow.childElementCount > 0) body.appendChild(badgeRow);
@@ -625,7 +628,7 @@ function renderEventCard(event) {
 
   const sourceRow = document.createElement("div");
   sourceRow.className = "event-source";
-  sourceRow.textContent = `via ${event.sourceLabel}`;
+  sourceRow.textContent = t("event.via", { source: event.sourceLabel });
   body.appendChild(sourceRow);
 
   card.appendChild(body);
@@ -640,7 +643,7 @@ function renderQueuedSourceCard(source) {
   badgeRow.className = "event-card__badges";
   const tag = document.createElement("span");
   tag.className = "category-badge";
-  tag.textContent = "queued in browser";
+  tag.textContent = t("queue.badge");
   badgeRow.appendChild(tag);
   card.appendChild(badgeRow);
 
@@ -656,13 +659,13 @@ function renderQueuedSourceCard(source) {
 
   const p = document.createElement("p");
   p.className = "topic-empty";
-  p.textContent = "Saved locally. Click 'Propose a Source' above to submit a GitHub Issue or PR to include it in official runs.";
+  p.textContent = t("queue.note");
   card.appendChild(p);
 
   const removeBtn = document.createElement("button");
   removeBtn.className = "btn-icon";
   removeBtn.type = "button";
-  removeBtn.textContent = "✕ Remove";
+  removeBtn.textContent = t("queue.remove");
   removeBtn.addEventListener("click", () => {
     const queued = loadQueuedSources().filter((s) => s.id !== source.id);
     saveQueuedSources(queued);
@@ -683,12 +686,10 @@ function renderDashboard() {
 
   if (filterQuery) {
     const q = filterQuery.toLowerCase();
-    events = events.filter(
-      (e) =>
-        e.title.toLowerCase().includes(q) ||
-        (e.venue && e.venue.toLowerCase().includes(q)) ||
-        (e.sourceLabel && e.sourceLabel.toLowerCase().includes(q)) ||
-        (e.category && e.category.toLowerCase().includes(q))
+    events = events.filter((e) =>
+      [e.title, e.venue, e.sourceLabel, e.category, catLabel(e.category)]
+        .filter(Boolean)
+        .some((f) => f.toLowerCase().includes(q))
     );
   }
 
@@ -719,7 +720,7 @@ function renderDashboard() {
   if (queued.length > 0) {
     const heading = document.createElement("h2");
     heading.className = "date-group-heading";
-    heading.textContent = "Proposed Sources (pending review)";
+    heading.textContent = t("queue.heading");
     dashboard.appendChild(heading);
     for (const source of queued) {
       dashboard.appendChild(renderQueuedSourceCard(source));
@@ -730,7 +731,7 @@ function renderDashboard() {
   if (rendered === 0) {
     const emptyCard = document.createElement("div");
     emptyCard.className = "status-card";
-    emptyCard.innerHTML = `<h3>No events found</h3><p>Try clearing your filter or selecting another category tab.</p>`;
+    emptyCard.innerHTML = `<h3>${t("empty.title")}</h3><p>${t("empty.hint")}</p>`;
     dashboard.appendChild(emptyCard);
   }
 }
@@ -773,10 +774,13 @@ async function init() {
   if (rawEventsData.generatedAt) {
     const statuses = rawEventsData.sourceStatus || [];
     const okCount = statuses.filter((s) => s.ok).length;
-    const liveNote = statuses.length ? ` · ${okCount}/${statuses.length} sources live` : "";
-    lastUpdated.textContent = `Last refresh: ${formatDate(rawEventsData.generatedAt)}${liveNote}`;
+    let note = t("footer.refresh", { date: formatDate(rawEventsData.generatedAt) });
+    if (statuses.length) {
+      note += t("footer.sourcesLive", { ok: okCount, total: statuses.length });
+    }
+    lastUpdated.textContent = note;
   } else {
-    lastUpdated.textContent = "Background data pending.";
+    lastUpdated.textContent = t("footer.pending");
   }
 
   renderCategoryTabs();
