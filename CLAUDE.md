@@ -62,6 +62,17 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   above the sections, caps every date section at 10 cards with the remainder behind a
   per-section overflow drop-down (`renderOverflowMenu`), and sorts Today Civic→Entertainment
   and This Week Live Music→Entertainment first (`SECTION_PRIORITY` in `app.js`).
+  A Spanish mode (ES/EN header toggle, auto-detected for Spanish-language
+  browsers on first visit, choice persisted in localStorage
+  `auroraevents.lang`) translates all UI chrome, category labels, dates, and
+  empty states. All user-facing copy lives in `i18n.js` (`window.I18N`,
+  loaded before `app.js`) — canonical English keys, es-MX-leaning Latin
+  American Spanish values; static HTML carries `data-i18n` /
+  `data-i18n-placeholder` / `data-i18n-aria` / `data-i18n-cat` attributes and
+  dynamic renders call `t()` / `catLabel()` (`app.js`). Internal identifiers
+  (bucket names, raw `event.category` values, form option values) stay
+  canonical English; event titles/descriptions/venues are source-owned and
+  never machine-translated; GitHub issue/PR payloads stay English.
 
 ## Key Constraints & Gotchas
 
