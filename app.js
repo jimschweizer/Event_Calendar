@@ -1,6 +1,7 @@
 const EVENTS_JSON_URL = "data/events.json";
 const QUEUED_SOURCES_KEY = "auroraevents.queuedSources";
 const THEME_KEY = "auroraevents.theme";
+const LANG_KEY = "auroraevents.lang";
 const DEFAULT_REPO_URL = "https://github.com/jimschweizer/Event_Calendar";
 
 // Every listed event happens in the Aurora / Fox Valley area, so dates and
@@ -25,6 +26,7 @@ const lastUpdated = document.getElementById("last-updated");
 const repoLink = document.getElementById("repo-link");
 const sourcesLink = document.getElementById("sources-link");
 const themeToggle = document.getElementById("theme-toggle");
+const langToggle = document.getElementById("lang-toggle");
 
 const toggleSubmitBtn = document.getElementById("toggle-submit-panel");
 const submitPanel = document.getElementById("topic-submit-panel");
@@ -47,6 +49,7 @@ const clearSearchBtn = document.getElementById("clear-search");
 // State
 let rawEventsData = { generatedAt: null, events: [], sourceStatus: [] };
 let activeCategory = "all";
+let activeLang = "en";
 let filterQuery = "";
 
 // 1. Theme Management
@@ -65,6 +68,99 @@ function initTheme() {
     document.documentElement.setAttribute("data-theme", next);
     localStorage.setItem(THEME_KEY, next);
   });
+}
+
+// 1b. Language Management (Spanish mode). Mirrors the theme pattern:
+// localStorage choice + instant re-render; html lang stays in sync.
+const SUPPORTED_LANGS = ["en", "es"];
+const UI_LOCALES = { en: "en-US", es: "es-MX" };
+
+function detectLanguage() {
+  return (navigator.language || "en").toLowerCase().startsWith("es") ? "es" : "en";
+}
+
+function uiLocale() {
+  return UI_LOCALES[activeLang] || "en-US";
+}
+
+// Current-language string lookup: es → en → raw key (never empty, never
+// throws). Plural objects use {one, other} keyed off vars.count. {var}
+// placeholders substitute from vars.
+function t(key, vars = {}) {
+  const dict = I18N[activeLang] || {};
+  const en = I18N.en || {};
+  let val = dict[key] ?? en[key] ?? key;
+  if (val && typeof val === "object") val = vars.count === 1 ? val.one : val.other;
+  return String(val ?? key).replace(/\{(\w+)\}/g, (m, name) =>
+    name in vars ? String(vars[name]) : m
+  );
+}
+
+// Display label for a raw event-category value. English needs no map (raw
+// values ARE the labels); unknown categories fall back to raw — future
+// categories can never break the UI.
+function catLabel(raw) {
+  const map = (I18N[activeLang] || {}).categories || {};
+  return map[raw] || raw;
+}
+
+// Applies the active language to everything static: html lang, <title>, meta
+// description, [data-i18n*] elements, and the ES/EN toggle button itself
+// (the button always shows the TARGET language).
+function applyStaticI18n() {
+  document.documentElement.lang = activeLang;
+  document.title = t("meta.title");
+  const metaDesc = document.querySelector('meta[name="description"]');
+  if (metaDesc) metaDesc.content = t("meta.description");
+
+  for (const el of document.querySelectorAll("[data-i18n]")) {
+    el.textContent = t(el.dataset.i18n);
+  }
+  for (const el of document.querySelectorAll("[data-i18n-placeholder]")) {
+    el.placeholder = t(el.dataset.i18nPlaceholder);
+  }
+  for (const el of document.querySelectorAll("[data-i18n-cat]")) {
+    el.textContent = catLabel(el.dataset.i18nCat);
+  }
+  for (const el of document.querySelectorAll("[data-i18n-aria]")) {
+    const label = t(el.dataset.i18nAria);
+    el.setAttribute("aria-label", label);
+    el.title = label;
+  }
+  if (langToggle) {
+    const target = activeLang === "es" ? "EN" : "ES";
+    const aria = t("lang.toggleAria");
+    langToggle.textContent = target;
+    langToggle.setAttribute("aria-label", aria);
+    langToggle.title = aria;
+  }
+}
+
+// Full re-apply after a manual toggle (static copy + all dynamic renders).
+function applyLanguage() {
+  applyStaticI18n();
+  renderCategoryTabs();
+  renderDashboard();
+}
+
+function initLanguage() {
+  // First decision is sticky: auto-detect once, persist it. A later browser
+  // language change must never yank the UI; the header toggle is the escape
+  // hatch. Corrupt/absent stored values fall through to detection.
+  const stored = localStorage.getItem(LANG_KEY);
+  activeLang = SUPPORTED_LANGS.includes(stored) ? stored : detectLanguage();
+  localStorage.setItem(LANG_KEY, activeLang);
+
+  if (langToggle) {
+    langToggle.addEventListener("click", () => {
+      activeLang = activeLang === "es" ? "en" : "es";
+      localStorage.setItem(LANG_KEY, activeLang);
+      applyLanguage();
+    });
+  }
+  // Static-only here: the dashboard renders later in init() after the fetch,
+  // so we never flash an empty state before data arrives.
+  applyStaticI18n();
 }
 
 // 2. Repository Link Helper
@@ -203,7 +299,7 @@ function formatDate(iso) {
   if (!iso) return "";
   const d = new Date(iso);
   if (Number.isNaN(d.getTime())) return "";
-  return d.toLocaleString(undefined, {
+  return d.toLocaleString(uiLocale(), {
     month: "short",
     day: "numeric",
     hour: "numeric",
@@ -255,16 +351,16 @@ function formatEventDate(event) {
 
   const dateOpts = { weekday: "short", month: "short", day: "numeric", timeZone: EVENT_TIME_ZONE };
   const timeOpts = { hour: "numeric", minute: "2-digit", timeZone: EVENT_TIME_ZONE };
-  const datePart = start.toLocaleDateString(undefined, dateOpts);
+  const datePart = start.toLocaleDateString(uiLocale(), dateOpts);
 
   if (event.allDay) return datePart;
 
-  const timePart = start.toLocaleTimeString(undefined, timeOpts);
+  const timePart = start.toLocaleTimeString(uiLocale(), timeOpts);
   if (event.end) {
     const end = new Date(event.end);
     if (!Number.isNaN(end.getTime()) && end.getTime() !== start.getTime()) {
       const sameDay = chicagoDayKey(event.start) === chicagoDayKey(event.end);
-      const endPart = sameDay ? end.toLocaleTimeString(undefined, timeOpts) : end.toLocaleDateString(undefined, dateOpts);
+      const endPart = sameDay ? end.toLocaleTimeString(uiLocale(), timeOpts) : end.toLocaleDateString(uiLocale(), dateOpts);
       return `${datePart}, ${timePart} – ${endPart}`;
     }
   }
@@ -641,6 +737,7 @@ function renderDashboard() {
 
 // 9. Initializer & Search Filter Event Handling
 async function init() {
+  initLanguage();
   initTheme();
   initRepoLinks();
   initSubmitPanel();
