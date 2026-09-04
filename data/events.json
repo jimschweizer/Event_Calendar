@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-04T13:13:57.455Z",
+  "generatedAt": "2026-09-04T15:00:15.948Z",
   "events": [
     {
       "id": "ce3a71c81efafcef",
@@ -8298,23 +8298,6 @@
       "tags": []
     },
     {
-      "id": "045960dd9db5d9d7",
-      "title": "Citizen Kane",
-      "description": "A reporter investigates the mysterious last word of a powerful newspaper tycoon.",
-      "start": "2026-11-24T01:00:00.000Z",
-      "end": "2026-11-24T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/citizen-kane/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-CITIZEN-KANE-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "801cd0d81f372e30",
       "title": "Jardín de lectura-Chamanes eléctricos en la fiesta del sol",
       "description": "Somos un club de lectura bilingüe enfocado en autores latinos/hispanos que se reúne en persona para conversar. \n We are a bilingual book club focused on Latino/Hispanic authors that meets in person.",
@@ -8362,23 +8345,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/16921319",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "521a43c2099ae6ad",
-      "title": "National Lampoon&#8217;s Christmas Vacation",
-      "description": "Clark Griswold tries to create the perfect Christmas for his family, but everything that can go wrong does.",
-      "start": "2026-12-01T01:00:00.000Z",
-      "end": "2026-12-01T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/national-lampoons-christmas-vacation-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-CHRISTMAS-VACATION-CI-800x445-1.png",
       "confidence": "medium",
       "tags": []
     },
@@ -8792,13 +8758,13 @@
     {
       "id": "paramount-theatre",
       "ok": true,
-      "count": 21,
+      "count": 19,
       "error": null
     },
     {
       "id": "riveredge-park",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
