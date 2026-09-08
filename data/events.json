@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-09-08T00:35:55.962Z",
+  "generatedAt": "2026-09-08T15:09:11.994Z",
   "events": [
-    {
-      "id": "06aeaa8608c67287",
-      "title": "México en el Corazón 2026",
-      "description": "09/07/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/07/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n Join us at East Aurora High School to experience the richness of Mexican folklore brought to life through stunning performances showcasing the traditions of states like Nuevo León, Michoacán,",
-      "start": "2026-09-07T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/m%c3%a9xico-en-el-coraz%c3%b3n-2026/3410/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "c4d360f71030a525",
-      "title": "No School - Labor Day",
-      "description": "We hope you enjoy the long weekend with family and friends!East Aurora School District 131 will be closed on Monday, September 7, 2026, in honor of Labor Day. This means no school for students and all district offices will be closed.",
-      "start": "2026-09-07T05:00:00.000Z",
-      "end": "2026-09-08T05:00:00.000Z",
-      "allDay": true,
-      "venue": "East Aurora High School",
-      "address": "500 Cedar Ave, Aurora, IL",
-      "category": "Education",
-      "sourceId": "east-aurora-high",
-      "sourceLabel": "Aurora East High School (D131)",
-      "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "dd679b3a20e2e247",
-      "title": "Labor Day",
-      "description": "",
-      "start": "2026-09-07T05:00:59.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=N3N0bzBoY3M3ZWhhcXYyMzNmdmNiN3NsY3Agb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "c26dfe691ed2eb2f",
       "title": "Here, There Exhibition Opening Reception",
@@ -444,6 +393,23 @@
       "tags": []
     },
     {
+      "id": "c94f898751453ba3",
+      "title": "XC Boys @ Harvard",
+      "description": "The event is held on September 08, 2026 at Lynn G Haskin Elementary School in Sandwich, IL.",
+      "start": "2026-09-08T21:30:00.000Z",
+      "end": "2026-09-09T05:30:00.000Z",
+      "allDay": false,
+      "venue": "Lynn G Haskin Elementary School",
+      "address": "Sandwich, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.sandwich430.org/calendar",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "f0a89a975507b3dd",
       "title": "Here, There Exhibition Opening Reception",
       "description": "The event is held on September 08, 2026 at Schingoethe Center in Aurora, IL.The event is free.The cost is 0.00",
@@ -592,23 +558,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://preservationgeneva.com/liveevents",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "15578baec2026689",
-      "title": "V Volleyball @HOME vs Woodstock North HS",
-      "description": "The event is held on September 08, 2026 at Lynn G Haskin Elementary School in Sandwich, IL.",
-      "start": "2026-09-08T23:00:00.000Z",
-      "end": "2026-09-09T06:00:00.000Z",
-      "allDay": false,
-      "venue": "Lynn G Haskin Elementary School",
-      "address": "Sandwich, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.sandwich430.org/calendar",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -966,6 +915,23 @@
       "sourceId": "enjoy-aurora",
       "sourceLabel": "Enjoy Aurora (Tourism)",
       "link": "https://www.enjoyaurora.com/event/here-there-exhibition/4535/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "04ea9a7b98777ee2",
+      "title": "Sunflower Wine Glass Painting",
+      "description": "09/09/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/09/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nJoin me to paint my favorite flower, the sunflower!  Your $30 fee includes all supplies and a glass of wine. A template will be included to make it stress free!\n If you have a group, please message or",
+      "start": "2026-09-09T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/sunflower-wine-glass-painting/4464/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1651,6 +1617,23 @@
       "tags": []
     },
     {
+      "id": "d0bee76ba7eb4c70",
+      "title": "Fall Sensory Friendly Night",
+      "description": "",
+      "start": "2026-09-10T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fall-sensory-friendly-night/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "90aae091bee0d350",
       "title": "The Great Orb Hunt 2026",
       "description": "The event is held on September 10, 2026 at LeRoy Oakes Forest Preseve in St. Charles, IL.The event is free.The cost is 0.00",
@@ -2076,6 +2059,23 @@
       "tags": []
     },
     {
+      "id": "5658115e82ecc679",
+      "title": "Kids Night Out 2",
+      "description": "",
+      "start": "2026-09-11T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/series/kids-night-out-2/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "9f7e471388d7cae3",
       "title": "Library Closed",
       "description": "Santori Library, Eola Express, West Branch, and Bookmobile: all closed today.",
@@ -2192,6 +2192,40 @@
       "link": "https://www.eventbrite.com/e/pacific-blue-sound-company-presents-blue-bayou-a-tribute-to-linda-ronstadt-tickets-1994686290390",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189309531%2F202636605063%2F1%2Foriginal.20260721-151505?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.46&fp-y=0.455&s=868893d3529f971548982e5ad314490f",
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "8ae9b255ca7a568b",
+      "title": "Fox Valley Amazing Race",
+      "description": "",
+      "start": "2026-09-12T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-amazing-race-8/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "64bb3c271a48234d",
+      "title": "‘The Nutcracker’ Auditions",
+      "description": "",
+      "start": "2026-09-12T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/the-nutcracker-auditions-3/",
+      "imageUrl": null,
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -2666,6 +2700,23 @@
       "sourceId": "our-lady-of-mercy",
       "sourceLabel": "Our Lady of Mercy",
       "link": "https://www.google.com/calendar/event?eid=ZG1oc2J2YjVybDdvMDk4dHRwOTBuY2t1c2sgb2xtYXVyb3JhQG0&ctz=America/Chicago",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "6de9f62df071f005",
+      "title": "Hot Ghoul Summer Market",
+      "description": "",
+      "start": "2026-09-13T16:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20260913/445b40fd-39ca-4e1c-8041-73bb4e9e999c/hot-ghoul-summer-market",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -3198,6 +3249,23 @@
       "tags": []
     },
     {
+      "id": "bbe31e5254628d99",
+      "title": "Wine Canvas At The Farm 20",
+      "description": "",
+      "start": "2026-09-16T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/series/wine-canvas-at-the-farm-20/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "eeb3bc0e2556a689",
       "title": "House of Bethany",
       "description": "",
@@ -3703,6 +3771,23 @@
       "sourceId": "our-lady-of-mercy",
       "sourceLabel": "Our Lady of Mercy",
       "link": "https://www.google.com/calendar/event?eid=cHN2M3ZnazdtYTQ1bWdpNnExNGYwaHU2aDAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "f71ed4794c16e1a0",
+      "title": "Tea-Rex Royal Tea Party",
+      "description": "",
+      "start": "2026-09-19T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/tea-rex-royal-tea-party/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -5017,6 +5102,23 @@
       "tags": []
     },
     {
+      "id": "3a43253997282a87",
+      "title": "Bigfoot Trail Run 5K",
+      "description": "",
+      "start": "2026-09-26T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/bigfoot-trail-run-5k-3/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "37b50ec483dded22",
       "title": "Aurora Farmers Market",
       "description": "The oldest farmers market in Illinois makes a return for its’ 115th season this summer, 2026! Every week, our markets feature fresh, locally grown fruits and vegetables, decadent baked goods and pastry items, a selection of local food trucks and vendors (including Aurora’s famous Dick’s Mini Donuts), delicious coffee, one-of-a-kind artisan items and more! \nLocations & Dates\nAurora Farmers Market at Water Street Square (Saturdays)\nLocation: 65 S. Water St, Aurora, IL 60505 \nDates: Saturdays June 6th – October 3rd, 2026 \nPlease note: The Aurora Farmers Market will not be in operation on Saturday, July 4th, 2026. Instead, patrons are invited to enjoy the July 4th Parade taking place that day. \nHours of Operation: 8:00 AM – 12:00 PM \nAurora Farmers Market – West Side (Wednesdays)\nLocation: TBD \nDates: Wednesdays July 1st – September 2nd, 2026 \nHours of Operation: 10:00AM to 2:00PM \nMore Information\nFor more information on the Aurora Farmers Market, please contact the City of Aurora Community Events Division: \n(630) 256-3375 | FarmersMarket@aurora.il.us \nSubscribe to the AFM Newsletter and stay up to date on all things Farmers Market. \nAurora Farmers Market Newsletter",
@@ -5969,6 +6071,23 @@
       "tags": []
     },
     {
+      "id": "942fe3e58d654085",
+      "title": "Groove Move",
+      "description": "",
+      "start": "2026-10-02T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/series/groove-move/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "ce252370ac3afdf2",
       "title": "Executive Voices: Women Building Today",
       "description": "Featuring Alex Carter, internationally renowned keynote speaker, TED Talk presenter, Columbia Law School professor, bestselling author, and trusted advisor to leaders across Fortune 500 companies, the United Nations,",
@@ -6051,6 +6170,23 @@
       "link": "https://www.eventbrite.com/e/first-fridays-with-school-of-rock-oswego-free-open-house-registration-1999492021461",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192462531%2F202636605063%2F1%2Foriginal.20260902-115629?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.508&fp-y=0.719&s=1ef9a030fed50c8a2a3b47947ee29fa8",
       "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "9f3ea0382d15d2a1",
+      "title": "Fox Valley Park District Fall Day of Service",
+      "description": "",
+      "start": "2026-10-03T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Park District",
+      "address": "Aurora, IL",
+      "category": "Parks & Rec",
+      "sourceId": "fox-valley-park-district",
+      "sourceLabel": "Fox Valley Park District",
+      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-park-district-fall-day-of-service/",
+      "imageUrl": null,
+      "confidence": "medium",
       "tags": []
     },
     {
@@ -6525,6 +6661,23 @@
       "sourceId": "aurora-public-library",
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/16921303",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "7781eaf0b8d9f48b",
+      "title": "What We're Reading Wednesdays",
+      "description": "Reading anything good lately? Join our virtual book club via Zoom! We'll take turns sharing the great books that we have been reading.",
+      "start": "2026-10-08T01:00:00.000Z",
+      "end": "2026-10-08T02:00:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17190778",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -7669,6 +7822,23 @@
       "tags": []
     },
     {
+      "id": "93e531a7c7e97cd0",
+      "title": "Peanuts Christmas Experience with Santa",
+      "description": "🎄 Capture Holiday Memories with Santa! 🎅 Step into the Peanuts™ Christmas Experience with Santa at Fox Valley Mall and make magical holiday memories! ✨ 📍 Location: Macy’s Court, Lower Level 📅 Dates: Open daily November 6 – December 24 (Closed Thanksgiving Day) Hours: T BA Reservations are not required, walk-ups are always welcome and will be accommodated as time allows. Bring your loved ones for a joyful photo experience surrounded by festive décor, twinkling lights, and the timeless charm of Snoopy and friends. For pricing and reservation information, visit https://whereissanta.com/mall/1039",
+      "start": "2026-11-06T06:00:00.000Z",
+      "end": "2026-12-23T05:59:59.999Z",
+      "allDay": false,
+      "venue": "Macy's Court",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/31772-peanuts-christmas-experience-with-santa",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTMxNzcyOM_AlkwfdjSpWt343DErPbEbg8UW",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "488139b39313d093",
       "title": "First Friday: Catrina City",
       "description": "Join our Catrina Costume Contest for all ages, view our community ofrenda, and more! ¡Únete a nuestro concurso de disfraces de Catrina para todas las edades, visita la ofrenda comunitaria y mas!",
@@ -7699,6 +7869,23 @@
       "sourceLabel": "Calvary Church",
       "link": "https://subsplash.com/+nn2j/lb/ca/+krb5x9f?embed&branding",
       "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "18457e2ae92509e9",
+      "title": "Santa Arrival",
+      "description": "🎅 Santa’s Grand Arrival at Fox Valley Mall! ✨ 📅 Saturday, November 7 • 10:00 AM 📍 Lower Level, Macy’s Court 🎟️ Free • All Ages Welcome Get ready for the magic of the season! Santa arrives at Fox Valley Mall right at 10:00 AM — don’t be late to catch his grand entrance! After the excitement, families can take professional photos with Santa through Cherry Hill Photo — no reservations needed, first come, first served. Photo packages are available for purchase onsite. Capture the joy, make magical memories, and kick off your holiday season at Fox Valley Mall!",
+      "start": "2026-11-07T16:00:00.000Z",
+      "end": "2026-11-07T18:00:00.000Z",
+      "allDay": false,
+      "venue": "Macy's Court",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/32126-santa-arrival",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTMyMTI2OIXPy0umLMdmYsxvAQAt_BMrib01",
       "confidence": "medium",
       "tags": []
     },
@@ -8213,6 +8400,23 @@
       "tags": []
     },
     {
+      "id": "fd4ec3765130e6e2",
+      "title": "Sensory-Friendly Santa",
+      "description": "🌟 Sensory-Friendly Santa Experience at Fox Valley Mall 🎅💖 Fox Valley Mall is proud to offer a special Santa experience designed for children and families who prefer a calmer, more sensory-friendly environment. 📅 Sunday, December 6 | 🕘 9:00 AM – 10:30 AM 📍 Lower Level, Macy’s Court (Use Mall Entrance 1) Before the mall opens to the public, families can enjoy a peaceful visit with Santa — with lights dimmed and music turned off to create a soothing and welcoming atmosphere for all. ✨ Event Highlights: Free visits with Santa (professional photos available for purchase through Cherry Hill Photo) Relaxed, sensory-considerate environment Holiday coloring and crafts Small giveaways (while supplies last) 🎄 Reservations are not required, but strongly recommended , as this cherished event fills up quickly every year. Make reservations here be sure to select December 6th and a green time slot between 9am - 10:30am. Join us for a morning full of warmth, smiles, and magical holiday memories made just for you. ❤️",
+      "start": "2026-12-06T15:00:00.000Z",
+      "end": "2026-12-06T16:30:00.000Z",
+      "allDay": false,
+      "venue": "Macy's Court",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/32128-sensory-friendly-santa",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTMyMTI4OJDay0tiuPGr_T1j_X0-0bhGLTqQ",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "7e9e63b139270a99",
       "title": "Library Board of Trustees Regular Board Meeting",
       "description": "Aurora Public Library District Board of Trustees Monthly Meeting.",
@@ -8281,40 +8485,6 @@
       "tags": []
     },
     {
-      "id": "3c9f42c7fd01e9d4",
-      "title": "Home Alone",
-      "description": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
-      "start": "2026-12-22T01:00:00.000Z",
-      "end": "2026-12-22T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/home-alone-2/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2024/04/24PCMMV2-HOME-ALONE-CI-800x445-1.jpg",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "b98615c827a5abde",
-      "title": "Hercules",
-      "description": "The son of Zeus must prove himself a true hero in order to return to Mount Olympus.",
-      "start": "2026-12-29T01:00:00.000Z",
-      "end": "2026-12-29T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/hercules/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/04/26PCMM-HERCULES-CI-800x445-1.png",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "0e52d561208a1b0d",
       "title": "BINGLOW!",
       "description": "Start your New Year's Eve with family friendly fun--glow-in-the-dark BINGO! For children of all ages and their caregivers.",
@@ -8363,23 +8533,6 @@
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "826bb02f5979b064",
-      "title": "Sunday in the Park with George",
-      "description": "“Art isn't easy, any way you look at it.\"",
-      "start": "2027-02-11T01:00:00.000Z",
-      "end": "2027-03-28T17:30:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/sunday-in-the-park-with-george/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/01/BWAY-800x445_Sunday.jpg",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -8482,23 +8635,6 @@
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "70b4361ff66c9285",
-      "title": "Joseph and the Amazing Technicolor Dreamcoat",
-      "description": "“Any dream will do.\"",
-      "start": "2027-04-29T00:00:00.000Z",
-      "end": "2027-06-13T17:30:00.000Z",
-      "allDay": false,
-      "venue": "Paramount Theatre",
-      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
-      "category": "Entertainment",
-      "sourceId": "paramount-theatre",
-      "sourceLabel": "Paramount Theatre",
-      "link": "https://paramountaurora.com/events/joseph-and-the-amazing-technicolor-dreamcoat/",
-      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2026/01/BWAY-800x445_Joseph.jpg",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -8671,9 +8807,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 14,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -8690,13 +8826,13 @@
     {
       "id": "paramount-theatre",
       "ok": true,
-      "count": 24,
+      "count": 20,
       "error": null
     },
     {
       "id": "riveredge-park",
       "ok": true,
-      "count": 1,
+      "count": 3,
       "error": null
     },
     {
@@ -8714,7 +8850,7 @@
     {
       "id": "fox-valley-mall",
       "ok": true,
-      "count": 10,
+      "count": 12,
       "error": null
     },
     {
@@ -8725,9 +8861,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "id": "calvary-church",
@@ -8792,7 +8928,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
