@@ -232,7 +232,8 @@
     "venue": "Two Brothers Roundhouse",
     "address": "205 N Broadway, Aurora, IL",
     "type": "jsonld",
-    "url": "https://www.eventbrite.com/d/il--aurora/two-brothers-roundhouse/"
+    "url": "https://www.eventbrite.com/d/il--aurora/two-brothers-roundhouse/",
+    "venueFilter": "Two Brothers"
   },
   {
     "id": "phoenix-club",
@@ -251,10 +252,10 @@
     "category": "Community",
     "venue": "Various Aurora, IL Venues",
     "address": "Aurora, IL",
-    "type": "api-eventbrite",
-    "url": "https://www.eventbriteapi.com/v3/events/search/",
-    "apiKeyEnv": "EVENTBRITE_TOKEN",
-    "locationQuery": "Aurora, IL"
+    "type": "eventbrite-city",
+    "url": "https://www.eventbrite.com/d/il--aurora/all-events/",
+    "maxPages": 3,
+    "cityFilter": "Aurora"
   },
   {
     "id": "ticketmaster-aurora-il",

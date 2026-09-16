@@ -150,6 +150,7 @@ const CONFIDENCE_BY_TYPE = {
   "api-eventbrite": "high",
   "api-ticketmaster": "high",
   "eventbrite-organizer": "high",
+  "eventbrite-city": "medium",
   rss: "medium",
   jsonld: "medium",
   html: "medium",

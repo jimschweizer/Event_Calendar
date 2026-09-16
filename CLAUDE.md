@@ -42,9 +42,12 @@ There is exactly one source of real event data: `data/sources.json` → `data/ev
   per-source `apiJson` config — for sources whose widgets are backed by a clean JSON API, e.g.
   ChamberMaster/GrowthZone, Communico library calendars, CitySpark portals; supports GET/POST,
   dot-path field mapping, and `{{today}}`/`{{today+N}}` date tokens), `rss` (rss-parser),
-  `api-legistar` (Aurora city council, public API, no key), `api-eventbrite`/`api-ticketmaster`
-  (key-gated — skip gracefully, not a failure, if `EVENTBRITE_TOKEN`/`TICKETMASTER_KEY` env vars
-  are unset), and `ocr-image` (tesseract.js, for The Phoenix Club's Wix image-only flyers).
+  `api-legistar` (Aurora city council, public API, no key), `eventbrite-city` (crawls public Eventbrite
+  city directory pages like /d/il--aurora/all-events/, supports `maxPages` and `cityFilter`),
+  `eventbrite-organizer` (extracts from `__NEXT_DATA__` on organizer profile pages),
+  `api-eventbrite`/`api-ticketmaster` (key-gated — skip gracefully, not a failure, if
+  `EVENTBRITE_TOKEN`/`TICKETMASTER_KEY` env vars are unset), and `ocr-image` (tesseract.js, for The
+  Phoenix Club's Wix image-only flyers).
 - `ocr-image.mjs` spawns `ocr-image-worker.mjs` as a **child process**, not an in-process call —
   tesseract.js has a known failure mode (certain malformed/unsupported images) that throws
   asynchronously past any try/catch and kills the Node process outright. Isolating it means that

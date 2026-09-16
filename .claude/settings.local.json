@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e \"const d=require\\('./data/events.json'\\); console.log\\('generatedAt', d.generatedAt\\); console.log\\('events', d.events.length\\); console.log\\(JSON.stringify\\(d.sourceStatus, null, 1\\)\\);\")",
+      "Bash(node *)",
+      "Bash(sed -E 's/.*\"\\([^\"]*\\)\".*/\\\\1/')",
+      "Bash(sed 's/^\\\\.//')"
+    ]
+  }
+}

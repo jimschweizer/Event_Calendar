@@ -29,6 +29,7 @@ import { fetchSource as fetchEventbrite } from "./adapters/eventbrite.mjs";
 import { fetchSource as fetchTicketmaster } from "./adapters/ticketmaster.mjs";
 import { fetchSource as fetchOcrImage } from "./adapters/ocr-image.mjs";
 import { fetchSource as fetchEventbriteOrganizer } from "./adapters/eventbrite-organizer.mjs";
+import { fetchSource as fetchEventbriteCity } from "./adapters/eventbrite-city.mjs";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const SOURCES_PATH = path.join(__dirname, "..", "data", "sources.json");
@@ -45,6 +46,7 @@ const ADAPTERS = {
   "api-ticketmaster": fetchTicketmaster,
   "ocr-image": fetchOcrImage,
   "eventbrite-organizer": fetchEventbriteOrganizer,
+  "eventbrite-city": fetchEventbriteCity,
 };
 
 async function fetchAndNormalize(source) {
