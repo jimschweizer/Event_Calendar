@@ -1,74 +1,6 @@
 {
-  "generatedAt": "2026-09-22T00:57:41.566Z",
+  "generatedAt": "2026-09-22T15:32:31.678Z",
   "events": [
-    {
-      "id": "485859920055cda2",
-      "title": "Boy Scouts",
-      "description": "",
-      "start": "2026-09-22T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=OGhraTJ2ZWV1OThoOG1la3ZhdWs4MW50Y2sgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "450ec7a678908ff0",
-      "title": "OCIA Information Session",
-      "description": "",
-      "start": "2026-09-22T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MXV2YWNkNTVvdjR1MXBjMXMyMHVjZjA4dHMgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "cad440fda9a78b6f",
-      "title": "Planning Mtg - Building a Bigger Thanksgiving Table",
-      "description": "",
-      "start": "2026-09-22T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=dGdiMTFtcTRqbXNyYm83MDMzZDk0ODI1azAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "cae5246c3d40f9c1",
-      "title": "Mondays wMonica",
-      "description": "",
-      "start": "2026-09-22T00:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MDloZ2ppNHNpNG9jYnZ2ZHFmdjh0ZnVwZ2Mgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "d0fcc5d24650317d",
       "title": "Musician Spotlight: Jim Hoehn",
@@ -99,23 +31,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://mchenry.librarycalendar.com/events/month/2026/09",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "5d61b41fb1df1f99",
-      "title": "Multi Chamber Event:2nd Annual State of Kane County Address",
-      "description": "Multi-Chamber Event: Invites your Chamber to partner again for this year’s 2nd Annual State of Kane County Address ft Corinne Pierog",
-      "start": "2026-09-22T12:30:00.000Z",
-      "end": "2026-09-22T14:00:00.000Z",
-      "allDay": false,
-      "venue": "Eagle Brook Country Club",
-      "address": "Aurora, IL",
-      "category": "Commerce",
-      "sourceId": "aurora-chamber",
-      "sourceLabel": "Aurora Regional Economic Alliance",
-      "link": "https://business.auroraalliance.org/ap/Events/Register/2rOK7MBr?sourceTypeId=ExternalSystem",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1073,23 +988,6 @@
       "tags": []
     },
     {
-      "id": "1ea061f563357654",
-      "title": "Our Voices, Our Minds: Bipoc Youth Navigating Discrimination In Education",
-      "description": "",
-      "start": "2026-09-23T21:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20260923/81320d4c-9865-437a-acba-c38d34d04ca5/our-voices-our-minds-bipoc-youth-navigating-discrimination-in-education",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "78d41b0ec49ddde1",
       "title": "Women's Soccer vs Moraine Valley Community College",
       "description": "The event is held on September 23, 2026 at Field House (FLD), Soccer Field in Sugar Grove, IL.",
@@ -1323,6 +1221,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "http://www.thehousepub.com/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "11621eb6bdcb3df0",
+      "title": "Freedom's Path: The Underground Railroad and the Anti-Slavery Movement in Kendall & Kane Counties",
+      "description": "09/24/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/24/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nThe Montgomery Historic Preservation Commission invites the public to discover the remarkable stories of courage, resistance, and hope that unfolded in northern Illinois before the Civil War during",
+      "start": "2026-09-24T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/freedoms-path%3a-the-underground-railroad-and-the-anti-slavery-movement-in-kendall-%26-kane-counties/4574/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -2195,6 +2110,23 @@
       "tags": []
     },
     {
+      "id": "de9f7d20ef1782ae",
+      "title": "Victoria's Secret Hiring Event",
+      "description": "Victoria’s Secret Open Interviews Looking for your next opportunity? Victoria’s Secret is hiring at Fox Valley Mall! Stop by the Victoria’s Secret store this Saturday, September 26, from 3 PM–7 PM for open interviews . This is a great opportunity to meet the team, learn more about available positions, and explore a career with Victoria’s Secret. 📍 Victoria’s Secret at Fox Valley Mall 📅 Saturday, September 26 ⏰ 3 PM–7 PM Come prepared to make a great impression and take the next step toward joining the Victoria’s Secret team!",
+      "start": "2026-09-26T20:00:00.000Z",
+      "end": "2026-09-27T00:00:00.000Z",
+      "allDay": false,
+      "venue": "Victoria's Secret",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/43968-v",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTQzOTY4OKf49Vkei5Z6xFnEhWXVxsxAEN-S",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "01e6267a6812c069",
       "title": "OLM Feast Day Celebration at Multi Purpose Room 121A",
       "description": "",
@@ -2260,23 +2192,6 @@
       "link": "https://www.eventbrite.com/e/will-hoge-wsg-jon-tyler-wiley-tickets-1988766238355",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1183711053%2F202636605063%2F1%2Foriginal.20260504-150933?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.489&fp-y=0.438&s=206bd803f7d031d5e241136c040884df",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "6af3995fd77293be",
-      "title": "To Be Announced",
-      "description": "",
-      "start": "2026-09-27T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "New England Congregational Church",
-      "address": "406 W Galena Blvd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "new-england-congregational",
-      "sourceLabel": "New England Congregational Church",
-      "link": "https://www.youtube.com/channel/UCVt1KaKJciCFKDMYF7uQlvw",
-      "imageUrl": null,
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -4553,6 +4468,23 @@
       "sourceId": "aurora-public-library",
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17373248",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "f86b4fb0e402986f",
+      "title": "Business After Hours: Aurora Historical Society",
+      "description": "Join us for a fun and welcoming Aurora Alliance Business After Hours at Aurora Historical Society!",
+      "start": "2026-10-15T22:00:00.000Z",
+      "end": "2026-10-16T00:00:00.000Z",
+      "allDay": false,
+      "venue": "Aurora Historical Society",
+      "address": "Aurora, IL",
+      "category": "Commerce",
+      "sourceId": "aurora-chamber",
+      "sourceLabel": "Aurora Regional Economic Alliance",
+      "link": "https://business.auroraalliance.org/ap/Events/Register/vrA2eO9p?sourceTypeId=ExternalSystem",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -7337,7 +7269,7 @@
     {
       "id": "fox-valley-mall",
       "ok": true,
-      "count": 18,
+      "count": 19,
       "error": null
     },
     {
@@ -7348,9 +7280,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
@@ -7415,7 +7347,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 5,
+      "count": 4,
       "error": null
     },
     {
