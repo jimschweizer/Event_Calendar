@@ -1,74 +1,6 @@
 {
-  "generatedAt": "2026-09-24T00:40:08.985Z",
+  "generatedAt": "2026-09-24T15:51:45.303Z",
   "events": [
-    {
-      "id": "8c52f4c9178a91f4",
-      "title": "Silent Book Club",
-      "description": "09/23/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/23/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nCome join us for our September Silent Book Club Meeting at the Fox Valley Winery on Main Street in Oswego. Bring your favorite book, a snack if you want and enjoy a relaxing evening of reading",
-      "start": "2026-09-23T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/silent-book-club/3395/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "265192beab6e4322",
-      "title": "House of Bethany",
-      "description": "",
-      "start": "2026-09-23T14:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=OGoxNmNnb2QwYTJrZXZxbmN0c2J0ZnYya2Mgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "c817fb6c099751b9",
-      "title": "Walking Through Grief",
-      "description": "",
-      "start": "2026-09-23T18:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MmJzYmg5bzFyM2ptajR2aXRlNHE2bGNhNWMgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "828a40e7b758bbbd",
-      "title": "Salt Light",
-      "description": "",
-      "start": "2026-09-23T23:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=Y2xlMTltMTNpOTJxcG1nNDQ1M2FxNmtybDAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "11621eb6bdcb3df0",
       "title": "Freedom's Path: The Underground Railroad and the Anti-Slavery Movement in Kendall & Kane Counties",
@@ -121,6 +53,23 @@
       "tags": []
     },
     {
+      "id": "6513da575cced1ea",
+      "title": "Trivia Night at Schaefer’s!",
+      "description": "09/24/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/24/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n Trivia Night at Schaefer's! \n𝗦𝗲𝗽𝘁𝗲𝗺𝗯𝗲𝗿 𝟮𝟰𝘁𝗵, 𝟳:𝟬𝟬𝗣𝗠\nThink you've got what it takes to be the trivia champion? Gather your smartest friends (or the funniest ones!) and join us for an",
+      "start": "2026-09-24T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/trivia-night-at-schaefer%e2%80%99s!/4448/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "4723316ece922b29",
       "title": "67th Annual Fall Festival of Crafts",
       "description": "The event is held on September 24, 2026 at Sandwich Fairgrounds in Sandwich, IL.",
@@ -167,23 +116,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://mchenry.librarycalendar.com/events/month/2026/09",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "8b7813e39b7fa977",
-      "title": "CASA KANE COUNTY CLAYS FOR KIDS",
-      "description": "Step into the beauty of the Max McGraw Wildlife Foundation on September 24, 2026, and experience a day that’s as meaningful as it is memorable.\n\nJoin us for Clays for Kids—an elevated sporting clays event supporting CASA Kane County’s mission to ...",
-      "start": "2026-09-24T13:00:00.000Z",
-      "end": "2026-09-25T00:00:00.000Z",
-      "allDay": true,
-      "venue": "MAX MCGRAW WILDLIFE FOUNDATION",
-      "address": "Aurora, IL",
-      "category": "Commerce",
-      "sourceId": "aurora-chamber",
-      "sourceLabel": "Aurora Regional Economic Alliance",
-      "link": "https://business.auroraalliance.org/ap/Events/Register/GrZMd1kL?sourceTypeId=ExternalSystem",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -252,6 +184,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://fineline.org/pages/kavanagh-gallery",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "16356aa7e197a9a2",
+      "title": "CASA Kane County Clays for Kids",
+      "description": "The event is held on September 24, 2026 at Max McGraw Wildlife Foundation in West Dundee, IL.The cost is 350.00",
+      "start": "2026-09-24T15:00:00.000Z",
+      "end": "2026-09-24T22:00:00.000Z",
+      "allDay": false,
+      "venue": "Max McGraw Wildlife Foundation",
+      "address": "West Dundee, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://casakanecounty.org/casa-events/clays-for-kids/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -682,6 +631,23 @@
       "tags": []
     },
     {
+      "id": "662a92df10f18112",
+      "title": "Dungeons and Dragons® - Junior High Edition",
+      "description": "The event is held on September 24, 2026 at McHenry Public Library in McHenry, IL.",
+      "start": "2026-09-24T22:30:00.000Z",
+      "end": "2026-09-25T00:30:00.000Z",
+      "allDay": false,
+      "venue": "McHenry Public Library",
+      "address": "McHenry, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://mchenry.librarycalendar.com/event/dungeons-and-dragonsr-junior-high-edition-30624",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "14aa7517778793f2",
       "title": "OCIC at Room 215",
       "description": "",
@@ -767,6 +733,23 @@
       "tags": []
     },
     {
+      "id": "e1165a79e3ab3a66",
+      "title": "Teen Craft Night",
+      "description": "The event is held on September 24, 2026 at Woodstock Public Library in Woodstock, IL.The event is free.The cost is 0.00",
+      "start": "2026-09-24T23:00:00.000Z",
+      "end": "2026-09-25T00:00:00.000Z",
+      "allDay": false,
+      "venue": "Woodstock Public Library",
+      "address": "Woodstock, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://portal.cityspark.com/api/events/GetEvents/BestoftheFox",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "ef6148b96bfa1434",
       "title": "The Art of Building On Your Land",
       "description": "The event is held on September 24, 2026 in Elburn, IL.The event is free.The cost is 0.00",
@@ -813,23 +796,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.eventbrite.com/e/rooted-in-strength-aurora-naperville-tickets-1993620116435",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "e1165a79e3ab3a66",
-      "title": "Teen Craft Night",
-      "description": "The event is held on September 24, 2026 at Woodstock Public Library in Woodstock, IL.The event is free.The cost is 0.00",
-      "start": "2026-09-24T23:00:00.000Z",
-      "end": "2026-09-25T00:00:00.000Z",
-      "allDay": false,
-      "venue": "Woodstock Public Library",
-      "address": "Woodstock, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://portal.cityspark.com/api/events/GetEvents/BestoftheFox",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -937,40 +903,6 @@
       "tags": []
     },
     {
-      "id": "f03e99888cae19c0",
-      "title": "Freedom's Path: The Underground Railroad and the Anti-Slavery Movement in Kendall and Kane Counties",
-      "description": "The event is held on September 24, 2026 at Village Hall in Montgomery, IL.",
-      "start": "2026-09-24T23:30:00.000Z",
-      "end": "2026-09-25T00:30:00.000Z",
-      "allDay": false,
-      "venue": "Village Hall",
-      "address": "Montgomery, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.montgomeryil.org/calendar.aspx?CID=14",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "8d5d1e17fd916af0",
-      "title": "ANDREW BLAKE'S MONSTER JAM live",
-      "description": "The event is held on September 24, 2026 at Broken Oar in Port Barrington, IL.",
-      "start": "2026-09-24T23:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Broken Oar",
-      "address": "Port Barrington, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.facebook.com/events/1669911911468376/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "63c0505b5d7dc576",
       "title": "THURSDAY NIGHT TAILGATING PARTY",
       "description": "The event is held on September 24, 2026 at All Ages w/Guardian in McHenry, IL.",
@@ -988,6 +920,23 @@
       "tags": []
     },
     {
+      "id": "f03e99888cae19c0",
+      "title": "Freedom's Path: The Underground Railroad and the Anti-Slavery Movement in Kendall and Kane Counties",
+      "description": "The event is held on September 24, 2026 at Village Hall in Montgomery, IL.",
+      "start": "2026-09-24T23:30:00.000Z",
+      "end": "2026-09-25T00:30:00.000Z",
+      "allDay": false,
+      "venue": "Village Hall",
+      "address": "Montgomery, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.montgomeryil.org/calendar.aspx?CID=14",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "3baed38d7ced2181",
       "title": "Free 'n Fun Bingo Thursdays! KIDS EAT FREE!!! New Time--6:30!",
       "description": "The event is held on September 24, 2026 in St. Charles, IL.",
@@ -1000,6 +949,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.facebook.com/events/2086878015260431/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "8d5d1e17fd916af0",
+      "title": "ANDREW BLAKE'S MONSTER JAM live",
+      "description": "The event is held on September 24, 2026 at Broken Oar in Port Barrington, IL.",
+      "start": "2026-09-24T23:30:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Broken Oar",
+      "address": "Port Barrington, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.facebook.com/events/1669911911468376/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1170,6 +1136,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "http://www.thehousepub.com/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "90a7f078190d6423",
+      "title": "Aurora Greek Fest",
+      "description": "09/25/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t09/27/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nDon’t miss out on this event where you can indulge in delicious food, discover amazing vendors, and enjoy exciting raffles!\n  \nFriday & Saturaday: 12pm - 9pm\n Sunday: 12pm - 7pm",
+      "start": "2026-09-25T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/aurora-greek-fest/3480/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1736,23 +1719,6 @@
       "tags": []
     },
     {
-      "id": "3a43253997282a87",
-      "title": "Bigfoot Trail Run 5K",
-      "description": "",
-      "start": "2026-09-26T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/bigfoot-trail-run-5k-3/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "37b50ec483dded22",
       "title": "Aurora Farmers Market",
       "description": "The oldest farmers market in Illinois makes a return for its’ 115th season this summer, 2026! Every week, our markets feature fresh, locally grown fruits and vegetables, decadent baked goods and pastry items, a selection of local food trucks and vendors (including Aurora’s famous Dick’s Mini Donuts), delicious coffee, one-of-a-kind artisan items and more! \nLocations & Dates\nAurora Farmers Market at Water Street Square (Saturdays)\nLocation: 65 S. Water St, Aurora, IL 60505 \nDates: Saturdays June 6th – October 3rd, 2026 \nPlease note: The Aurora Farmers Market will not be in operation on Saturday, July 4th, 2026. Instead, patrons are invited to enjoy the July 4th Parade taking place that day. \nHours of Operation: 8:00 AM – 12:00 PM \nAurora Farmers Market – West Side (Wednesdays)\nLocation: TBD \nDates: Wednesdays July 1st – September 2nd, 2026 \nHours of Operation: 10:00AM to 2:00PM \nMore Information\nFor more information on the Aurora Farmers Market, please contact the City of Aurora Community Events Division: \n(630) 256-3375 | FarmersMarket@aurora.il.us \nSubscribe to the AFM Newsletter and stay up to date on all things Farmers Market. \nAurora Farmers Market Newsletter",
@@ -1833,6 +1799,23 @@
       "sourceId": "aurora-city-events",
       "sourceLabel": "City of Aurora Events",
       "link": "https://aurorailevents.com/event/aurora-greek-fest-2/",
+      "imageUrl": null,
+      "confidence": "high",
+      "tags": []
+    },
+    {
+      "id": "e62858d866802067",
+      "title": "Oktoberfest at the Aurora Turners Club",
+      "description": "Celebrate Oktoberfest this weekend at Aurora Turners Club! \n\n\nStop by for live entertainment, delicious German food, and fun contests like stein-hoisting, hammerschlagen, keg-rolling, arm wrestling, and a beer stein relay race!\n\n\nThis event is guaranteed to be a blast for the whole family, with mini-keg bowling, pretzel-tossing, crafts, and sack races for the kids as well. \n\n\nWe hope to see you there!\n\n\n Saturday, September 26\nAurora Turners Club | 1335 Mitchell Road\n 12 P.M. – 9 P.M.",
+      "start": "2026-09-26T17:00:00.000Z",
+      "end": "2026-09-27T02:00:00.000Z",
+      "allDay": false,
+      "venue": "Aurora Turners Club, 1335 Mitchell Rd, Aurora, IL, 60504, United States",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "aurora-city-events",
+      "sourceLabel": "City of Aurora Events",
+      "link": "https://aurorailevents.com/event/oktoberfest-at-the-aurora-turners-club/",
       "imageUrl": null,
       "confidence": "high",
       "tags": []
@@ -2841,23 +2824,6 @@
       "tags": []
     },
     {
-      "id": "942fe3e58d654085",
-      "title": "Groove Move",
-      "description": "",
-      "start": "2026-10-02T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/series/groove-move/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "ce252370ac3afdf2",
       "title": "Executive Voices: Women Building Today",
       "description": "Featuring Alex Carter, internationally renowned keynote speaker, TED Talk presenter, Columbia Law School professor, bestselling author, and trusted advisor to leaders across Fortune 500 companies, the United Nations,",
@@ -2940,23 +2906,6 @@
       "link": "https://www.eventbrite.com/e/first-fridays-with-school-of-rock-oswego-free-open-house-registration-1999492021461",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193057017%2F202636605063%2F1%2Foriginal.20260909-135903?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.488&fp-y=0.606&s=6149c447e072270276cc68ea56b74d58",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "9f3ea0382d15d2a1",
-      "title": "Fox Valley Park District Fall Day of Service",
-      "description": "",
-      "start": "2026-10-03T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Fox Valley Park District",
-      "address": "Aurora, IL",
-      "category": "Parks & Rec",
-      "sourceId": "fox-valley-park-district",
-      "sourceLabel": "Fox Valley Park District",
-      "link": "https://www.foxvalleyparkdistrict.org/event/fox-valley-park-district-fall-day-of-service/",
-      "imageUrl": null,
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -5068,6 +5017,23 @@
       "tags": []
     },
     {
+      "id": "3c6380e6c0cee960",
+      "title": "Lunch & Learn: Guest Experience by Design",
+      "description": "Guest Experience by Design: Hospitality Secrets from Disney & Royal Caribbean\nWhat do theme parks and cruise ships have in common with your everyday business? Everything. Drawing on firsthand experience delivering world-class guest experiences at ...",
+      "start": "2026-10-22T16:30:00.000Z",
+      "end": "2026-10-22T18:00:00.000Z",
+      "allDay": false,
+      "venue": "Aurora Regional Economic Alliance",
+      "address": "Aurora, IL",
+      "category": "Commerce",
+      "sourceId": "aurora-chamber",
+      "sourceLabel": "Aurora Regional Economic Alliance",
+      "link": "https://business.auroraalliance.org/ap/Events/Register/DLbn3aQL?sourceTypeId=ExternalSystem",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "8e7f1a1ec47b58ef",
       "title": "Homeschool Award-Winning Book Club",
       "description": "Pick up your own copy of the book at the Santori Children's Desk. Ages 8-11.",
@@ -5272,6 +5238,40 @@
       "tags": []
     },
     {
+      "id": "bef87dfc72ad12dd",
+      "title": "English for Work",
+      "description": "A free 10-week class to improve your English skills at work. Led by Waubonsee Community College. Clase gratuita de 10 semanas para mejorar tu inglés en el trabajo con Waubonsee Community College.",
+      "start": "2026-10-24T14:30:00.000Z",
+      "end": "2026-10-24T17:30:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17205488",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "a2ee2fd413f657b2",
+      "title": "Bookmobile Community Stop: Lincoln Prairie by Del Webb",
+      "description": "Offering Chromebooks, Hotspots, Launchpads, audiobooks, board games, magazines, DVDs, and books for all ages in English and Spanish, there's something for everyone on the Bookmobile! Visit today!",
+      "start": "2026-10-24T14:30:00.000Z",
+      "end": "2026-10-24T15:30:00.000Z",
+      "allDay": false,
+      "venue": "3245 Del Webb Blvd.",
+      "address": "3245 Del Webb Blvd.",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17373977",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "b03fc5a6ea51c7b5",
       "title": "10 a.m. Teen Escape Room",
       "description": "Beware the Giant Spiders! Can you and your friends solve the secrets of our escape room before time runs out?! Discover puzzles, hidden clues, & more. Made possible by our Teen Advisory Board.",
@@ -5301,6 +5301,23 @@
       "sourceId": "aurora-public-library",
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17184852",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "18b4f2f9645c1f08",
+      "title": "English Conversation Group",
+      "description": "¡Únase a estudiantes de inglés de nivel intermedio en una conversación en persona o en Zoom!\n--\nJoin English learners at the intermediate level in conversation in person or on Zoom!",
+      "start": "2026-10-24T15:30:00.000Z",
+      "end": "2026-10-24T17:00:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/16716140",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -6768,6 +6785,23 @@
       "tags": []
     },
     {
+      "id": "3c9f42c7fd01e9d4",
+      "title": "Home Alone",
+      "description": "An eight-year-old troublemaker, mistakenly left home alone, must defend his home against a pair of burglars on Christmas Eve.",
+      "start": "2026-12-22T01:00:00.000Z",
+      "end": "2026-12-22T03:00:00.000Z",
+      "allDay": false,
+      "venue": "Paramount Theatre",
+      "address": "23 E Galena Blvd.\r\nAurora, IL 60506",
+      "category": "Entertainment",
+      "sourceId": "paramount-theatre",
+      "sourceLabel": "Paramount Theatre",
+      "link": "https://paramountaurora.com/events/home-alone-2/",
+      "imageUrl": "https://paramountaurora.com/wp-content/uploads/2024/04/24PCMMV2-HOME-ALONE-CI-800x445-1.jpg",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0e52d561208a1b0d",
       "title": "BINGLOW!",
       "description": "Start your New Year's Eve with family friendly fun--glow-in-the-dark BINGO! For children of all ages and their caregivers.",
@@ -7113,7 +7147,7 @@
     {
       "id": "aurora-city-events",
       "ok": true,
-      "count": 20,
+      "count": 21,
       "error": null
     },
     {
@@ -7124,9 +7158,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": true,
-      "count": 14,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "aurora-public-library",
@@ -7143,7 +7177,7 @@
     {
       "id": "paramount-theatre",
       "ok": true,
-      "count": 19,
+      "count": 20,
       "error": null
     },
     {
@@ -7251,7 +7285,7 @@
     {
       "id": "shaw-local",
       "ok": true,
-      "count": 74,
+      "count": 75,
       "error": null
     }
   ]
