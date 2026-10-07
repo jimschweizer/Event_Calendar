@@ -1,91 +1,6 @@
 {
-  "generatedAt": "2026-10-07T01:41:06.804Z",
+  "generatedAt": "2026-10-07T17:49:34.460Z",
   "events": [
-    {
-      "id": "6f860df8bbc55e04",
-      "title": "PADSHesed House",
-      "description": "",
-      "start": "2026-10-06T14:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=ZG5tZmt1OHEwczA4YzVyYTdhOHZvOHZwOGcgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "95536fe22441804d",
-      "title": "PETE ELLMAN BIG BAND with John Hersey High School",
-      "description": "",
-      "start": "2026-10-06T23:30:00.000Z",
-      "end": "2026-10-06T23:30:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/pete-ellman-big-band-with-john-hersey-high-school-tickets-2001550916672",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1153337203%2F2513532402881%2F1%2Foriginal.20251014-213011?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.485&fp-y=0.019&s=ef91180b764c826accc72faf3cc5f5fd",
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "295d79f2f73cfb76",
-      "title": "Adult Bible Study",
-      "description": "",
-      "start": "2026-10-07T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MTU0dTJkM3B2cWM0cGExZ2Ywa2piZmowdW8gb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "5ca2bd3633e5f59d",
-      "title": "Consuming Fire",
-      "description": "",
-      "start": "2026-10-07T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MmNpbWw5ajRibmtzbjF0ZmRwMXJuNmZ2cjAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9ab2d9ea4e48dae6",
-      "title": "Reconciliation",
-      "description": "",
-      "start": "2026-10-07T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=dmh2ajUwZzBtaXNyanV2YTR1cGoyMXZnazAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "b8c8d473a7c33112",
       "title": "ArtBar Batavia: Drink & Draw",
@@ -1022,6 +937,23 @@
       "tags": []
     },
     {
+      "id": "6fb5e08a9e233799",
+      "title": "DICKIE at The Law Office Pub & Music Hall - Yorkville",
+      "description": "10/08/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/08/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nJoin us for an unforgettable night of music at The Law Office Pub & Music Hall in Yorkville!\n  \n  \n  \nDick Prall a/k/a Dickie, is a master of what a recent interviewer called “self-deprecating indie",
+      "start": "2026-10-08T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/dickie-at-the-law-office-pub-%26-music-hall-yorkville/4480/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "1bf7693ddda346f0",
       "title": "No School - Parent Teacher Conference",
       "description": "",
@@ -1872,6 +1804,23 @@
       "tags": []
     },
     {
+      "id": "1d39b6d44a0b1955",
+      "title": "American Red Cross Babysitter & CPR Certification Class in Aurora (Ages 11–16)",
+      "description": "",
+      "start": "2026-10-10T13:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20261010/d764f066-9f12-45e5-be88-edb7ee96a99a/american-red-cross-babysitter-cpr-certification-class-in-aurora-ages-11-16",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "80e9672ca38956fc",
       "title": "Bookmobile Community Stop: Lincoln Prairie by Del Webb",
       "description": "Offering Chromebooks, Hotspots, Launchpads, audiobooks, board games, magazines, DVDs, and books for all ages in English and Spanish, there's something for everyone on the Bookmobile! Visit today!",
@@ -2005,23 +1954,6 @@
       "link": "https://www.eventbrite.com/e/david-nail-tickets-1991421830302",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186449781%2F202636605063%2F1%2Foriginal.20260608-223720?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c25f51f96dec42bf89183468249cf2c4",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "f2c0cc4f7c027c53",
-      "title": "“Troubled by Truth”",
-      "description": "",
-      "start": "2026-10-11T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "New England Congregational Church",
-      "address": "406 W Galena Blvd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "new-england-congregational",
-      "sourceLabel": "New England Congregational Church",
-      "link": "https://www.youtube.com/channel/UCVt1KaKJciCFKDMYF7uQlvw",
-      "imageUrl": null,
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -5085,6 +5017,23 @@
       "tags": []
     },
     {
+      "id": "c96209cc7e3c30fc",
+      "title": "THE VENUE PRESENTS HORROR CLASSIC “CARRIE” (FREE)",
+      "description": "",
+      "start": "2026-10-26T00:00:00.000Z",
+      "end": "2026-10-26T00:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/the-venue-presents-horror-classic-carrie-free-tickets-2001189316115",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193647527%2F202636605063%2F1%2Foriginal.20260916-125429?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.51&fp-y=0.245&s=79e9261b12f2c9e68810cef2e6a46ff3",
+      "confidence": "high",
+      "tags": []
+    },
+    {
       "id": "b6cb327b032752aa",
       "title": "Family Storytime",
       "description": "Enjoy stories, rhymes, music, and more in this all ages family storytime. For children of all ages and their caregivers.",
@@ -6513,6 +6462,23 @@
       "tags": []
     },
     {
+      "id": "3c25b8bd1ead1243",
+      "title": "Preschool Storytime",
+      "description": "Bring your creative child to this family storytime! Each session will feature songs, stories, and a hands-on craft. For ages 3-5 and their caregivers.",
+      "start": "2026-11-06T16:00:00.000Z",
+      "end": "2026-11-06T16:30:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17074245",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "488139b39313d093",
       "title": "First Friday: Catrina City",
       "description": "Join our Catrina Costume Contest for all ages, view our community ofrenda, and more! ¡Únete a nuestro concurso de disfraces de Catrina para todas las edades, visita la ofrenda comunitaria y mas!",
@@ -7654,9 +7620,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
@@ -7721,7 +7687,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 2,
+      "count": 3,
       "error": null
     },
     {
