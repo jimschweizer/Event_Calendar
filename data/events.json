@@ -1,125 +1,6 @@
 {
-  "generatedAt": "2026-10-14T01:18:29.873Z",
+  "generatedAt": "2026-10-14T15:49:49.051Z",
   "events": [
-    {
-      "id": "9c4e1b33b01ef008",
-      "title": "Haunted Romantics: Shadows of Fate",
-      "description": "10/13/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/13/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nThe French Romantic composer Hector Berlioz, desperately in love with an actress who does not share his passion, dreams he's being marched to the guillotine, and crash! - off comes his head Set to",
-      "start": "2026-10-13T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/haunted-romantics%3a-shadows-of-fate/4682/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "5ba1fe1f4f5b44a9",
-      "title": "Living with Grief",
-      "description": "",
-      "start": "2026-10-13T18:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=dTQ4Z25mdGlkczFiZ3RrMXN2Y3NyNWRtaTAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "2f8cb034372e9f6c",
-      "title": "Baptism Prep Class",
-      "description": "",
-      "start": "2026-10-13T23:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MTZoMTBtNmgyYjdhaTQ2cHVjNWI4MzBuZTQgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "988b80d8677bcb7a",
-      "title": "PETE ELLMAN BIG BAND with College Of DuPage",
-      "description": "",
-      "start": "2026-10-13T23:30:00.000Z",
-      "end": "2026-10-13T23:30:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/pete-ellman-big-band-with-college-of-dupage-tickets-2001555432178",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1153337203%2F2513532402881%2F1%2Foriginal.20251014-213011?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.485&fp-y=0.019&s=ef91180b764c826accc72faf3cc5f5fd",
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "ad02f10379cbb4aa",
-      "title": "Adult Bible Study",
-      "description": "",
-      "start": "2026-10-14T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=NjRpbnV2NnMzdHI3b2F2ZmJ0bTU0ZmgyOWsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "52a8b121f202e718",
-      "title": "Consuming Fire",
-      "description": "",
-      "start": "2026-10-14T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=YWE2OGlxYzJ1N21zOW1qM2ZoanJqMGJndDQgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "ee9e7c43c6501a47",
-      "title": "Reconciliation",
-      "description": "",
-      "start": "2026-10-14T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=NjBvbzVwM2twaGM1bzJjazV1MG5pNnNuamcgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "c4b65e5668172655",
       "title": "Crystal & China Repair",
@@ -2246,23 +2127,6 @@
       "tags": []
     },
     {
-      "id": "2baea667f48d2b75",
-      "title": "Mercado at Wilder Park - Halloween/Truck-or-Treat",
-      "description": "",
-      "start": "2026-10-17T21:00:00.000Z",
-      "end": "2026-10-18T02:00:00.000Z",
-      "allDay": false,
-      "venue": "Wilder Park & Promenade, 350 N. River St., Aurora, IL, 60506, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/mercado-at-wilder-park-halloween-truck-or-treat/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "0ac30b5bf4f5b654",
       "title": "REFUGE Teen Youth Group",
       "description": "",
@@ -3589,23 +3453,6 @@
       "tags": []
     },
     {
-      "id": "a32b0fe8ca46951e",
-      "title": "Citywide Fall Cleanup Day",
-      "description": "Help us clean up Aurora this fall!\nJoin neighbors across all 10 wards as we work together to get our neighborhoods ready for Halloween. Gather your friends, bring the family, or sign up on your own. Every helping hand makes a difference! \nReady to help? Register Today \nClean Up Registration",
-      "start": "2026-10-24T13:30:00.000Z",
-      "end": "2026-10-24T17:00:00.000Z",
-      "allDay": false,
-      "venue": "Water Street Mall, 13 Water St, Aurora, IL, 60505, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/citywide-fall-cleanup-day/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "38a1c5cd24a2616b",
       "title": "Alpha Holy Spirit Day",
       "description": "",
@@ -3756,23 +3603,6 @@
       "link": "https://www.aurorapubliclibrary.org/event/17192197",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "5df6ec3f325a04cb",
-      "title": "Halloween and Dia De los Muertos Celebration!",
-      "description": "Celebrate Halloween & Dîa De Los Muertos with Us! \n\nBring your little ones in their costumes for a day of downtown Halloween fun!\nYou’ll enjoy family-friendly entertainment, music, crafts, trick-or-treating, and more during our Halloween & Dîa de los Muertos celebration!\nLook forward to these Halloween festivities:\n\nDía de los Muertos traditions\nLive Entertainment\nLocal businesses handing out treats*\nAnd a spectacular 12-minute drone show finale!\n\n\nHere’s the schedule:\n\nAfternoon: Downtown Trick-or-Treat (participating businesses will distribute treats)\n\n\nThe Día de los Muertos Cultural Experience:\n\nCommunity Altar Display\nPhoto Opportunities\nArts and Crafts Stations\nFace Painting inspired by Día de los Muertos traditions\nCandy Station\nDay of the Dead Bread and Hot Chocolate Station\nLive Entertainment\nEducational exhibits highlighting the meaning and history of the celebration will be present at the event or in the downtown area.\n\n\nThe Drone Show Grand Finale:\n\nOur Downtown Drone Show will showcase colorful Halloween & Día de los Muertos images\n\n\nLearn about Sponsorship Opportunities HERE!\nOr email the Executive Director, Yahayra Argueta at director@auroradowntown.org\nDon’t miss it!",
-      "start": "2026-10-24T17:00:00.000Z",
-      "end": "2026-10-24T20:00:00.000Z",
-      "allDay": false,
-      "venue": "Downer Place, from Stolp Avenue to Water Street, Downtown Aurora Businesses, Downtown, Aurora, IL, 60505, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/halloween-and-dia-de-los-muertos-celebration/",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -4062,23 +3892,6 @@
       "link": "https://www.google.com/calendar/event?eid=dTVkdGM3cGh0amM3bzRhNGxwZTlua24xZjQgb2xtYXVyb3JhQG0&ctz=America/Chicago",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "1264df1d6521100d",
-      "title": "Trunk or Treat",
-      "description": "",
-      "start": "2026-10-25T17:00:00.000Z",
-      "end": "2026-10-26T02:00:00.000Z",
-      "allDay": false,
-      "venue": "Wilder Park & Promenade, 350 N. River St., Aurora, IL, 60506, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/trunk-or-treat/",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -4626,23 +4439,6 @@
       "tags": []
     },
     {
-      "id": "50da9cf8e5c9cce4",
-      "title": "Virtual Math Mastery Seminar",
-      "description": "RSVP TODAY: Aurora Asian American, Native Hawaiian, and Pacific Islander Advisory Board Hosts Virtual Math Mastery Seminar!\n\n\nThe Aurora AANHPI Advisory Board is hosting a Math Mastery Live virtual seminar featuring Han Zhango, a popular YouTube creator and Columbia University mathematics graduate. She will share practical strategies to help students study smarter, stay focused, and build confidence in math.\n\n\nThe event will take place on Wednesday, October 28 at 5 P.M. via Zoom. Registration for the event is required!\n\n\n\nRegister today at www.aurora.il.us/MathMastery.",
-      "start": "2026-10-28T22:00:00.000Z",
-      "end": "2026-10-29T00:00:00.000Z",
-      "allDay": false,
-      "venue": "https://docs.google.com/forms/d/e/1FAIpQLScHI6hfZh97MrkdBu8E0hGzn9QfTu6n9Cr2FTl11pAZQsgjzQ/viewform?fbclid=IwY2xjawUrP3BleHRuA2FlbQIxMABwZG9mBWJyaWQRMWVJU2lucU53cThwOG51VUVzcnRjBmFwcF9pZBAyMjIwMzkxNzg4MjAwODkyAAEeeqltL5vBoJ4g_RtIDa78va0_RmOK3ZnZnjKelQOqA3_whw3isQ_ZqZN9DAI_aem_5v2oSlGAROU8w6W-2iksFQ&pli=1",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/virtual-math-mastery-seminar/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "7dd84de6241ef5b8",
       "title": "Yoga para principiantes",
       "description": "Nuestra instructora, Silvia, ha enseñado yoga por muchos años. Ella te guiará y te dará consejos en cómo practicar yoga. Te recomendamos traer una toalla y una botella de agua.",
@@ -4966,23 +4762,6 @@
       "tags": []
     },
     {
-      "id": "ae8968c945e12598",
-      "title": "Halloween with City Hall",
-      "description": "Prepare your spooky season costume and grab your candy bucket – our trick-or-treat event is creeping up! \nJoin us on October 30 for treats, dancing, and exciting giveaways! \n*Reminder: When choosing costumes, please remember this is a family-friendly event.",
-      "start": "2026-10-30T20:00:00.000Z",
-      "end": "2026-10-30T22:00:00.000Z",
-      "allDay": false,
-      "venue": "Wilder Park & Promenade, 350 N. River St., Aurora, IL, 60506, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/halloween-with-city-hall-2/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "4df346c8972eb5be",
       "title": "RICO ~ Santana Tribute",
       "description": "",
@@ -5051,6 +4830,23 @@
       "tags": []
     },
     {
+      "id": "3374aff7d6d15c3f",
+      "title": "Alero Financial Pumpkin Spice& Financial Advice",
+      "description": "",
+      "start": "2026-10-31T16:00:00.000Z",
+      "end": "2026-10-31T18:00:00.000Z",
+      "allDay": false,
+      "venue": "Alero Financial",
+      "address": "Aurora, IL",
+      "category": "Commerce",
+      "sourceId": "aurora-chamber",
+      "sourceLabel": "Aurora Regional Economic Alliance",
+      "link": "https://business.auroraalliance.org/ap/Events/Register/aPdnaygr?sourceTypeId=ExternalSystem",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "1497f39f8cd201e2",
       "title": "Bookmobile Community Stop: Butterfield Park",
       "description": "Open to all ages for books, games, magazines, technology and more! Pick up holds, return borrowed materials from any branch or participate in the monthly scavenger hunt. Visit today!",
@@ -5085,36 +4881,19 @@
       "tags": []
     },
     {
-      "id": "6266babe6c4a9600",
-      "title": "Mercado at Wilder Park - Day of the Dead",
+      "id": "0faae0f493531eff",
+      "title": "Too Much Molly (HALLOWEEN PARTY)",
       "description": "",
-      "start": "2026-11-01T22:00:00.000Z",
-      "end": "2026-11-02T03:00:00.000Z",
+      "start": "2026-11-01T01:00:00.000Z",
+      "end": "2026-11-01T01:00:00.000Z",
       "allDay": false,
-      "venue": "Wilder Park & Promenade, 350 N. River St., Aurora, IL, 60506, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/mercado-at-wilder-park-day-of-the-dead/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "a44f91449557cfba",
-      "title": "Dia de Los Muertos 2026",
-      "description": "Live Music\nFolklórico Performances\nCatrina Fashion Show\nAltar Displays & Ofrendas\nArts & Crafts\nFood Vendors\nKids Activities\nPhoto Opportunities\n& much more!",
-      "start": "2026-11-01T22:00:00.000Z",
-      "end": "2026-11-02T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Public Parking – Lot B, 65 S Water St, Aurora, IL, 60505, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/dia-de-los-muertos-2026/",
-      "imageUrl": null,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/too-much-molly-halloween-party-tickets-1999932034552",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192818160%2F202636605063%2F1%2Foriginal.20260906-135126?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.461&fp-y=0.101&s=3eb32560333d24fe86ab9fe445b3c400",
       "confidence": "high",
       "tags": []
     },
@@ -5527,23 +5306,6 @@
       "tags": []
     },
     {
-      "id": "211d8199b8076989",
-      "title": "November 2026 New Member Orientation",
-      "description": "New to the Alliance? Join us for a New Member Orientation. We will cover benefits, opportunities, and what to do to make your Member Info Hub profile work for you and your business.",
-      "start": "2026-11-05T14:30:00.000Z",
-      "end": "2026-11-05T15:30:00.000Z",
-      "allDay": false,
-      "venue": "Aurora Regional Economic Alliance",
-      "address": "Aurora, IL",
-      "category": "Commerce",
-      "sourceId": "aurora-chamber",
-      "sourceLabel": "Aurora Regional Economic Alliance",
-      "link": "https://business.auroraalliance.org/ap/Events/Register/WpMWbKAL?sourceTypeId=ExternalSystem",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "18eff2209472eaca",
       "title": "Bookmobile Community Stop: Church Rd & Edison Ave.",
       "description": "Step inside our mobile library to browse a wide selection of movies, games, magazines and books in English and Spanish for all ages. Pick up holds or return borrowed materials from any APLD branch.",
@@ -5813,23 +5575,6 @@
       "link": "https://www.aurorapubliclibrary.org/event/17374249",
       "imageUrl": null,
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "ae7b5447dd5ec974",
-      "title": "Haunted Romantics",
-      "description": "Join us for Haunted Romantics, featuring:\nFermi Community Orchestra: \n\n\nProkofiev: Montagues and Capulets from Romeo and Juliet \n\n\nBruch: Kol Nidrei, featuring cellist Santiago Uribe Cardona \n\n\nMussorgsky: Night on Bald Mountain \n\n\nBerlioz: March to the Scaffold from Symphonie fantastique \n\n\nFermi Community Strings: \n\n\nAlan Lee Silva: The Evil Eye and the Hideous Heart \n\n\nBeethoven, arranged by Todd Parrish: Allegretto from Symphony No. 7 \n\n\nTchaikovsky, arranged by Leland Forsblad: Waltz from The Sleeping Beauty",
-      "start": "2026-11-09T01:00:00.000Z",
-      "end": "2026-11-09T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Aurora University  Crimi Auditorium, 1347 Prairie St, Aurora, IL, 60506, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/haunted-romantics/",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -6122,23 +5867,6 @@
       "tags": []
     },
     {
-      "id": "3188ab7adba73c3f",
-      "title": "Veterans Day Procession",
-      "description": "",
-      "start": "2026-11-11T16:15:00.000Z",
-      "end": "2026-11-11T17:15:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora, Aurora, IL, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/veterans-day-procession-2/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "badfcb13de553297",
       "title": "Microsoft Word: Resume Building Part 2",
       "description": "Learn important tips for resume building at Waubonsee Community College! This is the second part of a two-part series.",
@@ -6428,6 +6156,23 @@
       "tags": []
     },
     {
+      "id": "02b103709f00efa6",
+      "title": "Aurora Business United",
+      "description": "Aurora Business United (1000+ members) is likely the largest networking group in the western suburbs. Business owners, employees, entrepreneurs, non-profits, arts, government & others are welcome.",
+      "start": "2026-11-13T13:30:00.000Z",
+      "end": "2026-11-13T16:00:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17096238",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "dfc2ff9489efc60c",
       "title": "Homeschool Huddle: Historical Wax Museum",
       "description": "Each student in grades 1-8 will choose a real person from history, science, the arts, or culture to research, represent, and deliver a speech about their life. Participant registration required.",
@@ -6530,40 +6275,6 @@
       "tags": []
     },
     {
-      "id": "49fc62bc74555dbf",
-      "title": "Christkindlmarket Aurora",
-      "description": "",
-      "start": "2026-11-20T13:00:00.000Z",
-      "end": "2026-11-25T03:00:00.000Z",
-      "allDay": false,
-      "venue": "RiverEdge Park, 360 N Broadway, Aurora, IL, 60505, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/christkindlmarket-aurora-2/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "7c866b81b83b0d30",
-      "title": "Winter Lights Festival",
-      "description": "",
-      "start": "2026-11-21T00:00:00.000Z",
-      "end": "2026-11-21T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora, Aurora, IL, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/winter-lights-festival-2/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
       "id": "b285d1f9bb4ea630",
       "title": "Craft Show & Vendor Market",
       "description": "🎨 Craft Show &amp; Vendor Market 🛍️ Discover unique finds and support local creativity at our November Craft Show &amp; Vendor Market, hosted by Bright Star Events! Browse a variety of local vendors featuring handmade goods, artisan creations, and one-of-a-kind items perfect for gifts or treating yourself. It’s a great way to shop small and connect with local makers in your community. 📍 Location: Center Park, Fox Valley Mall 📅 Dates: November 21 &amp; 22 🕙 Hours: • Saturday: 10 AM – 9 PM • Sunday: 10 AM – 6 PM ✨ Enjoy a vibrant atmosphere filled with creativity, craftsmanship, and community spirit! Interested in becoming a vendor? Visit Bright Star Events for more information or to apply.",
@@ -6578,23 +6289,6 @@
       "link": "https://www.shopfoxvalleymall.com/event/32975-holiday-craft-show",
       "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTMyOTc1OP6x506BbkubS21TttjXfhuh-uDo",
       "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "a5d46890272cd131",
-      "title": "2026 Aurora Turkey Trot",
-      "description": "",
-      "start": "2026-11-21T13:00:00.000Z",
-      "end": "2026-11-21T17:00:00.000Z",
-      "allDay": false,
-      "venue": "IL",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/2026-aurora-turkey-trot/",
-      "imageUrl": null,
-      "confidence": "high",
       "tags": []
     },
     {
@@ -6712,23 +6406,6 @@
       "sourceId": "east-aurora-high",
       "sourceLabel": "Aurora East High School (D131)",
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "abd43a774c764c49",
-      "title": "Black Friday",
-      "description": "",
-      "start": "2026-11-27T12:00:00.000Z",
-      "end": "2026-11-28T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Chicago Premium Outlets, https://www.premiumoutlets.com/outlet/chicago, Aurora, IL, United States",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-city-events",
-      "sourceLabel": "City of Aurora Events",
-      "link": "https://aurorailevents.com/event/black-friday/",
       "imageUrl": null,
       "confidence": "high",
       "tags": []
@@ -7701,40 +7378,6 @@
       "imageUrl": null,
       "confidence": "high",
       "tags": []
-    },
-    {
-      "id": "5ad29cbae07d71c7",
-      "title": "chicaco sears Phoenix October 2026 Club suacknawis - suis",
-      "description": "chicaco sears Phoenix October 2026 Club suacknawis - suis\n; Sun Mon Tue | Wed Thu Fri | Sat _\nrt fev | Wonday Nght | This Month | OWUSHTSANGS | Tim thn | 2 iw 130730 | 3. Lanse\nFry [Monash a Ee\n|B Gee AMonth Long | “pct 3 | momen | rir = soa\nee 22 | | The |\nSem. | Saodadlime | Hews@8pn | sq/500nwigraoem |\n[5 son Totga | Scumopmosz | 7 Fo 130780 oi Thai | 9 as hte | 10 Lah Served |\nFoysats tam | Mo",
-      "start": null,
-      "end": null,
-      "allDay": false,
-      "venue": "The Phoenix Club",
-      "address": "515 Phoenix Court, Aurora, IL",
-      "category": "Club / Social",
-      "sourceId": "phoenix-club",
-      "sourceLabel": "The Phoenix Club",
-      "link": "https://www.auroraphoenixclub.net/calendar",
-      "imageUrl": "https://static.wixstatic.com/media/db9feb_73bea2676d7f4cb2adacd476b1a8761c~mv2.jpg/v1/fill/w_600,h_457,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/October%202026%20.jpg",
-      "confidence": "low",
-      "tags": []
-    },
-    {
-      "id": "0e1598dbc9b21cad",
-      "title": "=",
-      "description": "=",
-      "start": null,
-      "end": null,
-      "allDay": false,
-      "venue": "The Phoenix Club",
-      "address": "515 Phoenix Court, Aurora, IL",
-      "category": "Club / Social",
-      "sourceId": "phoenix-club",
-      "sourceLabel": "The Phoenix Club",
-      "link": "https://www.auroraphoenixclub.net/calendar",
-      "imageUrl": "https://static.wixstatic.com/media/db9feb_5febec48a17945b7b11d210d8dd15516~mv2.png/v1/fill/w_245,h_326,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/db9feb_5febec48a17945b7b11d210d8dd15516~mv2.png",
-      "confidence": "low",
-      "tags": []
     }
   ],
   "sourceStatus": [
@@ -7758,9 +7401,9 @@
     },
     {
       "id": "aurora-city-events",
-      "ok": true,
-      "count": 14,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "The operation was aborted due to timeout"
     },
     {
       "id": "aurora-city-council",
@@ -7790,13 +7433,13 @@
       "id": "paramount-theatre",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "riveredge-park",
       "ok": false,
       "count": 0,
-      "error": "fetch failed"
+      "error": "HTTP 404"
     },
     {
       "id": "hollywood-casino",
@@ -7824,9 +7467,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "id": "calvary-church",
@@ -7872,9 +7515,9 @@
     },
     {
       "id": "phoenix-club",
-      "ok": true,
-      "count": 2,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "no flyer images found on calendar page"
     },
     {
       "id": "eventbrite-aurora-il",
