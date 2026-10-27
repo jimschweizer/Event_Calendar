@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-10-27T01:33:00.116Z",
+  "generatedAt": "2026-10-27T16:37:32.550Z",
   "events": [
-    {
-      "id": "6c10fecfd8f8b1c0",
-      "title": "EDGE Night at Multi Purpose Room 121A",
-      "description": "",
-      "start": "2026-10-26T23:30:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=c3Yxc29jMDRtY2d0YXNidGVpaWMwMjkzZzAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "48323d79f323e9a6",
-      "title": "Boy Scouts",
-      "description": "",
-      "start": "2026-10-27T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=bDZzY2hvbW05MXZuM3IzaTBsOXVtbGY0OTAgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "4e91712ec67b82bb",
-      "title": "OCIA",
-      "description": "",
-      "start": "2026-10-27T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=anFnbjZlYzd2azNpMWwzaXNnbnJwdXFnY3Mgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "fb24ce4b1ec5f976",
       "title": "Build Your Confidence! Fox River Toastmasters Welcomes New Guests",
@@ -937,23 +886,6 @@
       "tags": []
     },
     {
-      "id": "4927ad32731e3979",
-      "title": "WEEKLY BINGO NIGHT @ DC COBB'S",
-      "description": "The event is held on October 27, 2026 at D.C. Cobb's in McHenry, IL.",
-      "start": "2026-10-28T00:00:00.000Z",
-      "end": "2026-10-28T03:09:00.000Z",
-      "allDay": false,
-      "venue": "D.C. Cobb's",
-      "address": "McHenry, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.facebook.com/events/4307462529571052/4307462679571037/?active_tab=about",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "93edc7d4f168eb9e",
       "title": "Bingo at the Moose Lodge - Cash Prizes!",
       "description": "The event is held on October 27, 2026 in Wauconda, IL.",
@@ -966,6 +898,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://business.waucondachamber.org/events/details/bingo-at-the-moose-lodge-cash-prizes-10-27-2026-18061",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "4927ad32731e3979",
+      "title": "WEEKLY BINGO NIGHT @ DC COBB'S",
+      "description": "The event is held on October 27, 2026 at D.C. Cobb's in McHenry, IL.",
+      "start": "2026-10-28T00:00:00.000Z",
+      "end": "2026-10-28T03:09:00.000Z",
+      "allDay": false,
+      "venue": "D.C. Cobb's",
+      "address": "McHenry, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.facebook.com/events/4307462529571052/4307462679571037/?active_tab=about",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -3725,6 +3674,23 @@
       "tags": []
     },
     {
+      "id": "65e4f2d2572a008e",
+      "title": "8th Annual Saluting Our Troops: Free Dentistry for U.S. Veterans",
+      "description": "",
+      "start": "2026-11-12T14:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20261112/188fb4dd-85b9-41ef-99a0-150c4f78be40/8th-annual-saluting-our-troops-free-dentistry-for-u-s-veterans",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "ad0a5f83826e6abd",
       "title": "Baby’s First Christmas with Santa",
       "description": "There’s only one Baby’s First Christmas, so make it magical at Fox Valley Mall! ❤️ Bring your little one for their first visit with Santa and capture a holiday memory your family will treasure for years to come. This special event is designed for families celebrating Baby’s First Christmas with a little one under 12 months old. 📅 Thursday, November 12 | 10 AM–3 PM 📅 Thursday, November 19 | 10 AM–3 PM 📅 Thursday, December 3 | 10 AM–3 PM 📍 Macy’s Court, Lower Level 🎁 A Special Gift for Baby’s First Christmas Families with a baby under 12 months old who purchase a qualifying Santa photo package during Baby’s First Christmas will receive: A FREE “My First Christmas” photo ornament, the perfect keepsake for your baby’s first holiday season A $20 H&amp;M Fox Valley gift card to shop for something special for your little one Available while supplies last. Limit one offer per photo package purchase. Baby must be under 12 months old at the time of the event. 📸 Capture Baby’s First Visit with Santa Whether it’s their first Santa smile, a curious look or even a few Christmas tears, you’ll have a professional photo to remember this milestone forever. ❤️ Reservations are encouraged to make your visit as easy as possible, but walk-ups are welcome and will be accommodated as availability allows. RESERVE YOUR SANTA VISIT HERE Three special Thursdays only: November 12, November 19 and December 3. 🎅 Reserve your Santa visit today and celebrate Baby’s First Christmas at Fox Valley Mall!",
@@ -6464,9 +6430,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "fetch failed"
     },
     {
       "id": "calvary-church",
@@ -6531,7 +6497,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 1,
+      "count": 2,
       "error": null
     },
     {
