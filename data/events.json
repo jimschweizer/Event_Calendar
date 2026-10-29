@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-10-29T01:53:23.339Z",
+  "generatedAt": "2026-10-29T17:25:32.572Z",
   "events": [
-    {
-      "id": "b8d0f2333772dd2b",
-      "title": "Call for artists; Heroes theme",
-      "description": "",
-      "start": "2026-10-28T13:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20261028/c782490a-e510-4491-9525-0c71ecdca12c/call-for-artists-heroes-theme",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "f0fe457cc1cd3e20",
-      "title": "House of Bethany",
-      "description": "",
-      "start": "2026-10-28T14:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=ZjR1Z2ZiaGtrYzBrazIxOG4yOG9wanNvNjQgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "0d98e6b259e87537",
-      "title": "Magnify",
-      "description": "",
-      "start": "2026-10-29T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=NGxkYmhsN29hdWF0YTFjYXY5YW9hOHVkZWsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "9be5982971ffe236",
       "title": "On-Screen Specters: Ghosts in Film",
@@ -337,23 +286,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.mchenry.edu/events/index.html",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "2b07e6356b60e390",
-      "title": "Fall Fire Safety Party: Shambaugh & Son, LLP",
-      "description": "Join the Aurora Alliance for Business After Hours at Shambaugh & Son L.P | Fire Protection as we celebrate National Fire Prevention Month with a festive Halloween celebration! 🎃👻",
-      "start": "2026-10-29T17:00:00.000Z",
-      "end": "2026-10-29T21:30:00.000Z",
-      "allDay": false,
-      "venue": "Shambaugh & Son, LLP",
-      "address": "Aurora, IL",
-      "category": "Commerce",
-      "sourceId": "aurora-chamber",
-      "sourceLabel": "Aurora Regional Economic Alliance",
-      "link": "https://business.auroraalliance.org/ap/Events/Register/4rkzk3NL?sourceTypeId=ExternalSystem",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -954,6 +886,74 @@
       "tags": []
     },
     {
+      "id": "f5aaeec53f2122f8",
+      "title": "Chris Porter at The Comedy Vault",
+      "description": "10/30/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/31/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n Chris Porter is heading to The Comedy Vault Batavia for 4 shows October 30-31!\n Whether you know him as ‘Ugly & Angry’ or ‘A Man From Kansas’ or whether you remember him from NBC’s Last Comic Standing",
+      "start": "2026-10-30T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/chris-porter-at-the-comedy-vault/4739/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "b74ef333d5b4d16a",
+      "title": "City Hall-O-Ween",
+      "description": "10/30/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/30/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n Nothing is scarier than potentially missing our City Hall-O-Ween event!\n  \n  \n Meet us at Wilder Park this Friday, October 30, for some Halloween-eve fun, including decked out city department tents,",
+      "start": "2026-10-30T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/city-hall-o-ween/4782/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "5133276763b23491",
+      "title": "Dogs Undecided Reunion Show",
+      "description": "10/30/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/30/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n Okay we're gonna try this again!\n Formed in 1998 through a newspaper ad (yes, newpaper) and followed by a fairly successful run on the Chicago music scene for a decade or so - after many years we will",
+      "start": "2026-10-30T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/dogs-undecided-reunion-show/4590/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "76ac2ac341d05081",
+      "title": "Halloween Naughty Bingo at Pinz!",
+      "description": "10/30/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t10/30/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n HALLOWEEN NAUGHTY BINGO \nFriday, October 30 | Bingo starts at 8 PM\nDoors open at 7:30 PM\n Pinz Yorkville\n 21+ Event\n This isn’t your grandma’s bingo! Join Christine and Sam for a wickedly fun night of",
+      "start": "2026-10-30T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Aurora Area",
+      "address": "Aurora, IL",
+      "category": "Civic",
+      "sourceId": "enjoy-aurora",
+      "sourceLabel": "Enjoy Aurora (Tourism)",
+      "link": "https://www.enjoyaurora.com/event/halloween-naughty-bingo-at-pinz!/4723/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "5a43f5b0ef856612",
       "title": "Half Day for Students- School Improvement",
       "description": "",
@@ -988,23 +988,6 @@
       "tags": []
     },
     {
-      "id": "f538ba277fae5711",
-      "title": "THE BEST OF LOCAL LIVE MUSIC",
-      "description": "The event is held on October 30, 2026 in McHenry, IL.",
-      "start": "2026-10-30T05:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Fox Valley Region (aggregated)",
-      "address": "McHenry, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.naturallymchenrycounty.com/event/the-best-of-local-live-music/3716/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "8c0e4c9f45101d70",
       "title": "Dogs Undecided Reunion Show",
       "description": "The event is held on October 30, 2026 in Aurora, IL.",
@@ -1017,6 +1000,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.enjoyaurora.com/event/dogs-undecided-reunion-show/4590/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "f538ba277fae5711",
+      "title": "THE BEST OF LOCAL LIVE MUSIC",
+      "description": "The event is held on October 30, 2026 in McHenry, IL.",
+      "start": "2026-10-30T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Region (aggregated)",
+      "address": "McHenry, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.naturallymchenrycounty.com/event/the-best-of-local-live-music/3716/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1430,6 +1430,23 @@
       "tags": []
     },
     {
+      "id": "118f2ca859635879",
+      "title": "Aaron & Jules 'Fireside' at Sidecar",
+      "description": "The event is held on October 31, 2026 in Batavia, IL.",
+      "start": "2026-10-31T05:00:00.000Z",
+      "end": null,
+      "allDay": true,
+      "venue": "Fox Valley Region (aggregated)",
+      "address": "Batavia, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.enjoyaurora.com/event/aaron-%26-jules-fireside-at-sidecar/4631/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "5e129fdefa7c1eae",
       "title": "HOPE United Church of Christ Blood Drive",
       "description": "",
@@ -1732,6 +1749,23 @@
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://portal.cityspark.com/api/events/GetEvents/BestoftheFox",
       "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "da62fcd4828eb351",
+      "title": "Holiday at Fox Valley Mall | Shop, Celebrate & Make Memories",
+      "description": "🎄 Your Holiday Season Starts Here! Find everything you love about the holidays at Fox Valley Mall in Aurora, Illinois! From finding the perfect gifts and discovering the latest holiday styles to visiting Santa, enjoying festive events, and sharing a meal with family and friends, there's something for everyone this season. Make your list, make your plans, and make holiday memories at Fox Valley Mall! 🎁 Find the Perfect Gift Great Gifts. Favorite Brands. All in One Place. Check off your holiday shopping list with the latest fashion, sneakers, beauty must-haves, accessories, collectibles, and gifts for everyone on your list! Shop favorites like H&amp;M, American Eagle, Hollister, Garage, JD Sports, Victoria's Secret, Bath &amp; Body Works, Pandora, BoxLunch, Hot Topic, and more. From stocking stuffers to statement gifts, find something for everyone at Fox Valley Mall! EXPLORE STORES | SHOP GIFT IDEAS Gifts for Everyone on Your List For the Trendsetters: Discover the latest fashion, sneakers, and must-have accessories from your favorite brands. For the Beauty Lovers: Find fragrances, skincare, beauty favorites, and little luxuries they'll love. For the Fans &amp; Collectors: Shop pop culture favorites, collectibles, plush toys, and gifts inspired by their favorite fandoms. 🛍️ Black Friday at Fox Valley Mall Big Shopping Day. Favorite Brands. Holiday Finds. Kick off the holiday shopping season at Fox Valley Mall! Shop Black Friday deals, discover gifts for everyone on your list, and explore the latest fashion, sneakers, beauty, accessories, and more from your favorite retailers. From must-have gifts to a little something for yourself, make Fox Valley Mall your Black Friday shopping destination in Aurora, Illinois! 🕘 Black Friday Hours: 9 AM–9 PM EXPLORE BLACK FRIDAY DEALS 🎅 Make Memories with Santa Peanuts™ Christmas Experience | November 6–December 24 Make the season extra magical with a visit to Santa at Fox Valley Mall! Step inside the Peanuts™ Christmas Experience, featuring festive décor, twinkling lights, and the timeless charm of Snoopy and friends. Capture a special holiday memory with Santa, whether it's your little one's first Christmas or a favorite family tradition. 📍 Macy's Court, Lower Level Reservations are encouraged, but walk-ups are welcome as availability allows. Closed Thanksgiving Day. RESERVE YOUR SANTA VISIT ✨ Celebrate the Season Holiday Events &amp; Festive Fun There's always something happening at Fox Valley Mall during the holidays! Gather your friends and family for festive celebrations, seasonal shopping events, and experiences that make the season memorable. Upcoming Holiday Highlights 🎅 Santa's Arrival Celebration | November 7 🛍️ Holiday Markets | November 21–22, December 5–6 &amp; 12–13 ❄️ Winter Fest | December 12 And there's more holiday magic on the way! Explore our full calendar of events and find your next reason to visit. EXPLORE HOLIDAY EVENTS 🎳 More Ways to Make Merry Shop. Play. Make a Day of It! The holiday fun doesn't stop when the shopping bags are full! Challenge your crew at Mish Mash Adventures, bowl and play arcade games at Round1, get creative at Arts on Fire or Tuft A Rug, or enjoy family favorites like the carousel and Fox Valley Express train. Whether you're planning a holiday outing with friends, entertaining the kids over winter break, or looking for something fun to do indoors, there's more to discover at Fox Valley Mall. EXPLORE THINGS TO DO 🍽️ Take a Holiday Shopping Break Good Food. Great Company. More Reasons to Stay. All that holiday shopping calls for something delicious! Grab a quick bite, enjoy a sit-down meal, or treat yourself to something sweet. Whether it's lunch with friends, a family dinner, or a well-deserved shopping break, make dining part of your holiday tradition at Fox Valley Mall. EXPLORE FOOD &amp; DRINK 📍 Plan Your Holiday Visit Everything You Need for a Merry Visit! Make the most of your holiday shopping with convenient parking, seasonal shopping hours, and everything you need in one destination. Fox Valley Mall 195 Fox Valley Center Drive Aurora, IL 60504 Check our holiday hours before your visit and explore the mall directory to find your favorite stores. VIEW HOLIDAY HOURS | GET DIRECTIONS 🎄 Shop. Celebrate. Make Memories. Come for the gifts. Stay for the experience. This holiday season, make Fox Valley Mall your destination for shopping, dining, festive fun, and time together!",
+      "start": "2026-11-01T05:00:00.000Z",
+      "end": "2026-12-25T05:59:59.999Z",
+      "allDay": false,
+      "venue": "Fox Valley Mall",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/45395-holiday-at-fox-valley-mall-shop-celebrate-make-memories",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTQ1Mzk1OIH_uFueD3rO2hWfDkYxSl2L2wXJ",
       "confidence": "medium",
       "tags": []
     },
@@ -2105,6 +2139,23 @@
       "sourceId": "aurora-public-library",
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17373142",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "ae73afb4c7ef6529",
+      "title": "The famous Pequod's, caramelized crust pizza is heading your way. Order by noon.",
+      "description": "",
+      "start": "2026-11-04T22:30:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20261104/3729de63-1182-4fa2-b1fc-c3ddfcc0dadc/the-famous-pequods-caramelized-crust-pizza-is-heading-your-way-order-by-noon",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -3249,6 +3300,23 @@
       "tags": []
     },
     {
+      "id": "ecf946c88d435085",
+      "title": "Business After Hours: Tanishq Jewelers VIP Experience",
+      "description": "Exclusive Member Event Only!",
+      "start": "2026-11-12T23:00:00.000Z",
+      "end": "2026-11-13T01:00:00.000Z",
+      "allDay": false,
+      "venue": "Tanishq Jewelers",
+      "address": "Aurora, IL",
+      "category": "Commerce",
+      "sourceId": "aurora-chamber",
+      "sourceLabel": "Aurora Regional Economic Alliance",
+      "link": "https://business.auroraalliance.org/ap/Events/Register/DpBy13Or?sourceTypeId=ExternalSystem",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "0ad3be2360b5d4a1",
       "title": "Lawyers in the Library",
       "description": "Have a legal question? Come for a free, 15 minute, walk-in consultation! \n\nEstamos proporcionando un servicio sin cita previa para ayudar con preguntas legales. 15 minutos por persona.",
@@ -3535,23 +3603,6 @@
       "link": "https://www.eventbrite.com/e/this-is-live-a-fundraiser-for-the-fox-valley-music-foundation-tickets-2002591094873",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194673042%2F202636605063%2F1%2Foriginal.20260929-214049?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f1e635df30d9822c8afa497f480c3fc0",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "bf58e6ac77b56e1e",
-      "title": "Light the World Giving Machines",
-      "description": "From November 15 through January 1 , Fox Valley Mall will host Light the World Giving Machines near Macy's Court—special vending machines that turn everyday giving into a powerful act of kindness. Imagine swiping your credit card at a vending machine, but instead of purchasing a snack for yourself, you’re donating a goat to a family in need, providing warm socks to someone experiencing homelessness, funding polio vaccines, or helping deliver 100 meals to the hungry. That’s the magic of the Giving Machines. These unique machines make it simple to give back this holiday season. Guests can choose from a variety of meaningful items—such as food, clothing, medical supplies, and other life-changing essentials—with 100% of donations going directly to local and global nonprofit organizations . Stop by, give from the heart, and help spread kindness this holiday season with the Light the World Giving Machines at Fox Valley Mall. Learn more at https://givingmachineschicagoland.org/",
-      "start": "2026-11-15T06:00:00.000Z",
-      "end": "2027-01-02T05:59:59.999Z",
-      "allDay": false,
-      "venue": "Macy's Court",
-      "address": "195 Fox Valley Center Dr, Aurora, IL",
-      "category": "Retail",
-      "sourceId": "fox-valley-mall",
-      "sourceLabel": "Fox Valley Mall",
-      "link": "https://www.shopfoxvalleymall.com/event/34347-light-the-world-giving-machines",
-      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTM0MzQ3OIrD-E1UYvTaBASAMij1zSnZA8eG",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -4082,6 +4133,23 @@
       "tags": []
     },
     {
+      "id": "16977cf526b60c9e",
+      "title": "Light the World Giving Machines",
+      "description": "From November 15 through January 1 , Fox Valley Mall will host Light the World Giving Machines near Macy's Court—special vending machines that turn everyday giving into a powerful act of kindness. Imagine swiping your credit card at a vending machine, but instead of purchasing a snack for yourself, you’re donating a goat to a family in need, providing warm socks to someone experiencing homelessness, funding polio vaccines, or helping deliver 100 meals to the hungry. That’s the magic of the Giving Machines. These unique machines make it simple to give back this holiday season. Guests can choose from a variety of meaningful items—such as food, clothing, medical supplies, and other life-changing essentials—with 100% of donations going directly to local and global nonprofit organizations . Stop by, give from the heart, and help spread kindness this holiday season with the Light the World Giving Machines at Fox Valley Mall. Learn more at https://givingmachineschicagoland.org/",
+      "start": "2026-11-20T06:00:00.000Z",
+      "end": "2027-01-02T05:59:59.999Z",
+      "allDay": false,
+      "venue": "Macy's Court",
+      "address": "195 Fox Valley Center Dr, Aurora, IL",
+      "category": "Retail",
+      "sourceId": "fox-valley-mall",
+      "sourceLabel": "Fox Valley Mall",
+      "link": "https://www.shopfoxvalleymall.com/event/34347-light-the-world-giving-machines",
+      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTM0MzQ3OIrD-E1UYvTaBASAMij1zSnZA8eG",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "49fc62bc74555dbf",
       "title": "Christkindlmarket Aurora",
       "description": "",
@@ -4554,6 +4622,23 @@
       "sourceLabel": "Fox Valley Mall",
       "link": "https://www.shopfoxvalleymall.com/event/43850-black-friday-ugly-sweater-santa",
       "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTQzODUwOPPQ3FlqK2cWIqmSnXLK4ACTI0y1",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "0d764e62da437579",
+      "title": "English for Work",
+      "description": "A free 10-week class to improve your English skills at work. Led by Waubonsee Community College. Clase gratuita de 10 semanas para mejorar tu inglés en el trabajo con Waubonsee Community College.",
+      "start": "2026-11-28T15:30:00.000Z",
+      "end": "2026-11-28T18:30:00.000Z",
+      "allDay": false,
+      "venue": "Santori Library",
+      "address": "Santori Library",
+      "category": "Education",
+      "sourceId": "aurora-public-library",
+      "sourceLabel": "Aurora Public Library District",
+      "link": "https://www.aurorapubliclibrary.org/event/17205493",
+      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -5951,9 +6036,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": false,
-      "count": 0,
-      "error": "HTTP 403"
+      "ok": true,
+      "count": 9,
+      "error": null
     },
     {
       "id": "aurora-public-library",
@@ -5994,7 +6079,7 @@
     {
       "id": "fox-valley-mall",
       "ok": true,
-      "count": 15,
+      "count": 16,
       "error": null
     },
     {
@@ -6005,9 +6090,9 @@
     },
     {
       "id": "new-england-congregational",
-      "ok": false,
-      "count": 0,
-      "error": "fetch failed"
+      "ok": true,
+      "count": 1,
+      "error": null
     },
     {
       "id": "calvary-church",
@@ -6078,7 +6163,7 @@
     {
       "id": "shaw-local",
       "ok": true,
-      "count": 74,
+      "count": 75,
       "error": null
     }
   ]
