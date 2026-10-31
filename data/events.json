@@ -1,57 +1,6 @@
 {
-  "generatedAt": "2026-10-31T01:41:42.499Z",
+  "generatedAt": "2026-10-31T16:05:45.942Z",
   "events": [
-    {
-      "id": "5a43f5b0ef856612",
-      "title": "Half Day for Students- School Improvement",
-      "description": "",
-      "start": "2026-10-30T05:00:00.000Z",
-      "end": "2026-10-31T05:00:00.000Z",
-      "allDay": true,
-      "venue": "East Aurora High School",
-      "address": "500 Cedar Ave, Aurora, IL",
-      "category": "Education",
-      "sourceId": "east-aurora-high",
-      "sourceLabel": "Aurora East High School (D131)",
-      "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "95b25a26305d669b",
-      "title": "Downsizing Garage Sale",
-      "description": "",
-      "start": "2026-10-30T13:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20261030/d86f2aba-e3a5-4fc3-a953-5d12fb813e7b/downsizing-garage-sale",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "4df346c8972eb5be",
-      "title": "RICO ~ Santana Tribute",
-      "description": "",
-      "start": "2026-10-31T01:00:00.000Z",
-      "end": "2026-10-31T01:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/rico-santana-tribute-tickets-1999492463784",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1170213046%2F2513532402881%2F1%2Foriginal.20251105-151840?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.415&fp-y=0.142&s=e900d25ffea2abbf10234d4d91e855e8",
-      "confidence": "high",
-      "tags": []
-    },
     {
       "id": "118f2ca859635879",
       "title": "Aaron & Jules 'Fireside' at Sidecar",
@@ -495,35 +444,18 @@
       "tags": []
     },
     {
-      "id": "a25e11571a193ad0",
-      "title": "Barnyard Trick or Treat at Primrose Farm",
-      "description": "The event is held on October 31, 2026 at Primrose Farm, St. Charles Park District in St. Charles, IL.",
+      "id": "127215d68b7d8de9",
+      "title": "2026 Halloween Handout",
+      "description": "The event is held on October 31, 2026 in Crystal Lake, IL.",
       "start": "2026-10-31T19:00:00.000Z",
-      "end": "2026-10-31T20:30:00.000Z",
+      "end": "2026-10-31T21:00:00.000Z",
       "allDay": false,
-      "venue": "Primrose Farm, St. Charles Park District",
-      "address": "St. Charles, IL",
+      "venue": "Fox Valley Region (aggregated)",
+      "address": "Crystal Lake, IL",
       "category": "News Mentions",
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.facebook.com/events/1320629713328483/1320629723328482/?active_tab=about",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "88a1523ee8b49765",
-      "title": "Million Dollar Quartet",
-      "description": "The event is held on October 31, 2026 at Stolp Island Theatre in Aurora, IL.The cost is 87.00 - 99.33",
-      "start": "2026-10-31T19:00:00.000Z",
-      "end": "2026-10-31T21:15:00.000Z",
-      "allDay": false,
-      "venue": "Stolp Island Theatre",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://events.paramountaurora.com/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0F8AAA2C-B5E8-49F8-88EC-2B556C95E5DB&_gl=1*uhqx2s*_gcl_aw*R0NMLjE3ODc1OTY5MjEuQ2owS0NRancxNl9VQmhDcUFSSXNBSWRPYVh3aE00M0Y4MG1sRnNDWXdiVk9fOS1ueF8wWl9tNlRPV2NiTEhxeVJRb0F6NW1kd3lnMlNld2FBbjhERUFMd193Y0I.*_gcl_au*OTM3MDAyNzgxLjE3ODkzOTcyODI.*_ga*ODE0Mjc1MTQxLjE3ODM5NTM5NTk.*_ga_YN1QZ9LGPZ*czE3ODk1ODQ4NDIkbzMzJGcxJHQxNzg5NTkwNTUxJGo1MyRsMCRoMA..",
+      "link": "https://www.facebook.com/events/1794279981609073/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -558,6 +490,40 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.algonquin.org/egov/apps/events/calendar.egov?view=detail;id=6605",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "a25e11571a193ad0",
+      "title": "Barnyard Trick or Treat at Primrose Farm",
+      "description": "The event is held on October 31, 2026 at Primrose Farm, St. Charles Park District in St. Charles, IL.",
+      "start": "2026-10-31T19:00:00.000Z",
+      "end": "2026-10-31T20:30:00.000Z",
+      "allDay": false,
+      "venue": "Primrose Farm, St. Charles Park District",
+      "address": "St. Charles, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.facebook.com/events/1320629713328483/1320629723328482/?active_tab=about",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "88a1523ee8b49765",
+      "title": "Million Dollar Quartet",
+      "description": "The event is held on October 31, 2026 at Stolp Island Theatre in Aurora, IL.The cost is 87.00 - 99.33",
+      "start": "2026-10-31T19:00:00.000Z",
+      "end": "2026-10-31T21:15:00.000Z",
+      "allDay": false,
+      "venue": "Stolp Island Theatre",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://events.paramountaurora.com/online/default.asp?doWork::WScontent::loadArticle=Load&BOparam::WScontent::loadArticle::article_id=0F8AAA2C-B5E8-49F8-88EC-2B556C95E5DB&_gl=1*uhqx2s*_gcl_aw*R0NMLjE3ODc1OTY5MjEuQ2owS0NRancxNl9VQmhDcUFSSXNBSWRPYVh3aE00M0Y4MG1sRnNDWXdiVk9fOS1ueF8wWl9tNlRPV2NiTEhxeVJRb0F6NW1kd3lnMlNld2FBbjhERUFMd193Y0I.*_gcl_au*OTM3MDAyNzgxLjE3ODkzOTcyODI.*_ga*ODE0Mjc1MTQxLjE3ODM5NTM5NTk.*_ga_YN1QZ9LGPZ*czE3ODk1ODQ4NDIkbzMzJGcxJHQxNzg5NTkwNTUxJGo1MyRsMCRoMA..",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -881,6 +847,23 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.facebook.com/events/1748050989722511/",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "5d69f41260cec1b9",
+      "title": "Chart Attack",
+      "description": "The event is held on October 31, 2026 at The House Pub in St. Charles, IL.",
+      "start": "2026-11-01T02:30:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "The House Pub",
+      "address": "St. Charles, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.facebook.com/events/2058010141556384/",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -1328,23 +1311,6 @@
       "tags": []
     },
     {
-      "id": "71c2aa3cb600b435",
-      "title": "Decorate the Library",
-      "description": "The event is held on November 02, 2026 at Wauconda Area Public Library in Wauconda, IL.",
-      "start": "2026-11-02T15:00:00.000Z",
-      "end": "2026-11-02T22:30:00.000Z",
-      "allDay": false,
-      "venue": "Wauconda Area Public Library",
-      "address": "Wauconda, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://business.waucondachamber.org/events/details/decorate-the-library-21897",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "327e93cd2cf7b9bd",
       "title": "Family Storytime",
       "description": "Enjoy stories, rhymes, music, and more in this all ages family storytime. For children of all ages and their caregivers.",
@@ -1646,23 +1612,6 @@
       "sourceId": "shaw-local",
       "sourceLabel": "Shaw Local — Best of the Fox Events",
       "link": "https://www.facebook.com/preservationgenevail/events",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "924f863a934ffd56",
-      "title": "(K) Math Monday",
-      "description": "The event is held on November 02, 2026 at Sandwich Public Library District in Sandwich, IL.",
-      "start": "2026-11-03T00:00:00.000Z",
-      "end": "2026-11-03T01:00:00.000Z",
-      "allDay": false,
-      "venue": "Sandwich Public Library District",
-      "address": "Sandwich, IL",
-      "category": "News Mentions",
-      "sourceId": "shaw-local",
-      "sourceLabel": "Shaw Local — Best of the Fox Events",
-      "link": "https://www.sandwichpld.org/events/calendar",
       "imageUrl": null,
       "confidence": "medium",
       "tags": []
@@ -3929,6 +3878,23 @@
       "tags": []
     },
     {
+      "id": "67cc1e45b6cbdb74",
+      "title": "Aurora Film Society Presents:  Five Easy Pieces",
+      "description": "",
+      "start": "2026-11-19T01:00:00.000Z",
+      "end": "2026-11-19T01:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/aurora-film-society-presents-five-easy-pieces-tickets-1979992225045",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F986684083%2F1718633928833%2F1%2Foriginal.20250318-160311?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=76dcaf11d83508087d775fae600b7ba4",
+      "confidence": "high",
+      "tags": []
+    },
+    {
       "id": "1e3982117a9378f0",
       "title": "Homeschool Award-Winning Book Club",
       "description": "Pick up your own copy of the book at the Santori Children's Desk. Ages 8-11.",
@@ -5905,7 +5871,7 @@
     {
       "id": "aurora-downtown",
       "ok": true,
-      "count": 2,
+      "count": 1,
       "error": null
     },
     {
@@ -5934,9 +5900,9 @@
     },
     {
       "id": "fox-valley-park-district",
-      "ok": true,
-      "count": 9,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 403"
     },
     {
       "id": "aurora-public-library",
@@ -5990,7 +5956,7 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "HTTP 404"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "calvary-church",
@@ -6001,7 +5967,7 @@
     {
       "id": "our-lady-of-mercy",
       "ok": true,
-      "count": 230,
+      "count": 224,
       "error": null
     },
     {
@@ -6055,7 +6021,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
