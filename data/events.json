@@ -1,142 +1,6 @@
 {
-  "generatedAt": "2026-11-07T02:04:16.415Z",
+  "generatedAt": "2026-11-07T16:50:24.947Z",
   "events": [
-    {
-      "id": "05846d08edf45688",
-      "title": "Santa Photos | Peanuts™ Christmas Experience",
-      "description": "🎅 Santa is coming to Fox Valley Mall! Make magical holiday memories with Santa photos at Fox Valley Mall in Aurora, Illinois , November 6–December 24. This holiday season, step inside the Peanuts™ Christmas Experience with Santa , featuring festive décor, twinkling lights and the timeless charm of Snoopy and friends. Whether you're celebrating Baby's First Christmas, continuing a favorite family tradition or looking for festive things to do with the kids this holiday season, a visit with Santa at Fox Valley Mall is the perfect way to celebrate Christmas together. 📍 Location: Macy's Court, Lower Level 📅 Dates: November 6–December 24 🎄 Closed Thanksgiving Day Reserve Your Santa Photos Make planning your holiday visit easy by reserving your Santa photo experience in advance . Reservations are encouraged, but not required. Walk-ups are always welcome and will be accommodated as availability allows. RESERVE YOUR SANTA VISIT HERE Special Santa Events at Fox Valley Mall 🎅 Santa's Arrival Celebration | November 7 🍼 Baby’s First Christmas with Santa | Select Thursdays 🐾 Pet Photos with Santa | Select Mondays 🛌 Pajama Party with Santa | November 24 🧶 Ugly Sweaters with Santa | November 27 💙 Sensory-Friendly Santa | December 6 🎁 More Magic with Your Santa Photo Package: NEW for 2026: Pixie Post Digital Greeting Cards Guests who purchase an Elite, Premium or Standard Santa photo package receive a complimentary subscription to Pixie Post Greetings , featuring more than 1,000 digital greeting card designs. Create and send holiday greetings instantly by email or text, or schedule them for later. No stamps, no store, no stress! 📸 Shutterfly Holiday Offer All guests who purchase a Santa photo package, whether you reserve ahead or walk in, will receive 50% off a Shutterfly order plus 10 FREE holiday greeting cards. 🎅 Get a FREE Video Message from Santa There's another reason to reserve early! Guests who book their Santa visit in advance will receive a FREE video message from Santa through Portable North Pole after booking. All guests who visit Santa, including walk-ups and reservations, will also receive a special message from the North Pole after their visit. ✨ NEW! Signature Santa Experience Want even more time with Santa? Make your family's visit unforgettable with the Signature Santa Experience , a private, extended photo experience exclusively for your family. The Signature Santa Experience includes: 🎅 15-minute extended visit exclusively for your family 📖 Story time with Santa 📸 Posed and candid digital photos 🎁 Elite Photo Package 🖼️ Limited-edition holiday 5x7 picture frame 🎁 Holiday take-home gift 📝 Printable Santa Wishlist 💌 Unlimited Pixie Post digital cards 🎄 50% off a Shutterfly order + 10 free holiday greeting cards ✨ Personalized gifts from Portable North Pole Availability for this premium experience is limited. Reserve your Signature Santa Experience in advance to secure your family's visit. 🎅 Make Santa at Fox Valley Mall Part of Your Family's Christmas Tradition Santa is only here for a limited time. Reserve your Santa photos at Fox Valley Mall in Aurora today and get ready for a magical holiday experience with the whole family. RESERVE YOUR SANTA VISIT Santa Hours 🎅",
-      "start": "2026-11-06T06:00:00.000Z",
-      "end": "2026-12-25T05:59:59.999Z",
-      "allDay": false,
-      "venue": "Macy's Court",
-      "address": "195 Fox Valley Center Dr, Aurora, IL",
-      "category": "Retail",
-      "sourceId": "fox-valley-mall",
-      "sourceLabel": "Fox Valley Mall",
-      "link": "https://www.shopfoxvalleymall.com/event/31772-peanuts-christmas-experience-with-santa",
-      "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTMxNzcyOM_AlkwfdjSpWt343DErPbEbg8UW",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "e05aa2f58c1ba2e0",
-      "title": "Loving Hands",
-      "description": "",
-      "start": "2026-11-06T14:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=MXY0NTRudmhvYTViaWFrdTc1YjZsc2E1YWsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "7deff6ec580d99ba",
-      "title": "November First Friday",
-      "description": "Join Us for a Fun Friday Evening! \n\nIt’s time for our November First Friday!\nWe’ve got all sorts of fun lined up for the entire family.\nDownload all the fun events here>>\nDownload a handy map here>>\nSee you on Friday!\n\nNovember First Friday events vary. Check the schedule for details.\nAurora Downtown District – where culture, creativity, and cuisine collide! From globally inspired cuisine and one-of-a-kind shops to live entertainment and inspiring public art, downtown Aurora is designed to be experienced. Just 45 minutes from Chicago, our downtown business district offers an urban vibe that’s bold, creative, and unmistakably Aurora. Welcome to Illinois’ second-largest city with a small-town feel!",
-      "start": "2026-11-06T23:00:00.000Z",
-      "end": "2026-11-07T03:00:00.000Z",
-      "allDay": false,
-      "venue": "Downtown Aurora",
-      "address": "Downtown Aurora, IL",
-      "category": "Civic",
-      "sourceId": "aurora-downtown",
-      "sourceLabel": "Aurora Downtown Happenings",
-      "link": "https://auroradowntown.org/event/november-first-friday/",
-      "imageUrl": null,
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "b7cd2d5522e1dfb6",
-      "title": "Liturgy Committee Mtg",
-      "description": "",
-      "start": "2026-11-07T00:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=cXA3Y2ViMmZ0OGpyZnU2M2hvanRoaWtpYmsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "c0b32ddcadc6a69c",
-      "title": "Simbang Gabi Choir Practice",
-      "description": "",
-      "start": "2026-11-07T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Our Lady of Mercy",
-      "address": "701 S Eola Rd, Aurora, IL",
-      "category": "Faith",
-      "sourceId": "our-lady-of-mercy",
-      "sourceLabel": "Our Lady of Mercy",
-      "link": "https://www.google.com/calendar/event?eid=cTBrM2xnNmgybm1mcm1oMTVsNmRocjk1ZGsgb2xtYXVyb3JhQG0&ctz=America/Chicago",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "9f43dec704cceedb",
-      "title": "First Fridays with Jason Benefield (FREE OPEN HOUSE)",
-      "description": "",
-      "start": "2026-11-07T01:00:00.000Z",
-      "end": "2026-11-07T01:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Live Music",
-      "sourceId": "the-venue",
-      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
-      "link": "https://www.eventbrite.com/e/first-fridays-with-jason-benefield-free-open-house-registration-2001195534715",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193649666%2F202636605063%2F1%2Foriginal.20260916-132444?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=c0de75706034feeea2733e5af54eeba3",
-      "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "e708d6616c85741f",
-      "title": "It Ain't My Fault: Erica Takes Over",
-      "description": "",
-      "start": "2026-11-07T01:00:00.000Z",
-      "end": null,
-      "allDay": false,
-      "venue": "Aurora, IL (aggregated)",
-      "address": "Aurora, IL",
-      "category": "News Mentions",
-      "sourceId": "patch-aurora",
-      "sourceLabel": "Patch — Aurora, IL Calendar",
-      "link": "https://patch.com/illinois/aurora/calendar/event/20261106/a6f26bcb-c752-49b1-8d10-ea8ee597ae21/it-aint-my-fault-erica-takes-over",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "49205c7cb5d17766",
-      "title": "Men's Breakfast",
-      "description": "",
-      "start": "2026-11-07T06:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Calvary Church",
-      "address": "Naperville / Aurora, IL",
-      "category": "Faith",
-      "sourceId": "calvary-church",
-      "sourceLabel": "Calvary Church",
-      "link": "https://subsplash.com/+nn2j/lb/ca/+krb5x9f?embed&branding",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
     {
       "id": "eb003ded08062656",
       "title": "Emagine for Everyone Inclusive Movie Screenings At Illinois Locations",
@@ -5510,6 +5374,23 @@
       "tags": []
     },
     {
+      "id": "5376cf1c62875f22",
+      "title": "Backyard Tire Fire wsg Jeff Massey",
+      "description": "",
+      "start": "2026-11-28T02:00:00.000Z",
+      "end": "2026-11-28T02:00:00.000Z",
+      "allDay": false,
+      "venue": "THE VENUE",
+      "address": "21 South Broadway, Aurora, IL 60505",
+      "category": "Live Music",
+      "sourceId": "the-venue",
+      "sourceLabel": "The Venue (Fox Valley Music Foundation)",
+      "link": "https://www.eventbrite.com/e/backyard-tire-fire-wsg-jeff-massey-tickets-1998956831694",
+      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1133673043%2F2513532402881%2F1%2Foriginal.20250924-073920?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.707528957529&fp-y=0.131428571429&s=aee821a208dd989a841b01bc472e9c4e",
+      "confidence": "high",
+      "tags": []
+    },
+    {
       "id": "0d764e62da437579",
       "title": "English for Work",
       "description": "A free 10-week class to improve your English skills at work. Led by Waubonsee Community College. Clase gratuita de 10 semanas para mejorar tu inglés en el trabajo con Waubonsee Community College.",
@@ -7349,9 +7230,9 @@
   "sourceStatus": [
     {
       "id": "aurora-downtown",
-      "ok": true,
-      "count": 1,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "no VEVENT entries found in feed (0 bytes, 0 components) — calendar may be empty, or calendar_ids may point at a nonexistent calendar"
     },
     {
       "id": "enjoy-aurora",
@@ -7435,12 +7316,12 @@
       "id": "new-england-congregational",
       "ok": false,
       "count": 0,
-      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
+      "error": "HTTP 404"
     },
     {
       "id": "calvary-church",
       "ok": true,
-      "count": 4,
+      "count": 3,
       "error": null
     },
     {
@@ -7500,7 +7381,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 7,
+      "count": 6,
       "error": null
     },
     {
