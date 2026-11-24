@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-24T06:11:07.619Z",
+  "generatedAt": "2026-11-24T21:10:23.873Z",
   "events": [
     {
       "id": "9f79661bb71c230d",
@@ -546,23 +546,6 @@
       "tags": []
     },
     {
-      "id": "e8b828faf559cbd4",
-      "title": "Full Moon Reset: Breathwork, Reiki, & Sound",
-      "description": "Shift into flow and leave feeling grounded and connected to the intentions you’re manifesting.",
-      "start": "2026-11-25T00:00:00.000Z",
-      "end": "2026-11-25T01:30:00.000Z",
-      "allDay": false,
-      "venue": "1222 Private Events",
-      "address": "1222 North Eola Road #Suite C, Aurora, IL 60502",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/full-moon-reset-breathwork-reiki-sound-tickets-2004092543747",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196886965%2F1568068285763%2F1%2Foriginal.20261029-204241?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=f87ffd15f41d22e3bfeaa5083479ab50",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "d7b2b8604a9ee812",
       "title": "WEEKLY BINGO NIGHT @ DC COBB'S",
       "description": "The event is held on November 24, 2026 at D.C. Cobb's in McHenry, IL.",
@@ -818,57 +801,6 @@
       "tags": []
     },
     {
-      "id": "11e44518061b60f6",
-      "title": "Ruben Ramirez @ The Comedy Vault",
-      "description": "11/25/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t11/25/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nJoin us for a night of laughs at The Comedy Vault in Batavia!\n Ruben Ramirez is one of Chicago’s fastest-rising comedians, known for his blend of blue humor, relatable storytelling, and sharp",
-      "start": "2026-11-25T06:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/ruben-ramirez-%40-the-comedy-vault/3827/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "95dc529ec54d658f",
-      "title": "Thanksgiving Floral Arranging Workshop",
-      "description": "11/25/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t11/25/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\nJust in time for Thanksgiving! Join Maria, our floral specialist, for a cozy floral arranging class where you'll create a beautiful, seasonal arrangement perfect for your Thanksgiving table. She will",
-      "start": "2026-11-25T06:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/thanksgiving-floral-arranging-workshop/4703/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "1295a9e1006d4c16",
-      "title": "White Elephant Bingo",
-      "description": "11/25/2026 to\r\n\t\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t\t11/25/2026\r\n\t\t\t\t\t\t\r\n\t\t\t\t\t\t-\r\n\t\t\t\t\t\t\n***Sign up via Facebook messenger to Fox Valley Winery, or call \n630-554-0404**Day Before Thanksgiving White Elephant Bingo: All the excitement of Bingo and the hilarity of a White Elephant gift",
-      "start": "2026-11-25T06:00:00.000Z",
-      "end": null,
-      "allDay": true,
-      "venue": "Aurora Area",
-      "address": "Aurora, IL",
-      "category": "Civic",
-      "sourceId": "enjoy-aurora",
-      "sourceLabel": "Enjoy Aurora (Tourism)",
-      "link": "https://www.enjoyaurora.com/event/white-elephant-bingo/4707/",
-      "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "141bef6e0c73a4b9",
       "title": "No School - Fall Break",
       "description": "",
@@ -883,23 +815,6 @@
       "link": "https://easthigh.d131.org/fs/calendar-manager/events.ics?calendar_ids=12",
       "imageUrl": null,
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "1310c70436dc2f51",
-      "title": "Old Shoe 10th Annual Black Wed Bash at Two Brothers Roundhouse",
-      "description": "Old Shoe celebrates 10 wonderful years of their Annual Black Wednesday Bash at Two Brothers Roundhouse wsg Grassfed Collective",
-      "start": "2026-11-25T06:00:00.000Z",
-      "end": "2026-11-25T06:00:00.000Z",
-      "allDay": true,
-      "venue": "Two Brothers Roundhouse",
-      "address": "205 North Broadway, Aurora, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/old-shoe-10th-annual-black-wed-bash-at-two-brothers-roundhouse-tickets-2002653476458",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194760145%2F1548418674623%2F1%2Foriginal.20260930-201131?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.529&fp-y=0.039&s=a5c7645fedb6514bdc607055d52519b8",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -1447,6 +1362,23 @@
       "tags": []
     },
     {
+      "id": "97a601f57fa8def2",
+      "title": "Old Shoe 10th Annual Black Wed Bash at Two Brothers Roundhouse",
+      "description": "The event is held on November 25, 2026 at Two Brothers Roundhouse in Aurora, IL.The cost is 12.51",
+      "start": "2026-11-26T02:00:00.000Z",
+      "end": "2026-11-26T05:15:00.000Z",
+      "allDay": false,
+      "venue": "Two Brothers Roundhouse",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "shaw-local",
+      "sourceLabel": "Shaw Local — Best of the Fox Events",
+      "link": "https://www.eventbrite.com/e/old-shoe-10th-annual-black-wed-bash-at-two-brothers-roundhouse-tickets-2002653476458",
+      "imageUrl": null,
+      "confidence": "medium",
+      "tags": []
+    },
+    {
       "id": "8f4af26eb08c6986",
       "title": "Open Mic",
       "description": "The event is held on November 25, 2026 at The House Pub in St. Charles, IL.",
@@ -1668,23 +1600,6 @@
       "tags": []
     },
     {
-      "id": "28d5ac546b7b2b1e",
-      "title": "Still Not Friday: a standup comedy show (Special Black Friday show)",
-      "description": "For a special FRIDAY NIGHT SHOW, Still Not Friday brings our weekly Thursday night show to the weekend. Featuring headliner JUST JEFF!",
-      "start": "2026-11-27T06:00:00.000Z",
-      "end": "2026-11-27T06:00:00.000Z",
-      "allDay": true,
-      "venue": "Two Brothers Roundhouse",
-      "address": "205 N. Broadway, Aurora, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/still-not-friday-a-standup-comedy-show-special-black-friday-show-tickets-2005064086658",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198293176%2F171400129683%2F1%2Foriginal.20261119-022732?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.308&fp-y=0.093&s=c37ff295974c8b57095b4ecfbb906900",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "abd43a774c764c49",
       "title": "Black Friday",
       "description": "",
@@ -1732,6 +1647,23 @@
       "sourceLabel": "Fox Valley Mall",
       "link": "https://www.shopfoxvalleymall.com/event/46035-black-friday-spin-win-free-gift-card",
       "imageUrl": "https://cdn-files.eu.placewise.com/f/CLkHEOYCGg9jbXNfZXZlbnRfaW1hZ2UiBTQ2MDM1OKfKg1xQXYrjS6-Z5caDIdm-6M6d",
+      "confidence": "medium",
+      "tags": []
+    },
+    {
+      "id": "ff32a21582f0987a",
+      "title": "Black Friday Bazaar: Shop Small at Noon Whistle Naperville",
+      "description": "",
+      "start": "2026-11-27T17:00:00.000Z",
+      "end": null,
+      "allDay": false,
+      "venue": "Aurora, IL (aggregated)",
+      "address": "Aurora, IL",
+      "category": "News Mentions",
+      "sourceId": "patch-aurora",
+      "sourceLabel": "Patch — Aurora, IL Calendar",
+      "link": "https://patch.com/illinois/aurora/calendar/event/20261127/03428673-782a-4470-babb-9c3528519fc8/black-friday-bazaar-shop-small-at-noon-whistle-naperville",
+      "imageUrl": null,
       "confidence": "medium",
       "tags": []
     },
@@ -1971,40 +1903,6 @@
       "link": "https://www.eventbrite.com/e/heartsfield-tickets-1999493369493",
       "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1119284433%2F2513532402881%2F1%2Foriginal.20250909-205341?crop=focalpoint&fit=crop&h=230&w=460&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.734555984556&fp-y=0.636054421769&s=df04e4e3b5d020cdedc3367419af223d",
       "confidence": "high",
-      "tags": []
-    },
-    {
-      "id": "56320ca25ce15993",
-      "title": "LEON ROGERS  ANNUAL ALL BLACK MASQUERADE COMEDY SHOW",
-      "description": "Leon Rogers' Annual All-Black Masquerade Comedy Show",
-      "start": "2026-11-29T02:00:00.000Z",
-      "end": "2026-11-29T05:30:00.000Z",
-      "allDay": false,
-      "venue": "the PIAZZA - Aurora",
-      "address": "85 Executive Drive, Aurora, IL 60504",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/leon-rogers-annual-all-black-masquerade-comedy-show-tickets-1993618354164",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188547517%2F26234598631%2F1%2Foriginal.20260709-160708?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=42057956ac88d7a302565f7bc062b051",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "03410b6eb56eb076",
-      "title": "Exhale: Testimonials and Talents Open Mic Night @ Two Brothers Roundhouse",
-      "description": "Music, poetry, comedy and MORE giving all Glory to God at The Two Brothers Roundhouse",
-      "start": "2026-11-29T06:00:00.000Z",
-      "end": "2026-11-29T06:00:00.000Z",
-      "allDay": true,
-      "venue": "Two Brothers Roundhouse",
-      "address": "205 North Broadway, Aurora, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/exhale-testimonials-and-talents-open-mic-night-two-brothers-roundhouse-tickets-2002380355546",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194454138%2F1441268678503%2F1%2Foriginal.20260927-130822?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=d860eff5b009c5196ef44fab7fdbbd8f",
-      "confidence": "medium",
       "tags": []
     },
     {
@@ -2297,23 +2195,6 @@
       "tags": []
     },
     {
-      "id": "57ca0352be3dd3ed",
-      "title": "Foodies & New Friends: Aurora",
-      "description": "Life can feel lonely, especially when you’re on the grind 24/7. Take the opportunity to meet others over a fun night out!",
-      "start": "2026-12-02T01:00:00.000Z",
-      "end": "2026-12-02T04:00:00.000Z",
-      "allDay": false,
-      "venue": "Restaurant of the Week",
-      "address": "South Stolp Avenue, Aurora, IL 60506",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/foodies-new-friends-aurora-tickets-1894028031829",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1163077563%2F2833201078731%2F1%2Foriginal.20251027-024035?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bb7b90b8563a2fa84b3c2dd65cd5e0a9",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "0174943dfa0ec1c5",
       "title": "Karaoke Christmas Party",
       "description": "",
@@ -2429,23 +2310,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17641889",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "662f6c89d36e0e6e",
-      "title": "Still Not Friday: A Stand-Up Comedy Showcase",
-      "description": "Still Not Friday. Three great comedians. 20-minute sets. Every Thursday at 8:00. Two Brothers Roundhouse in Aurora. FREE.",
-      "start": "2026-12-03T06:00:00.000Z",
-      "end": "2026-12-03T06:00:00.000Z",
-      "allDay": true,
-      "venue": "Two Brothers Roundhouse",
-      "address": "205 North Broadway, Aurora, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/still-not-friday-a-stand-up-comedy-showcase-tickets-1977569234816",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F137873557%2F171400129683%2F1%2Foriginal.20210607-151915?w=512&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C44%2C960%2C480&s=ed982b1efe4f50d517c1d666bc92ec06",
       "confidence": "medium",
       "tags": []
     },
@@ -2622,7 +2486,7 @@
     {
       "id": "ce4fafdc3d319f51",
       "title": "Holiday Sounds at Fox Valley Mall",
-      "description": "Holiday Sounds at Fox Valley Mall: Celebrating Our Local School Bands! Celebrate the magic of the holiday season at Fox Valley Mall as we welcome local schools and talented student musicians for a series of festive holiday band performances! Throughout December, enjoy the sounds of the season as students showcase their musical talents, spreading holiday cheer throughout the center. Bring your family and friends, support our local schools, and enjoy the wonderful holiday melodies that make this time of year so special! Performance Schedule: December 5: Gregory Middle School | 2:00 PM – 3:30 PM | Round 1 Court December 10: Granger Middle School | 6:30 PM – 7:30 PM | Center Park December 11: Little Blossom Montessori | 5:00 PM – 7:00 PM | Center Park December 14: New Horizon Band | 6:00 PM – 7:30 PM | Center Park December 17: C.F. Simoons Middle School | 10:30 AM – 12:00 PM | Center Park Join us throughout the holiday season for music, community, and festive fun at Fox Valley Mall!",
+      "description": "Holiday Sounds at Fox Valley Mall: Celebrating Our Local School Bands! Celebrate the magic of the holiday season at Fox Valley Mall as we welcome local schools and talented student musicians for a series of festive holiday band performances! Throughout December, enjoy the sounds of the season as students showcase their musical talents, spreading holiday cheer throughout the center. Bring your family and friends, support our local schools, and enjoy the wonderful holiday melodies that make this time of year so special! Performance Schedule: December 5: Gregory Middle School | 2:00 PM – 3:30 PM | Round 1 Court December 10: Granger Middle School | 6:30 PM – 7:30 PM | Center Park December 11: Little Blossom Montessori | 5:00 PM – 7:00 PM | Center Park December 13: The Starlight's &amp; Dynamites | 4:30 PM - 5:00 PM | Center Park December 14: New Horizon Band | 6:00 PM – 7:30 PM | Center Park December 17: C.F. Simoons Middle School | 10:30 AM – 12:00 PM | Center Park Join us throughout the holiday season for music, community, and festive fun at Fox Valley Mall!",
       "start": "2026-12-05T06:00:00.000Z",
       "end": "2026-12-18T05:59:59.999Z",
       "allDay": false,
@@ -2701,23 +2565,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17642059",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "bfa4c1b87e318bd8",
-      "title": "Drag Brunch at El Jefe: Ugly Sweater Christmas Party",
-      "description": "Get ready for a fun holiday celebration filled with glitter, glam, and ugly sweaters!  Bring your holiday spirit.",
-      "start": "2026-12-05T17:00:00.000Z",
-      "end": "2026-12-05T20:00:00.000Z",
-      "allDay": false,
-      "venue": "El Jefe Leña y Mar",
-      "address": "1271 North Lake Street, Aurora, IL 60506",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/drag-brunch-at-el-jefe-ugly-sweater-christmas-party-tickets-2002267372611",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194340299%2F528479099227%2F1%2Foriginal.20260925-054943?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=9884540655ec2a7e9c6470f204bcdab7",
       "confidence": "medium",
       "tags": []
     },
@@ -3164,23 +3011,6 @@
       "tags": []
     },
     {
-      "id": "16fb85e562d40f7d",
-      "title": "New Moon in Sagittarius : Vision Board + Soundhealing",
-      "description": "12 Events • Monthly Themes • Multi-Modality Healing",
-      "start": "2026-12-10T00:30:00.000Z",
-      "end": "2026-12-10T02:00:00.000Z",
-      "allDay": false,
-      "venue": "1222 Private Events",
-      "address": "1222 North Eola Road #Suite C, Aurora, IL 60502",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/new-moon-in-sagittarius-vision-board-soundhealing-tickets-1976671482615",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198277916%2F1568068285763%2F1%2Foriginal.20261118-214032?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bff32929d9a3d15be4843ce5ddf9e834",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "f5437e6276600d79",
       "title": "Making Holiday Greeting Cards with Cricut",
       "description": "Spread some holiday cheer with custom Cricut cards! Cut cardstock into festive shapes and colors to impress your friends and family! **",
@@ -3436,23 +3266,6 @@
       "tags": []
     },
     {
-      "id": "2450a1b2e5b8e9e2",
-      "title": "Just Another House Music Party PT. 6 Concert & Dance Party",
-      "description": "Get ready to dance all night with killer house beats and good vibes at this epic party!",
-      "start": "2026-12-12T06:00:00.000Z",
-      "end": "2026-12-13T06:00:00.000Z",
-      "allDay": false,
-      "venue": "Two Brothers Roundhouse",
-      "address": "205 North Broadway, Aurora, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/just-another-house-music-party-pt-6-concert-dance-party-tickets-2004155175079",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197050465%2F411015576269%2F1%2Foriginal.20261102-015854?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=8c56b54408ca2f90f3ae65e7ef576907",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "1cc967857c04e3e7",
       "title": "English for Work",
       "description": "A free 10-week class to improve your English skills at work. Led by Waubonsee Community College. Clase gratuita de 10 semanas para mejorar tu inglés en el trabajo con Waubonsee Community College.",
@@ -3521,40 +3334,6 @@
       "tags": []
     },
     {
-      "id": "74cb455ec62494de",
-      "title": "A very Grinchy Christmas Brunch!",
-      "description": "An Interactive Sing-Along, Meet & Greet + Brunch Experience for the whole family!",
-      "start": "2026-12-12T16:30:00.000Z",
-      "end": "2026-12-12T18:00:00.000Z",
-      "allDay": false,
-      "venue": "Altiro Latin Fusion- Aurora",
-      "address": "1 South Stolp Avenue, Aurora, IL 60506",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/a-very-grinchy-christmas-brunch-tickets-1994983093135",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189487041%2F379938331757%2F1%2Foriginal.20260723-170110?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=55c8be1000320f17ba9d697fe305433f",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "f5c5b5f54d0a3105",
-      "title": "Drag Brunch: Posada Navideña con Musica de Banda",
-      "description": "Join us for a  Posada Navideña Drag Brunch con musica de banda filled with joy, laughter, and fabulous Queens.  Only good Posada vibes!",
-      "start": "2026-12-12T17:00:00.000Z",
-      "end": "2026-12-12T20:00:00.000Z",
-      "allDay": false,
-      "venue": "El Jefe Leña y Mar",
-      "address": "1271 North Lake Street, Aurora, IL 60506",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/drag-brunch-posada-navidena-con-musica-de-banda-tickets-2003044162009",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195247403%2F528479099227%2F1%2Foriginal.20261007-034729?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=1e8d7beed2b2235270dfe54748e936de",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "bb136664203a45b2",
       "title": "Bookmobile Community Stop: Butterfield Park",
       "description": "Open to all ages for books, games, magazines, technology and more! Pick up holds, return borrowed materials from any branch or participate in the monthly scavenger hunt. Visit today!",
@@ -3602,23 +3381,6 @@
       "sourceLabel": "Aurora Regional Economic Alliance",
       "link": "https://business.auroraalliance.org/ap/Events/Register/gLWg0ylL?sourceTypeId=ExternalSystem",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "7be99a061ec48a80",
-      "title": "Storytelling Series",
-      "description": "A live storytelling series featuring stories about the things we carry quietly and usually keep to ourselves. Until now.",
-      "start": "2026-12-12T20:00:00.000Z",
-      "end": "2026-12-12T22:00:00.000Z",
-      "allDay": false,
-      "venue": "Dapper Brews Coffee",
-      "address": "140 South River Street #Unit 106, Aurora, IL 60506",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/storytelling-series-tickets-2004973725385",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198191699%2F3008051297156%2F1%2Foriginal.20261117-203612?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6d5eccd156e926ff46721db652897727",
       "confidence": "medium",
       "tags": []
     },
@@ -4116,23 +3878,6 @@
       "tags": []
     },
     {
-      "id": "b87201bf94e59374",
-      "title": "Second Hand News",
-      "description": "The Venue presents Second Hand News on Friday, December 18th.",
-      "start": "2026-12-19T02:00:00.000Z",
-      "end": "2026-12-19T04:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/second-hand-news-tickets-2003404155760",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195777345%2F202636605063%2F1%2Foriginal.20261014-133001?crop=focalpoint&fit=crop&w=512&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.481&fp-y=0.249&s=82e7bd63e2ef9719d1999f935acf77aa",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "65f5cb8c0942ceb3",
       "title": "Calvary Prime Brunch",
       "description": "",
@@ -4265,23 +4010,6 @@
       "sourceLabel": "Aurora Public Library District",
       "link": "https://www.aurorapubliclibrary.org/event/17374254",
       "imageUrl": null,
-      "confidence": "medium",
-      "tags": []
-    },
-    {
-      "id": "6a2e1d448dbb213b",
-      "title": "Pete Ellman Big Band's \"The 12 Grooves of Christmas\" WSG Angel Spiccia",
-      "description": "Pete Ellman Big Band presents \"The 12 Grooves of Christmas\" with special guest Angel Spiccia at The Venue on December 20th.",
-      "start": "2026-12-20T21:00:00.000Z",
-      "end": "2026-12-20T23:00:00.000Z",
-      "allDay": false,
-      "venue": "THE VENUE",
-      "address": "21 South Broadway, Aurora, IL 60505",
-      "category": "Community",
-      "sourceId": "eventbrite-aurora-il",
-      "sourceLabel": "Eventbrite — Aurora, IL",
-      "link": "https://www.eventbrite.com/e/pete-ellman-big-bands-the-12-grooves-of-christmas-wsg-angel-spiccia-tickets-2003709899247",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196274869%2F202636605063%2F1%2Foriginal.20261021-132909?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.488&fp-y=0.515&s=8245af8c815de511a0508014fc354852",
       "confidence": "medium",
       "tags": []
     },
@@ -5459,23 +5187,6 @@
       "tags": []
     },
     {
-      "id": "568f763cd0eb28a8",
-      "title": "5k Fun Run x Two Brothers Tap House | 2027 IL Brewery Running Series",
-      "description": "Join us for a 5k Fun Run on Aug 21 at Two Brothers Tap House. Run, walk or jog a 5k course, then celebrate at the finish line!",
-      "start": "2027-08-21T05:00:00.000Z",
-      "end": "2027-08-21T05:00:00.000Z",
-      "allDay": true,
-      "venue": "Two Brothers Tap House",
-      "address": "30W315 Calumet Avenue West, Warrenville, IL",
-      "category": "Live Music",
-      "sourceId": "two-brothers-roundhouse",
-      "sourceLabel": "Two Brothers Roundhouse",
-      "link": "https://www.eventbrite.com/e/5k-fun-run-x-two-brothers-tap-house-2027-il-brewery-running-series-tickets-2005291251113",
-      "imageUrl": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198540029%2F283667837762%2F1%2Foriginal.20261123-160646?crop=focalpoint&fit=crop&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=91fef11a380f59f0dd714e42ee3ba36b",
-      "confidence": "medium",
-      "tags": []
-    },
-    {
       "id": "fff8bc03ea6ef734",
       "title": "Bulls Black Hawks Phoenix November 2026 Club chicago Bears",
       "description": "Bulls Black Hawks Phoenix November 2026 Club chicago Bears\nCee [we Tw wer | me kw | Sa\nTDaight Savings | 2.0 owes 045m | 3. CLOSED ON | 4 wos | Thy Thursday | 6. Lon srs | 7. Tinh Sec\n\nre Be To ER i FT TC\nhms | admion | EEE SNL | SE | ioe\n\nWehr | ponasans06 PtstTocominr | \"SS Turkey Raffie\n\nsigosrs07 \"500-700 cuastioss, | starts® pm\ntic BULLS@ 6:30 50/50 Drawing, 7:30\n1 wnsesco precited\nL isos | h",
@@ -5581,7 +5292,7 @@
       "id": "chicago-premium-outlets",
       "ok": false,
       "count": 0,
-      "error": "HTTP 307"
+      "error": "no items with a parseable date matched — page likely needs selector tuning or is JS-rendered/bot-blocked"
     },
     {
       "id": "fox-valley-mall",
@@ -5639,9 +5350,9 @@
     },
     {
       "id": "two-brothers-roundhouse",
-      "ok": true,
-      "count": 6,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 405"
     },
     {
       "id": "phoenix-club",
@@ -5651,9 +5362,9 @@
     },
     {
       "id": "eventbrite-aurora-il",
-      "ok": true,
-      "count": 17,
-      "error": null
+      "ok": false,
+      "count": 0,
+      "error": "HTTP 405"
     },
     {
       "id": "ticketmaster-aurora-il",
@@ -5664,7 +5375,7 @@
     {
       "id": "patch-aurora",
       "ok": true,
-      "count": 3,
+      "count": 4,
       "error": null
     },
     {
